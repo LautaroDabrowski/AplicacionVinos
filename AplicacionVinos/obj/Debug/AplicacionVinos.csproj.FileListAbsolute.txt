@@ -1,0 +1,6 @@
+C:\POO\AplicacionVinos\AplicacionVinos\obj\Debug\AplicacionVinos.csproj.AssemblyReference.cache
+C:\POO\AplicacionVinos\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.Inicio.resources
+C:\POO\AplicacionVinos\AplicacionVinos\obj\Debug\AplicacionVinos.Login.resources
+C:\POO\AplicacionVinos\AplicacionVinos\obj\Debug\AplicacionVinos.Properties.Resources.resources
+C:\POO\AplicacionVinos\AplicacionVinos\obj\Debug\AplicacionVinos.csproj.GenerateResource.cache
+C:\POO\AplicacionVinos\AplicacionVinos\obj\Debug\AplicacionVinos.csproj.CoreCompileInputs.cache
