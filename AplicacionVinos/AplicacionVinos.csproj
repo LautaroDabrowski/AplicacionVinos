@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>WinExe</OutputType>
     <RootNamespace>AplicacionVinos</RootNamespace>
     <AssemblyName>AplicacionVinos</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
@@ -51,6 +51,18 @@
   <ItemGroup>
     <Compile Include="BD\Conexion.cs" />
     <Compile Include="Validaciones\Validaciones.cs" />
+    <Compile Include="Vistas\AltaProveedor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vistas\AltaProveedor.Designer.cs">
+      <DependentUpon>AltaProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Compras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Compras.Designer.cs">
+      <DependentUpon>Compras.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +77,12 @@
     <Compile Include="Vistas\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Vistas\AltaProveedor.resx">
+      <DependentUpon>AltaProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Compras.resx">
+      <DependentUpon>Compras.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vistas\Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>
@@ -97,6 +115,42 @@
   <ItemGroup>
     <Folder Include="Config\" />
     <Folder Include="Vistas\Imagenes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copa.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copa1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CopaDeVino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogoNR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Uvas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
