@@ -21,5 +21,21 @@ namespace AplicacionVinos.Vistas
         {
 
         }
+
+        private void btnAltaProveedor_Click(object sender, EventArgs e)
+        {
+            AltaProveedor uc = new AltaProveedor();
+            uc.Dock = DockStyle.Fill;
+
+            Form ventana = new Form();
+            ventana.FormBorderStyle = FormBorderStyle.FixedDialog;
+            ventana.StartPosition = FormStartPosition.CenterScreen;
+            ventana.ClientSize = uc.Size;
+
+
+            ventana.Controls.Add(uc);
+
+            ventana.ShowDialog();
+        }
     }
 }
