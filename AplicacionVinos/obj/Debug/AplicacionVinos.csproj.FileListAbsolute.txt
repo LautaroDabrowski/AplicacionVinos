@@ -25,3 +25,17 @@ C:\POO\AplicacionVinos\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.Compras.
 C:\POO\AplicacionVinos\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.Login.resources
 C:\POO\AplicacionVinos\AplicacionVinos\obj\Debug\AplicacionVinos.exe
 C:\POO\AplicacionVinos\AplicacionVinos\obj\Debug\AplicacionVinos.pdb
+C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\bin\Debug\AplicacionVinos.exe.config
+C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\bin\Debug\AplicacionVinos.exe
+C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\bin\Debug\AplicacionVinos.pdb
+C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.csproj.AssemblyReference.cache
+C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.exe.config
+C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.AltaProveedor.resources
+C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.Compras.resources
+C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.Inicio.resources
+C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.Properties.Resources.resources
+C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.Login.resources
+C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.csproj.GenerateResource.cache
+C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.csproj.CoreCompileInputs.cache
+C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.exe
+C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.pdb

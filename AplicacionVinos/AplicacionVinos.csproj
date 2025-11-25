@@ -77,6 +77,12 @@
     <Compile Include="Vistas\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vistas\Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Productos.Designer.cs">
+      <DependentUpon>Productos.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Vistas\AltaProveedor.resx">
       <DependentUpon>AltaProveedor.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,6 +104,9 @@
     </Compile>
     <EmbeddedResource Include="Vistas\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Productos.resx">
+      <DependentUpon>Productos.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -151,6 +160,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino DORADO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LineasOro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGODORADO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGODORADO2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ultimointento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ultimo intento2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

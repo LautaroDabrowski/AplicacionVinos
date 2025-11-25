@@ -30,12 +30,12 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.txt_Usuario = new System.Windows.Forms.TextBox();
             this.txt_Constraseña = new System.Windows.Forms.TextBox();
+            this.txt_Usuario = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -52,7 +52,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.Menu;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(23)))), ((int)(((byte)(55)))));
             this.panel2.Controls.Add(this.txt_Constraseña);
             this.panel2.Controls.Add(this.txt_Usuario);
             this.panel2.Controls.Add(this.button1);
@@ -64,44 +64,29 @@
             this.panel2.Size = new System.Drawing.Size(646, 495);
             this.panel2.TabIndex = 1;
             // 
-            // label1
+            // txt_Constraseña
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Yu Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(12)))), ((int)(((byte)(27)))));
-            this.label1.Location = new System.Drawing.Point(227, 53);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(204, 39);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Iniciar Sesión";
+            this.txt_Constraseña.BackColor = System.Drawing.SystemColors.Menu;
+            this.txt_Constraseña.Location = new System.Drawing.Point(63, 276);
+            this.txt_Constraseña.Multiline = true;
+            this.txt_Constraseña.Name = "txt_Constraseña";
+            this.txt_Constraseña.Size = new System.Drawing.Size(522, 36);
+            this.txt_Constraseña.TabIndex = 5;
             // 
-            // label2
+            // txt_Usuario
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(12)))), ((int)(((byte)(27)))));
-            this.label2.Location = new System.Drawing.Point(59, 132);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(71, 22);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Usuario";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(12)))), ((int)(((byte)(27)))));
-            this.label3.Location = new System.Drawing.Point(59, 239);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 22);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Contraseña";
+            this.txt_Usuario.BackColor = System.Drawing.SystemColors.Menu;
+            this.txt_Usuario.Location = new System.Drawing.Point(63, 170);
+            this.txt_Usuario.Multiline = true;
+            this.txt_Usuario.Name = "txt_Usuario";
+            this.txt_Usuario.Size = new System.Drawing.Size(522, 36);
+            this.txt_Usuario.TabIndex = 4;
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(12)))), ((int)(((byte)(27)))));
-            this.button1.Font = new System.Drawing.Font("Yu Gothic Medium", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
             this.button1.Location = new System.Drawing.Point(63, 394);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(522, 55);
@@ -109,23 +94,38 @@
             this.button1.Text = "Iniciar Sesión";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // txt_Usuario
+            // label3
             // 
-            this.txt_Usuario.BackColor = System.Drawing.SystemColors.Window;
-            this.txt_Usuario.Location = new System.Drawing.Point(63, 170);
-            this.txt_Usuario.Multiline = true;
-            this.txt_Usuario.Name = "txt_Usuario";
-            this.txt_Usuario.Size = new System.Drawing.Size(522, 36);
-            this.txt_Usuario.TabIndex = 4;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
+            this.label3.Location = new System.Drawing.Point(59, 239);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(129, 31);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Contraseña";
             // 
-            // txt_Constraseña
+            // label2
             // 
-            this.txt_Constraseña.BackColor = System.Drawing.SystemColors.Window;
-            this.txt_Constraseña.Location = new System.Drawing.Point(63, 276);
-            this.txt_Constraseña.Multiline = true;
-            this.txt_Constraseña.Name = "txt_Constraseña";
-            this.txt_Constraseña.Size = new System.Drawing.Size(522, 36);
-            this.txt_Constraseña.TabIndex = 5;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
+            this.label2.Location = new System.Drawing.Point(59, 132);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(92, 31);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Usuario";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
+            this.label1.Location = new System.Drawing.Point(200, 53);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(255, 54);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Iniciar Sesión";
             // 
             // pictureBox1
             // 
@@ -141,7 +141,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(12)))), ((int)(((byte)(27)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
             this.ClientSize = new System.Drawing.Size(1322, 848);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);

@@ -37,5 +37,10 @@ namespace AplicacionVinos.Vistas
 
             ventana.ShowDialog();
         }
+
+        private void Compras_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
