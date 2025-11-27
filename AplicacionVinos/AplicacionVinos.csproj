@@ -51,6 +51,12 @@
   <ItemGroup>
     <Compile Include="BD\Conexion.cs" />
     <Compile Include="Validaciones\Validaciones.cs" />
+    <Compile Include="Vistas\Administracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Administracion.Designer.cs">
+      <DependentUpon>Administracion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\AltaProveedor.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -77,12 +83,33 @@
     <Compile Include="Vistas\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vistas\Movimientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Movimientos.Designer.cs">
+      <DependentUpon>Movimientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Presupuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Presupuesto.Designer.cs">
+      <DependentUpon>Presupuesto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\Productos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Vistas\Productos.Designer.cs">
       <DependentUpon>Productos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vistas\Ventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Ventas.Designer.cs">
+      <DependentUpon>Ventas.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Vistas\Administracion.resx">
+      <DependentUpon>Administracion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vistas\AltaProveedor.resx">
       <DependentUpon>AltaProveedor.cs</DependentUpon>
     </EmbeddedResource>
@@ -105,8 +132,17 @@
     <EmbeddedResource Include="Vistas\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Movimientos.resx">
+      <DependentUpon>Movimientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Presupuesto.resx">
+      <DependentUpon>Presupuesto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vistas\Productos.resx">
       <DependentUpon>Productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Ventas.resx">
+      <DependentUpon>Ventas.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -178,6 +214,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Ultimo intento2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogoBordo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Violeta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Violeta1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UVASS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UVITAS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apagar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hojas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uva2 %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ramauva.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

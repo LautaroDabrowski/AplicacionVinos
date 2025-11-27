@@ -39,3 +39,8 @@ C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\Aplicacion
 C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.csproj.CoreCompileInputs.cache
 C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.exe
 C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.pdb
+C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.Administracion.resources
+C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.Movimientos.resources
+C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.Productos.resources
+C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.Ventas.resources
+C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.Presupuesto.resources

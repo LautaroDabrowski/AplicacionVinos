@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace AplicacionVinos.Vistas
 {
-    public partial class Productos : Form
+    public partial class Ventas : Form
     {
-        public Productos()
+        public Ventas()
         {
             InitializeComponent();
-        }
-
-        private void groupBox4_Enter(object sender, EventArgs e)
-        {
-
         }
     }
 }
