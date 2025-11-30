@@ -34,6 +34,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -44,6 +45,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
@@ -52,6 +54,7 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.button3 = new System.Windows.Forms.Button();
             this.label22 = new System.Windows.Forms.Label();
@@ -72,25 +75,22 @@
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label17 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox2
@@ -156,6 +156,16 @@
             this.label10.Size = new System.Drawing.Size(105, 28);
             this.label10.TabIndex = 14;
             this.label10.Text = "N° Cliente ";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::AplicacionVinos.Properties.Resources.UVASS;
+            this.pictureBox1.Location = new System.Drawing.Point(661, -89);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(305, 389);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
             // 
             // label6
             // 
@@ -257,6 +267,16 @@
             this.label3.TabIndex = 14;
             this.label3.Text = "Cliente ";
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::AplicacionVinos.Properties.Resources.UVASS;
+            this.pictureBox4.Location = new System.Drawing.Point(661, -209);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(305, 389);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 30;
+            this.pictureBox4.TabStop = false;
+            // 
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(239)))), ((int)(((byte)(225)))));
@@ -345,6 +365,16 @@
             this.label11.Size = new System.Drawing.Size(41, 28);
             this.label11.TabIndex = 14;
             this.label11.Text = "IVA";
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::AplicacionVinos.Properties.Resources.UVASS;
+            this.pictureBox5.Location = new System.Drawing.Point(661, -315);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(305, 389);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 31;
+            this.pictureBox5.TabStop = false;
             // 
             // groupBox4
             // 
@@ -510,8 +540,8 @@
             this.groupBox5.Controls.Add(this.textBox12);
             this.groupBox5.Controls.Add(this.label16);
             this.groupBox5.Controls.Add(this.dataGridView1);
-            this.groupBox5.Controls.Add(this.pictureBox2);
             this.groupBox5.Controls.Add(this.pictureBox3);
+            this.groupBox5.Controls.Add(this.pictureBox2);
             this.groupBox5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
             this.groupBox5.Location = new System.Drawing.Point(13, 551);
@@ -549,6 +579,16 @@
             this.dataGridView1.Size = new System.Drawing.Size(843, 132);
             this.dataGridView1.TabIndex = 0;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::AplicacionVinos.Properties.Resources.hojas;
+            this.pictureBox3.Location = new System.Drawing.Point(731, -33);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(275, 269);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 41;
+            this.pictureBox3.TabStop = false;
+            // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
@@ -583,52 +623,12 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::AplicacionVinos.Properties.Resources.hojas;
-            this.pictureBox2.Location = new System.Drawing.Point(-79, -11);
+            this.pictureBox2.Location = new System.Drawing.Point(-132, -25);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(275, 269);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 40;
+            this.pictureBox2.TabIndex = 42;
             this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::AplicacionVinos.Properties.Resources.hojas;
-            this.pictureBox3.Location = new System.Drawing.Point(731, -33);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(275, 269);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 41;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::AplicacionVinos.Properties.Resources.uva2__4_;
-            this.pictureBox1.Location = new System.Drawing.Point(661, -105);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(305, 389);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::AplicacionVinos.Properties.Resources.uva2__4_;
-            this.pictureBox4.Location = new System.Drawing.Point(661, -223);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(305, 389);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 30;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::AplicacionVinos.Properties.Resources.uva2__4_;
-            this.pictureBox5.Location = new System.Drawing.Point(661, -329);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(305, 389);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 31;
-            this.pictureBox5.TabStop = false;
             // 
             // Ventas
             // 
@@ -651,20 +651,20 @@
             this.Text = "Ventas";
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -718,11 +718,11 @@
         private System.Windows.Forms.TextBox textBox12;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
