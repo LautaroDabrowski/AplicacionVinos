@@ -215,9 +215,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::AplicacionVinos.Properties.Resources.Logotipo_Vino_Minimalista_Negro_y_Violeta__5_;
-            this.pictureBox1.Location = new System.Drawing.Point(476, 103);
+            this.pictureBox1.Location = new System.Drawing.Point(504, 119);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(473, 449);
+            this.pictureBox1.Size = new System.Drawing.Size(420, 404);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 34;
             this.pictureBox1.TabStop = false;
