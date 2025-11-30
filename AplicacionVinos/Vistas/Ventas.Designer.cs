@@ -29,57 +29,58 @@
         private void InitializeComponent()
         {
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label22 = new System.Windows.Forms.Label();
+            this.textBox18 = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button2 = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label17 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -87,6 +88,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox2
@@ -107,43 +111,17 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Buscar Presupesuto ";
             // 
-            // comboBox1
+            // button1
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(29, 59);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(257, 36);
-            this.comboBox1.TabIndex = 15;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(24, 28);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(105, 28);
-            this.label10.TabIndex = 14;
-            this.label10.Text = "N° Cliente ";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::AplicacionVinos.Properties.Resources.uva2__4_;
-            this.pictureBox1.Location = new System.Drawing.Point(732, -60);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(237, 209);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Yu Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
-            this.label6.Location = new System.Drawing.Point(25, 12);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(215, 30);
-            this.label6.TabIndex = 18;
-            this.label6.Text = "GENERAR REMITO";
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(592, 52);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(245, 43);
+            this.button1.TabIndex = 29;
+            this.button1.Text = "Buscar";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // comboBox2
             // 
@@ -162,17 +140,33 @@
             this.label1.TabIndex = 16;
             this.label1.Text = "Código del Presupuesto ";
             // 
-            // button1
+            // comboBox1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(592, 52);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(245, 43);
-            this.button1.TabIndex = 29;
-            this.button1.Text = "Buscar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(29, 59);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(257, 36);
+            this.comboBox1.TabIndex = 15;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(24, 28);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(105, 28);
+            this.label10.TabIndex = 14;
+            this.label10.Text = "N° Cliente ";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Yu Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
+            this.label6.Location = new System.Drawing.Point(25, 12);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(215, 30);
+            this.label6.TabIndex = 18;
+            this.label6.Text = "GENERAR REMITO";
             // 
             // groupBox1
             // 
@@ -185,6 +179,7 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.pictureBox4);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
             this.groupBox1.Location = new System.Drawing.Point(12, 173);
@@ -193,6 +188,54 @@
             this.groupBox1.TabIndex = 30;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos del Cliente ";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(681, 58);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(176, 34);
+            this.textBox4.TabIndex = 24;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(470, 58);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(176, 34);
+            this.textBox3.TabIndex = 23;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(260, 58);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(176, 34);
+            this.textBox2.TabIndex = 22;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(46, 58);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(176, 34);
+            this.textBox1.TabIndex = 21;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(676, 31);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(85, 25);
+            this.label5.TabIndex = 20;
+            this.label5.Text = "Dirección";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(465, 30);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(87, 25);
+            this.label4.TabIndex = 19;
+            this.label4.Text = "Localidad";
             // 
             // label2
             // 
@@ -214,54 +257,6 @@
             this.label3.TabIndex = 14;
             this.label3.Text = "Cliente ";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(465, 30);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(87, 25);
-            this.label4.TabIndex = 19;
-            this.label4.Text = "Localidad";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(676, 31);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(85, 25);
-            this.label5.TabIndex = 20;
-            this.label5.Text = "Dirección";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(46, 58);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(176, 34);
-            this.textBox1.TabIndex = 21;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(260, 58);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(176, 34);
-            this.textBox2.TabIndex = 22;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(470, 58);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(176, 34);
-            this.textBox3.TabIndex = 23;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(681, 58);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(176, 34);
-            this.textBox4.TabIndex = 24;
-            // 
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(239)))), ((int)(((byte)(225)))));
@@ -272,6 +267,7 @@
             this.groupBox3.Controls.Add(this.textBox5);
             this.groupBox3.Controls.Add(this.label7);
             this.groupBox3.Controls.Add(this.label11);
+            this.groupBox3.Controls.Add(this.pictureBox5);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
             this.groupBox3.Location = new System.Drawing.Point(12, 279);
@@ -279,6 +275,50 @@
             this.groupBox3.Size = new System.Drawing.Size(909, 102);
             this.groupBox3.TabIndex = 31;
             this.groupBox3.TabStop = false;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox4.Location = new System.Drawing.Point(486, 43);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(105, 29);
+            this.checkBox4.TabIndex = 28;
+            this.checkBox4.Text = "No Resp.";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox3.Location = new System.Drawing.Point(353, 43);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(119, 29);
+            this.checkBox3.TabIndex = 27;
+            this.checkBox3.Text = "Cons. Final";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox2.Location = new System.Drawing.Point(241, 44);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(95, 29);
+            this.checkBox2.TabIndex = 26;
+            this.checkBox2.Text = "Excento";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.Location = new System.Drawing.Point(86, 43);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(145, 29);
+            this.checkBox1.TabIndex = 25;
+            this.checkBox1.Text = "Resp.Inscripto";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // textBox5
             // 
@@ -305,50 +345,6 @@
             this.label11.Size = new System.Drawing.Size(41, 28);
             this.label11.TabIndex = 14;
             this.label11.Text = "IVA";
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(86, 43);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(145, 29);
-            this.checkBox1.TabIndex = 25;
-            this.checkBox1.Text = "Resp.Inscripto";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(241, 44);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(95, 29);
-            this.checkBox2.TabIndex = 26;
-            this.checkBox2.Text = "Excento";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.Location = new System.Drawing.Point(353, 43);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(119, 29);
-            this.checkBox3.TabIndex = 27;
-            this.checkBox3.Text = "Cons. Final";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox4.Location = new System.Drawing.Point(486, 43);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(105, 29);
-            this.checkBox4.TabIndex = 28;
-            this.checkBox4.Text = "No Resp.";
-            this.checkBox4.UseVisualStyleBackColor = true;
             // 
             // groupBox4
             // 
@@ -377,56 +373,34 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Productos";
             // 
-            // label9
+            // button3
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(26, 31);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(178, 25);
-            this.label9.TabIndex = 14;
-            this.label9.Text = "Código del Producto";
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.button3.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(683, 115);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(190, 43);
+            this.button3.TabIndex = 30;
+            this.button3.Text = "Agregar Producto";
+            this.button3.UseVisualStyleBackColor = false;
             // 
-            // textBox7
+            // label22
             // 
-            this.textBox7.Location = new System.Drawing.Point(31, 59);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(190, 34);
-            this.textBox7.TabIndex = 25;
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(461, 97);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(117, 25);
+            this.label22.TabIndex = 37;
+            this.label22.Text = "Importe Final";
             // 
-            // textBox8
+            // textBox18
             // 
-            this.textBox8.Location = new System.Drawing.Point(245, 59);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(190, 34);
-            this.textBox8.TabIndex = 26;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(240, 31);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(88, 25);
-            this.label12.TabIndex = 27;
-            this.label12.Text = "Categoria";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(461, 34);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(119, 25);
-            this.label13.TabIndex = 28;
-            this.label13.Text = "SubCategoria";
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(466, 59);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(190, 34);
-            this.textBox9.TabIndex = 29;
+            this.textBox18.Location = new System.Drawing.Point(466, 124);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(190, 34);
+            this.textBox18.TabIndex = 36;
             // 
             // label14
             // 
@@ -462,6 +436,74 @@
             this.label15.TabIndex = 32;
             this.label15.Text = "Precio Unitario ";
             // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(683, 59);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(190, 34);
+            this.textBox6.TabIndex = 31;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(678, 34);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(83, 25);
+            this.label8.TabIndex = 30;
+            this.label8.Text = "Cantidad";
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(466, 59);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(190, 34);
+            this.textBox9.TabIndex = 29;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(461, 34);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(119, 25);
+            this.label13.TabIndex = 28;
+            this.label13.Text = "SubCategoria";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(240, 31);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(88, 25);
+            this.label12.TabIndex = 27;
+            this.label12.Text = "Categoria";
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(245, 59);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(190, 34);
+            this.textBox8.TabIndex = 26;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(31, 59);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(190, 34);
+            this.textBox7.TabIndex = 25;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(26, 31);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(178, 25);
+            this.label9.TabIndex = 14;
+            this.label9.Text = "Código del Producto";
+            // 
             // groupBox5
             // 
             this.groupBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(239)))), ((int)(((byte)(225)))));
@@ -478,22 +520,23 @@
             this.groupBox5.TabIndex = 36;
             this.groupBox5.TabStop = false;
             // 
-            // label22
+            // textBox12
             // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(461, 97);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(117, 25);
-            this.label22.TabIndex = 37;
-            this.label22.Text = "Importe Final";
+            this.textBox12.Location = new System.Drawing.Point(720, 159);
+            this.textBox12.Multiline = true;
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(150, 31);
+            this.textBox12.TabIndex = 39;
             // 
-            // textBox18
+            // label16
             // 
-            this.textBox18.Location = new System.Drawing.Point(466, 124);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(190, 34);
-            this.textBox18.TabIndex = 36;
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(668, 163);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(49, 25);
+            this.label16.TabIndex = 38;
+            this.label16.Text = "Total";
             // 
             // dataGridView1
             // 
@@ -518,52 +561,24 @@
             this.button2.Text = "Imprimir Remito";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // label8
+            // dateTimePicker1
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(678, 34);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(83, 25);
-            this.label8.TabIndex = 30;
-            this.label8.Text = "Cantidad";
+            this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.Location = new System.Drawing.Point(347, 18);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(106, 22);
+            this.dateTimePicker1.TabIndex = 37;
             // 
-            // textBox6
+            // label17
             // 
-            this.textBox6.Location = new System.Drawing.Point(683, 59);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(190, 34);
-            this.textBox6.TabIndex = 31;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(720, 159);
-            this.textBox12.Multiline = true;
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(150, 31);
-            this.textBox12.TabIndex = 39;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(668, 163);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(49, 25);
-            this.label16.TabIndex = 38;
-            this.label16.Text = "Total";
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(683, 115);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(190, 43);
-            this.button3.TabIndex = 30;
-            this.button3.Text = "Agregar Producto";
-            this.button3.UseVisualStyleBackColor = false;
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Yu Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
+            this.label17.Location = new System.Drawing.Point(282, 17);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(59, 23);
+            this.label17.TabIndex = 38;
+            this.label17.Text = "Fecha";
             // 
             // pictureBox2
             // 
@@ -585,24 +600,35 @@
             this.pictureBox3.TabIndex = 41;
             this.pictureBox3.TabStop = false;
             // 
-            // dateTimePicker1
+            // pictureBox1
             // 
-            this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(347, 18);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(106, 22);
-            this.dateTimePicker1.TabIndex = 37;
+            this.pictureBox1.Image = global::AplicacionVinos.Properties.Resources.uva2__4_;
+            this.pictureBox1.Location = new System.Drawing.Point(661, -105);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(305, 389);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
             // 
-            // label17
+            // pictureBox4
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Yu Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
-            this.label17.Location = new System.Drawing.Point(282, 17);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(59, 23);
-            this.label17.TabIndex = 38;
-            this.label17.Text = "Fecha";
+            this.pictureBox4.Image = global::AplicacionVinos.Properties.Resources.uva2__4_;
+            this.pictureBox4.Location = new System.Drawing.Point(661, -223);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(305, 389);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 30;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::AplicacionVinos.Properties.Resources.uva2__4_;
+            this.pictureBox5.Location = new System.Drawing.Point(661, -329);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(305, 389);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 31;
+            this.pictureBox5.TabStop = false;
             // 
             // Ventas
             // 
@@ -625,7 +651,6 @@
             this.Text = "Ventas";
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox3.ResumeLayout(false);
@@ -637,6 +662,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -694,5 +722,7 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
     }
 }

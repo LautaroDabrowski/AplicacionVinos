@@ -113,6 +113,16 @@ namespace AplicacionVinos.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Logotipo_Vino_Minimalista_Negro_y_Violeta__5_ {
+            get {
+                object obj = ResourceManager.GetObject("Logotipo Vino Minimalista Negro y Violeta (5)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logotipo_Vino_Violeta {
             get {
                 object obj = ResourceManager.GetObject("Logotipo Vino Violeta", resourceCulture);

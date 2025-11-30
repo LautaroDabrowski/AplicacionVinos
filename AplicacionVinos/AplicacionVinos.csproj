@@ -57,17 +57,41 @@
     <Compile Include="Vistas\Administracion.Designer.cs">
       <DependentUpon>Administracion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vistas\AltaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\AltaCliente.Designer.cs">
+      <DependentUpon>AltaCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\AltaProveedor.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Vistas\AltaProveedor.Designer.cs">
       <DependentUpon>AltaProveedor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vistas\AltaUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\AltaUsuario.Designer.cs">
+      <DependentUpon>AltaUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\Compras.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Vistas\Compras.Designer.cs">
       <DependentUpon>Compras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\ConfigurarPerfilAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\ConfigurarPerfilAdmin.Designer.cs">
+      <DependentUpon>ConfigurarPerfilAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\HistorialVentasCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\HistorialVentasCompras.Designer.cs">
+      <DependentUpon>HistorialVentasCompras.cs</DependentUpon>
     </Compile>
     <Compile Include="Vistas\Inicio.cs">
       <SubType>Form</SubType>
@@ -110,11 +134,23 @@
     <EmbeddedResource Include="Vistas\Administracion.resx">
       <DependentUpon>Administracion.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\AltaCliente.resx">
+      <DependentUpon>AltaCliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vistas\AltaProveedor.resx">
       <DependentUpon>AltaProveedor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\AltaUsuario.resx">
+      <DependentUpon>AltaUsuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vistas\Compras.resx">
       <DependentUpon>Compras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\ConfigurarPerfilAdmin.resx">
+      <DependentUpon>ConfigurarPerfilAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\HistorialVentasCompras.resx">
+      <DependentUpon>HistorialVentasCompras.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
@@ -241,6 +277,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ramauva.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %285%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
