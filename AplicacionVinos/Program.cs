@@ -17,7 +17,7 @@ namespace AplicacionVinos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Compras());
+            Application.Run(new Inicio());
         }
     }
 }

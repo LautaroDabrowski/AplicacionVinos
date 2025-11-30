@@ -44,3 +44,12 @@ C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\Aplicacion
 C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.Productos.resources
 C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.Ventas.resources
 C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.Presupuesto.resources
+C:\POO\AplicacionVinos\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.Administracion.resources
+C:\POO\AplicacionVinos\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.AltaCliente.resources
+C:\POO\AplicacionVinos\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.AltaUsuario.resources
+C:\POO\AplicacionVinos\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.ConfigurarPerfilAdmin.resources
+C:\POO\AplicacionVinos\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.HistorialVentasCompras.resources
+C:\POO\AplicacionVinos\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.Movimientos.resources
+C:\POO\AplicacionVinos\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.Presupuesto.resources
+C:\POO\AplicacionVinos\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.Productos.resources
+C:\POO\AplicacionVinos\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.Ventas.resources
