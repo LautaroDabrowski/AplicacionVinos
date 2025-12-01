@@ -34,7 +34,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -45,7 +44,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
@@ -54,7 +52,6 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.button3 = new System.Windows.Forms.Button();
             this.label22 = new System.Windows.Forms.Label();
@@ -75,22 +72,29 @@
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label17 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox2
@@ -125,6 +129,7 @@
             // 
             // comboBox2
             // 
+            this.comboBox2.BackColor = System.Drawing.SystemColors.Window;
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(304, 59);
             this.comboBox2.Name = "comboBox2";
@@ -142,6 +147,7 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.BackColor = System.Drawing.SystemColors.Window;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(29, 59);
             this.comboBox1.Name = "comboBox1";
@@ -156,16 +162,6 @@
             this.label10.Size = new System.Drawing.Size(105, 28);
             this.label10.TabIndex = 14;
             this.label10.Text = "N° Cliente ";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::AplicacionVinos.Properties.Resources.UVASS;
-            this.pictureBox1.Location = new System.Drawing.Point(661, -89);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(305, 389);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
             // 
             // label6
             // 
@@ -192,7 +188,7 @@
             this.groupBox1.Controls.Add(this.pictureBox4);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
-            this.groupBox1.Location = new System.Drawing.Point(12, 173);
+            this.groupBox1.Location = new System.Drawing.Point(12, 170);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(909, 106);
             this.groupBox1.TabIndex = 30;
@@ -201,6 +197,7 @@
             // 
             // textBox4
             // 
+            this.textBox4.BackColor = System.Drawing.SystemColors.Window;
             this.textBox4.Location = new System.Drawing.Point(681, 58);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(176, 34);
@@ -208,6 +205,7 @@
             // 
             // textBox3
             // 
+            this.textBox3.BackColor = System.Drawing.SystemColors.Window;
             this.textBox3.Location = new System.Drawing.Point(470, 58);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(176, 34);
@@ -215,6 +213,7 @@
             // 
             // textBox2
             // 
+            this.textBox2.BackColor = System.Drawing.SystemColors.Window;
             this.textBox2.Location = new System.Drawing.Point(260, 58);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(176, 34);
@@ -222,6 +221,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.Window;
             this.textBox1.Location = new System.Drawing.Point(46, 58);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(176, 34);
@@ -267,16 +267,6 @@
             this.label3.TabIndex = 14;
             this.label3.Text = "Cliente ";
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::AplicacionVinos.Properties.Resources.UVASS;
-            this.pictureBox4.Location = new System.Drawing.Point(661, -209);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(305, 389);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 30;
-            this.pictureBox4.TabStop = false;
-            // 
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(239)))), ((int)(((byte)(225)))));
@@ -290,7 +280,7 @@
             this.groupBox3.Controls.Add(this.pictureBox5);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
-            this.groupBox3.Location = new System.Drawing.Point(12, 279);
+            this.groupBox3.Location = new System.Drawing.Point(12, 276);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(909, 102);
             this.groupBox3.TabIndex = 31;
@@ -342,6 +332,7 @@
             // 
             // textBox5
             // 
+            this.textBox5.BackColor = System.Drawing.SystemColors.Window;
             this.textBox5.Location = new System.Drawing.Point(696, 38);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(176, 34);
@@ -366,16 +357,6 @@
             this.label11.TabIndex = 14;
             this.label11.Text = "IVA";
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::AplicacionVinos.Properties.Resources.UVASS;
-            this.pictureBox5.Location = new System.Drawing.Point(661, -315);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(305, 389);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 31;
-            this.pictureBox5.TabStop = false;
-            // 
             // groupBox4
             // 
             this.groupBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(239)))), ((int)(((byte)(225)))));
@@ -394,9 +375,11 @@
             this.groupBox4.Controls.Add(this.textBox8);
             this.groupBox4.Controls.Add(this.textBox7);
             this.groupBox4.Controls.Add(this.label9);
+            this.groupBox4.Controls.Add(this.pictureBox6);
+            this.groupBox4.Controls.Add(this.pictureBox7);
             this.groupBox4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
-            this.groupBox4.Location = new System.Drawing.Point(13, 381);
+            this.groupBox4.Location = new System.Drawing.Point(13, 378);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(908, 167);
             this.groupBox4.TabIndex = 32;
@@ -427,6 +410,7 @@
             // 
             // textBox18
             // 
+            this.textBox18.BackColor = System.Drawing.SystemColors.Window;
             this.textBox18.Location = new System.Drawing.Point(466, 124);
             this.textBox18.Name = "textBox18";
             this.textBox18.Size = new System.Drawing.Size(190, 34);
@@ -444,6 +428,7 @@
             // 
             // textBox10
             // 
+            this.textBox10.BackColor = System.Drawing.SystemColors.Window;
             this.textBox10.Location = new System.Drawing.Point(245, 124);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(190, 34);
@@ -451,6 +436,7 @@
             // 
             // textBox11
             // 
+            this.textBox11.BackColor = System.Drawing.SystemColors.Window;
             this.textBox11.Location = new System.Drawing.Point(31, 124);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(190, 34);
@@ -468,6 +454,7 @@
             // 
             // textBox6
             // 
+            this.textBox6.BackColor = System.Drawing.SystemColors.Window;
             this.textBox6.Location = new System.Drawing.Point(683, 59);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(190, 34);
@@ -485,6 +472,7 @@
             // 
             // textBox9
             // 
+            this.textBox9.BackColor = System.Drawing.SystemColors.Window;
             this.textBox9.Location = new System.Drawing.Point(466, 59);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(190, 34);
@@ -512,6 +500,7 @@
             // 
             // textBox8
             // 
+            this.textBox8.BackColor = System.Drawing.SystemColors.Window;
             this.textBox8.Location = new System.Drawing.Point(245, 59);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(190, 34);
@@ -519,6 +508,7 @@
             // 
             // textBox7
             // 
+            this.textBox7.BackColor = System.Drawing.SystemColors.Window;
             this.textBox7.Location = new System.Drawing.Point(31, 59);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(190, 34);
@@ -570,7 +560,7 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Menu;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Window;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(29, 20);
             this.dataGridView1.Name = "dataGridView1";
@@ -578,16 +568,6 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(843, 132);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::AplicacionVinos.Properties.Resources.hojas;
-            this.pictureBox3.Location = new System.Drawing.Point(731, -33);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(275, 269);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 41;
-            this.pictureBox3.TabStop = false;
             // 
             // button2
             // 
@@ -604,9 +584,10 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.CalendarMonthBackground = System.Drawing.SystemColors.Menu;
             this.dateTimePicker1.Location = new System.Drawing.Point(347, 18);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(106, 22);
+            this.dateTimePicker1.Size = new System.Drawing.Size(190, 22);
             this.dateTimePicker1.TabIndex = 37;
             // 
             // label17
@@ -620,15 +601,75 @@
             this.label17.TabIndex = 38;
             this.label17.Text = "Fecha";
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::AplicacionVinos.Properties.Resources.Logotipo_Vino_Minimalista_Negro_y_Violeta__35;
+            this.pictureBox3.Location = new System.Drawing.Point(500, -71);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(465, 269);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 41;
+            this.pictureBox3.TabStop = false;
+            // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::AplicacionVinos.Properties.Resources.hojas;
-            this.pictureBox2.Location = new System.Drawing.Point(-132, -25);
+            this.pictureBox2.Image = global::AplicacionVinos.Properties.Resources.Logotipo_Vino_Minimalista_Negro_y_Violeta__6_;
+            this.pictureBox2.Location = new System.Drawing.Point(-60, -136);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(275, 269);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.Size = new System.Drawing.Size(427, 350);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 42;
             this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::AplicacionVinos.Properties.Resources.Logotipo_Vino_Minimalista_Negro_y_Violeta__35;
+            this.pictureBox6.Location = new System.Drawing.Point(500, 91);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(465, 314);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 42;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::AplicacionVinos.Properties.Resources.Logotipo_Vino_Minimalista_Negro_y_Violeta__6_;
+            this.pictureBox7.Location = new System.Drawing.Point(-60, 32);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(427, 350);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 43;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::AplicacionVinos.Properties.Resources.UVASS;
+            this.pictureBox5.Location = new System.Drawing.Point(661, -315);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(305, 389);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 31;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::AplicacionVinos.Properties.Resources.UVASS;
+            this.pictureBox4.Location = new System.Drawing.Point(661, -209);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(305, 389);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 30;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::AplicacionVinos.Properties.Resources.UVASS;
+            this.pictureBox1.Location = new System.Drawing.Point(661, -89);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(305, 389);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
             // 
             // Ventas
             // 
@@ -651,13 +692,10 @@
             this.Text = "Ventas";
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.groupBox5.ResumeLayout(false);
@@ -665,6 +703,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -718,11 +761,13 @@
         private System.Windows.Forms.TextBox textBox12;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

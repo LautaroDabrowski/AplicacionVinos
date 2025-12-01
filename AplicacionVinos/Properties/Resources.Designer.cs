@@ -113,9 +113,239 @@ namespace AplicacionVinos.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Logotipo_Vino_Minimalista_Negro_y_Violeta__13_ {
+            get {
+                object obj = ResourceManager.GetObject("Logotipo Vino Minimalista Negro y Violeta (13)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logotipo_Vino_Minimalista_Negro_y_Violeta__14_ {
+            get {
+                object obj = ResourceManager.GetObject("Logotipo Vino Minimalista Negro y Violeta (14)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logotipo_Vino_Minimalista_Negro_y_Violeta__14_1 {
+            get {
+                object obj = ResourceManager.GetObject("Logotipo Vino Minimalista Negro y Violeta (14)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logotipo_Vino_Minimalista_Negro_y_Violeta__16_ {
+            get {
+                object obj = ResourceManager.GetObject("Logotipo Vino Minimalista Negro y Violeta (16)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logotipo_Vino_Minimalista_Negro_y_Violeta__16_1 {
+            get {
+                object obj = ResourceManager.GetObject("Logotipo Vino Minimalista Negro y Violeta (16)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logotipo_Vino_Minimalista_Negro_y_Violeta__16_2 {
+            get {
+                object obj = ResourceManager.GetObject("Logotipo Vino Minimalista Negro y Violeta (16)2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logotipo_Vino_Minimalista_Negro_y_Violeta__17_ {
+            get {
+                object obj = ResourceManager.GetObject("Logotipo Vino Minimalista Negro y Violeta (17)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logotipo_Vino_Minimalista_Negro_y_Violeta__18_ {
+            get {
+                object obj = ResourceManager.GetObject("Logotipo Vino Minimalista Negro y Violeta (18)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logotipo_Vino_Minimalista_Negro_y_Violeta__21_ {
+            get {
+                object obj = ResourceManager.GetObject("Logotipo Vino Minimalista Negro y Violeta (21)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logotipo_Vino_Minimalista_Negro_y_Violeta__22_ {
+            get {
+                object obj = ResourceManager.GetObject("Logotipo Vino Minimalista Negro y Violeta (22)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logotipo_Vino_Minimalista_Negro_y_Violeta__23_ {
+            get {
+                object obj = ResourceManager.GetObject("Logotipo Vino Minimalista Negro y Violeta (23)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logotipo_Vino_Minimalista_Negro_y_Violeta__27_ {
+            get {
+                object obj = ResourceManager.GetObject("Logotipo Vino Minimalista Negro y Violeta (27)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logotipo_Vino_Minimalista_Negro_y_Violeta__29_ {
+            get {
+                object obj = ResourceManager.GetObject("Logotipo Vino Minimalista Negro y Violeta (29)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logotipo_Vino_Minimalista_Negro_y_Violeta__30_ {
+            get {
+                object obj = ResourceManager.GetObject("Logotipo Vino Minimalista Negro y Violeta (30)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logotipo_Vino_Minimalista_Negro_y_Violeta__33_ {
+            get {
+                object obj = ResourceManager.GetObject("Logotipo Vino Minimalista Negro y Violeta (33)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logotipo_Vino_Minimalista_Negro_y_Violeta__34_ {
+            get {
+                object obj = ResourceManager.GetObject("Logotipo Vino Minimalista Negro y Violeta (34)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logotipo_Vino_Minimalista_Negro_y_Violeta__35 {
+            get {
+                object obj = ResourceManager.GetObject("Logotipo Vino Minimalista Negro y Violeta (35", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logotipo_Vino_Minimalista_Negro_y_Violeta__36_ {
+            get {
+                object obj = ResourceManager.GetObject("Logotipo Vino Minimalista Negro y Violeta (36)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logotipo_Vino_Minimalista_Negro_y_Violeta__37_ {
+            get {
+                object obj = ResourceManager.GetObject("Logotipo Vino Minimalista Negro y Violeta (37)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logotipo_Vino_Minimalista_Negro_y_Violeta__5_ {
             get {
                 object obj = ResourceManager.GetObject("Logotipo Vino Minimalista Negro y Violeta (5)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logotipo_Vino_Minimalista_Negro_y_Violeta__6_ {
+            get {
+                object obj = ResourceManager.GetObject("Logotipo Vino Minimalista Negro y Violeta (6)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logotipo_Vino_Minimalista_Negro_y_Violeta__7_ {
+            get {
+                object obj = ResourceManager.GetObject("Logotipo Vino Minimalista Negro y Violeta (7)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logotipo_Vino_Minimalista_Negro_y_Violeta__8_ {
+            get {
+                object obj = ResourceManager.GetObject("Logotipo Vino Minimalista Negro y Violeta (8)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logotipo_Vino_Minimalista_Negro_y_Violeta__9_ {
+            get {
+                object obj = ResourceManager.GetObject("Logotipo Vino Minimalista Negro y Violeta (9)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -136,16 +366,6 @@ namespace AplicacionVinos.Properties {
         internal static System.Drawing.Bitmap Logotipo_Vino1 {
             get {
                 object obj = ResourceManager.GetObject("Logotipo Vino1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap ramauva {
-            get {
-                object obj = ResourceManager.GetObject("ramauva", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

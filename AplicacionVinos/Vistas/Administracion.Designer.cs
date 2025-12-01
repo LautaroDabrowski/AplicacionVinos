@@ -34,7 +34,10 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.PanelFormsAd = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
+            this.PanelFormsAd.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -103,10 +106,21 @@
             // 
             // PanelFormsAd
             // 
+            this.PanelFormsAd.Controls.Add(this.pictureBox1);
             this.PanelFormsAd.Location = new System.Drawing.Point(12, 101);
             this.PanelFormsAd.Name = "PanelFormsAd";
             this.PanelFormsAd.Size = new System.Drawing.Size(928, 695);
             this.PanelFormsAd.TabIndex = 24;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::AplicacionVinos.Properties.Resources.Logotipo_Vino1;
+            this.pictureBox1.Location = new System.Drawing.Point(47, 188);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(835, 230);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 25;
+            this.pictureBox1.TabStop = false;
             // 
             // Administracion
             // 
@@ -121,6 +135,8 @@
             this.Text = "Administracion";
             this.Load += new System.EventHandler(this.Administracion_Load);
             this.panel2.ResumeLayout(false);
+            this.PanelFormsAd.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -133,5 +149,6 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Panel PanelFormsAd;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

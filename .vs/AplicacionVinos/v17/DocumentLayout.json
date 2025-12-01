@@ -3,47 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\aplicacionvinos\\vistas\\configurarperfiladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|solutionrelative:aplicacionvinos\\vistas\\configurarperfiladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\aplicacionvinos\\vistas\\altacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|solutionrelative:aplicacionvinos\\vistas\\altacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\aplicacionvinos\\vistas\\historialventascompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|solutionrelative:aplicacionvinos\\vistas\\historialventascompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\aplicacionvinos\\vistas\\altaproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|solutionrelative:aplicacionvinos\\vistas\\altaproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\aplicacionvinos\\vistas\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|solutionrelative:aplicacionvinos\\vistas\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\aplicacionvinos\\vistas\\movimientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|solutionrelative:aplicacionvinos\\vistas\\movimientos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\aplicacionvinos\\vistas\\presupuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|solutionrelative:aplicacionvinos\\vistas\\presupuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|c:\\users\\brenc\\onedrive\\escritorio\\vinitos2\\aplicacionvinos\\vistas\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|solutionrelative:aplicacionvinos\\vistas\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\aplicacionvinos\\vistas\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|solutionrelative:aplicacionvinos\\vistas\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|c:\\users\\brenc\\onedrive\\escritorio\\vinitos2\\aplicacionvinos\\vistas\\productos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|solutionrelative:aplicacionvinos\\vistas\\productos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\aplicacionvinos\\vistas\\compras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|solutionrelative:aplicacionvinos\\vistas\\compras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|c:\\users\\brenc\\onedrive\\escritorio\\vinitos2\\aplicacionvinos\\vistas\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\aplicacionvinos\\vistas\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|solutionrelative:aplicacionvinos\\vistas\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -51,8 +19,12 @@
       "RelativeMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|solutionrelative:aplicacionvinos\\vistas\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\aplicacionvinos\\vistas\\administracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|solutionrelative:aplicacionvinos\\vistas\\administracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\aplicacionvinos\\vistas\\altaproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|solutionrelative:aplicacionvinos\\vistas\\altaproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\aplicacionvinos\\vistas\\presupuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|solutionrelative:aplicacionvinos\\vistas\\presupuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\aplicacionvinos\\vistas\\altausuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -61,6 +33,34 @@
     {
       "AbsoluteMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\aplicacionvinos\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
       "RelativeMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|solutionrelative:aplicacionvinos\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|c:\\users\\brenc\\onedrive\\escritorio\\vinitos2\\aplicacionvinos\\vistas\\configurarperfiladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|solutionrelative:aplicacionvinos\\vistas\\configurarperfiladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\aplicacionvinos\\vistas\\altacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|solutionrelative:aplicacionvinos\\vistas\\altacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|c:\\users\\brenc\\onedrive\\escritorio\\vinitos2\\aplicacionvinos\\vistas\\editarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|solutionrelative:aplicacionvinos\\vistas\\editarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|c:\\users\\brenc\\onedrive\\escritorio\\vinitos2\\aplicacionvinos\\vistas\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|solutionrelative:aplicacionvinos\\vistas\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\aplicacionvinos\\vistas\\historialventascompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|solutionrelative:aplicacionvinos\\vistas\\historialventascompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\aplicacionvinos\\vistas\\compras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|solutionrelative:aplicacionvinos\\vistas\\compras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\aplicacionvinos\\vistas\\administracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|solutionrelative:aplicacionvinos\\vistas\\administracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2DF811B2-5D6D-4459-9CB7-8B6FD3EE42E5}|AplicacionVinos\\AplicacionVinos.csproj|C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\aplicacionvinos\\vistas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
@@ -90,11 +90,12 @@
               "RelativeToolTip": "AplicacionVinos\\Vistas\\Login.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T20:36:25.761Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "Inicio.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\AplicacionVinos\\Vistas\\Inicio.cs",
               "RelativeDocumentMoniker": "AplicacionVinos\\Vistas\\Inicio.cs",
@@ -107,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "Productos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\AplicacionVinos\\Vistas\\Productos.cs",
               "RelativeDocumentMoniker": "AplicacionVinos\\Vistas\\Productos.cs",
@@ -120,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Compras.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\AplicacionVinos\\Vistas\\Compras.cs",
               "RelativeDocumentMoniker": "AplicacionVinos\\Vistas\\Compras.cs",
@@ -133,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AltaProveedor.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\AplicacionVinos\\Vistas\\AltaProveedor.cs",
               "RelativeDocumentMoniker": "AplicacionVinos\\Vistas\\AltaProveedor.cs",
@@ -146,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Movimientos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\AplicacionVinos\\Vistas\\Movimientos.cs",
               "RelativeDocumentMoniker": "AplicacionVinos\\Vistas\\Movimientos.cs",
@@ -159,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Ventas.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\AplicacionVinos\\Vistas\\Ventas.cs",
               "RelativeDocumentMoniker": "AplicacionVinos\\Vistas\\Ventas.cs",
@@ -185,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "ConfigurarPerfilAdmin.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\AplicacionVinos\\Vistas\\ConfigurarPerfilAdmin.cs",
               "RelativeDocumentMoniker": "AplicacionVinos\\Vistas\\ConfigurarPerfilAdmin.cs",
@@ -198,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "AltaCliente.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\AplicacionVinos\\Vistas\\AltaCliente.cs",
               "RelativeDocumentMoniker": "AplicacionVinos\\Vistas\\AltaCliente.cs",
@@ -211,7 +212,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
+              "Title": "EditarCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\AplicacionVinos\\Vistas\\EditarCliente.cs",
+              "RelativeDocumentMoniker": "AplicacionVinos\\Vistas\\EditarCliente.cs",
+              "ToolTip": "C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\AplicacionVinos\\Vistas\\EditarCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "AplicacionVinos\\Vistas\\EditarCliente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T02:29:05.659Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "HistorialVentasCompras.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\AplicacionVinos\\Vistas\\HistorialVentasCompras.cs",
               "RelativeDocumentMoniker": "AplicacionVinos\\Vistas\\HistorialVentasCompras.cs",
@@ -224,62 +238,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Productos.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\AplicacionVinos\\Vistas\\Productos.Designer.cs",
-              "RelativeDocumentMoniker": "AplicacionVinos\\Vistas\\Productos.Designer.cs",
-              "ToolTip": "C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\AplicacionVinos\\Vistas\\Productos.Designer.cs",
-              "RelativeToolTip": "AplicacionVinos\\Vistas\\Productos.Designer.cs",
-              "ViewState": "AgIAAAUCAAAAAAAAAAAswBgCAAAtAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Inicio.cs",
+              "DocumentMoniker": "C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\AplicacionVinos\\Vistas\\Inicio.cs",
+              "RelativeDocumentMoniker": "AplicacionVinos\\Vistas\\Inicio.cs",
+              "ToolTip": "C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\AplicacionVinos\\Vistas\\Inicio.cs",
+              "RelativeToolTip": "AplicacionVinos\\Vistas\\Inicio.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T06:36:22.172Z",
+              "WhenOpened": "2025-12-01T04:37:56.14Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Productos.cs",
-              "DocumentMoniker": "C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\AplicacionVinos\\Vistas\\Productos.cs",
-              "RelativeDocumentMoniker": "AplicacionVinos\\Vistas\\Productos.cs",
-              "ToolTip": "C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\AplicacionVinos\\Vistas\\Productos.cs",
-              "RelativeToolTip": "AplicacionVinos\\Vistas\\Productos.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAswBYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T06:36:08.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Administracion.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\AplicacionVinos\\Vistas\\Administracion.cs",
               "RelativeDocumentMoniker": "AplicacionVinos\\Vistas\\Administracion.cs",
               "ToolTip": "C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\AplicacionVinos\\Vistas\\Administracion.cs [Dise\u00F1o]",
               "RelativeToolTip": "AplicacionVinos\\Vistas\\Administracion.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T06:09:40.981Z"
+              "WhenOpened": "2025-11-30T06:09:40.981Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 6,
               "Title": "AltaUsuario.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\AplicacionVinos\\Vistas\\AltaUsuario.cs",
               "RelativeDocumentMoniker": "AplicacionVinos\\Vistas\\AltaUsuario.cs",
               "ToolTip": "C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\AplicacionVinos\\Vistas\\AltaUsuario.cs [Dise\u00F1o]",
               "RelativeToolTip": "AplicacionVinos\\Vistas\\AltaUsuario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T05:00:29.629Z"
+              "WhenOpened": "2025-11-30T05:00:29.629Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 7,
               "Title": "Resources.resx",
               "DocumentMoniker": "C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\AplicacionVinos\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "AplicacionVinos\\Properties\\Resources.resx",
               "ToolTip": "C:\\Users\\brenc\\OneDrive\\Escritorio\\Vinitos2\\AplicacionVinos\\Properties\\Resources.resx",
               "RelativeToolTip": "AplicacionVinos\\Properties\\Resources.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-11-27T01:36:35.049Z"
+              "WhenOpened": "2025-11-27T01:36:35.049Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -291,7 +295,8 @@
               "RelativeToolTip": "AplicacionVinos\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T22:29:07.542Z"
+              "WhenOpened": "2025-11-23T22:29:07.542Z",
+              "EditorCaption": ""
             }
           ]
         }

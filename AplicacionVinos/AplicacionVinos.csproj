@@ -87,6 +87,12 @@
     <Compile Include="Vistas\ConfigurarPerfilAdmin.Designer.cs">
       <DependentUpon>ConfigurarPerfilAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vistas\EditarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\EditarCliente.Designer.cs">
+      <DependentUpon>EditarCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\HistorialVentasCompras.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -148,6 +154,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\ConfigurarPerfilAdmin.resx">
       <DependentUpon>ConfigurarPerfilAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\EditarCliente.resx">
+      <DependentUpon>EditarCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\HistorialVentasCompras.resx">
       <DependentUpon>HistorialVentasCompras.cs</DependentUpon>
@@ -280,6 +289,93 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %2813%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %2814%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %2815%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %2818%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %2816%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %2816%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %2814%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %2817%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %2820%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %2821%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %2819%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %2822%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %2815%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %2823%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %2816%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %2826%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %2827%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %2830%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %2829%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %2834%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %2833%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %2835.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %2836%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logotipo Vino Minimalista Negro y Violeta %2837%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button1 = new System.Windows.Forms.Button();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.label3 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label3 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.button1 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label16 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -75,6 +75,52 @@
             this.groupBox2.TabIndex = 16;
             this.groupBox2.TabStop = false;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Menu;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(18, 117);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(861, 165);
+            this.dataGridView1.TabIndex = 36;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(630, 61);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(249, 46);
+            this.button1.TabIndex = 35;
+            this.button1.Text = "Buscar";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(328, 67);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(268, 34);
+            this.dateTimePicker2.TabIndex = 20;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(13, 4);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(116, 28);
+            this.label3.TabIndex = 19;
+            this.label3.Text = "Elegir Fecha";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(18, 67);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(268, 34);
+            this.dateTimePicker1.TabIndex = 18;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -92,52 +138,6 @@
             this.label1.Size = new System.Drawing.Size(76, 28);
             this.label1.TabIndex = 0;
             this.label1.Text = "Desde  ";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(18, 67);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(268, 34);
-            this.dateTimePicker1.TabIndex = 18;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(13, 4);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(116, 28);
-            this.label3.TabIndex = 19;
-            this.label3.Text = "Elegir Fecha";
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(328, 67);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(268, 34);
-            this.dateTimePicker2.TabIndex = 20;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(630, 61);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(249, 46);
-            this.button1.TabIndex = 35;
-            this.button1.Text = "Buscar";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Menu;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(18, 117);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(861, 165);
-            this.dataGridView1.TabIndex = 36;
             // 
             // label16
             // 
@@ -246,19 +246,21 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::AplicacionVinos.Properties.Resources.hojas;
-            this.pictureBox1.Location = new System.Drawing.Point(602, -35);
+            this.pictureBox1.Image = global::AplicacionVinos.Properties.Resources.Logotipo_Vino_Minimalista_Negro_y_Violeta__6_;
+            this.pictureBox1.Location = new System.Drawing.Point(117, -74);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(302, 334);
+            this.pictureBox1.Size = new System.Drawing.Size(569, 523);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 37;
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::AplicacionVinos.Properties.Resources.hojas;
-            this.pictureBox2.Location = new System.Drawing.Point(602, -335);
+            this.pictureBox2.Image = global::AplicacionVinos.Properties.Resources.Logotipo_Vino_Minimalista_Negro_y_Violeta__6_;
+            this.pictureBox2.Location = new System.Drawing.Point(117, -382);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(308, 634);
+            this.pictureBox2.Size = new System.Drawing.Size(569, 523);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 38;
             this.pictureBox2.TabStop = false;
             // 

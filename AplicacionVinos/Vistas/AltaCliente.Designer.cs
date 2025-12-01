@@ -48,14 +48,20 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(239)))), ((int)(((byte)(225)))));
+            this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.button3);
             this.groupBox2.Controls.Add(this.textBox5);
             this.groupBox2.Controls.Add(this.label7);
@@ -64,7 +70,6 @@
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.textBox4);
             this.groupBox2.Controls.Add(this.textBox12);
             this.groupBox2.Controls.Add(this.label12);
             this.groupBox2.Controls.Add(this.label3);
@@ -73,6 +78,8 @@
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.textBox1);
             this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Controls.Add(this.textBox4);
+            this.groupBox2.Controls.Add(this.pictureBox2);
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
             this.groupBox2.Location = new System.Drawing.Point(12, 11);
@@ -80,16 +87,15 @@
             this.groupBox2.Size = new System.Drawing.Size(480, 671);
             this.groupBox2.TabIndex = 15;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Datos del Cliente";
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
             this.button3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(285, 28);
+            this.button3.Location = new System.Drawing.Point(285, 21);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(174, 30);
+            this.button3.Size = new System.Drawing.Size(174, 37);
             this.button3.TabIndex = 37;
             this.button3.Text = "Editar Cliente";
             this.button3.UseVisualStyleBackColor = false;
@@ -169,6 +175,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Location = new System.Drawing.Point(13, 278);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(174, 28);
@@ -228,7 +235,7 @@
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
             this.button2.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(534, 627);
+            this.button2.Location = new System.Drawing.Point(534, 617);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(360, 46);
             this.button2.TabIndex = 35;
@@ -240,21 +247,49 @@
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
             this.button1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(534, 566);
+            this.button1.Location = new System.Drawing.Point(534, 542);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(360, 46);
             this.button1.TabIndex = 34;
             this.button1.Text = "Agregar Cliente";
             this.button1.UseVisualStyleBackColor = false;
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(13, 8);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(160, 28);
+            this.label8.TabIndex = 40;
+            this.label8.Text = "Datos del Cliente";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::AplicacionVinos.Properties.Resources.Logotipo_Vino_Minimalista_Negro_y_Violeta__8_;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 1);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(480, 671);
+            this.pictureBox2.TabIndex = 41;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::AplicacionVinos.Properties.Resources.Logotipo_Vino_Minimalista_Negro_y_Violeta__7_;
+            this.pictureBox3.Location = new System.Drawing.Point(463, -56);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(354, 349);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 44;
+            this.pictureBox3.TabStop = false;
+            // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::AplicacionVinos.Properties.Resources.Logotipo_Vino_Minimalista_Negro_y_Violeta__5_;
-            this.pictureBox1.Location = new System.Drawing.Point(498, 112);
+            this.pictureBox1.Image = global::AplicacionVinos.Properties.Resources.Logotipo_Vino_Minimalista_Negro_y_Violeta__34_;
+            this.pictureBox1.Location = new System.Drawing.Point(575, 366);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(426, 398);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 36;
+            this.pictureBox1.Size = new System.Drawing.Size(354, 351);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 45;
             this.pictureBox1.TabStop = false;
             // 
             // AltaCliente
@@ -267,11 +302,14 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AltaCliente";
             this.Text = "AltaCliente";
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -298,7 +336,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

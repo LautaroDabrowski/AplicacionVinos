@@ -53,3 +53,8 @@ C:\POO\AplicacionVinos\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.Movimien
 C:\POO\AplicacionVinos\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.Presupuesto.resources
 C:\POO\AplicacionVinos\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.Productos.resources
 C:\POO\AplicacionVinos\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.Ventas.resources
+C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.AltaCliente.resources
+C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.AltaUsuario.resources
+C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.ConfigurarPerfilAdmin.resources
+C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.HistorialVentasCompras.resources
+C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.EditarCliente.resources

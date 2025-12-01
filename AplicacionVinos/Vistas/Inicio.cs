@@ -63,5 +63,10 @@ namespace AplicacionVinos.Vistas
         {
             FormMuestra(new Ventas());
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FormMuestra(new Movimientos());
+        }
     }
 }

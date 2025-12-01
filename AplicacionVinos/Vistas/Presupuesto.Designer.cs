@@ -63,15 +63,15 @@
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox2
@@ -94,9 +94,9 @@
             this.groupBox2.Controls.Add(this.pictureBox2);
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
-            this.groupBox2.Location = new System.Drawing.Point(28, 55);
+            this.groupBox2.Location = new System.Drawing.Point(14, 55);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(873, 200);
+            this.groupBox2.Size = new System.Drawing.Size(915, 200);
             this.groupBox2.TabIndex = 13;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Datos del Cliente";
@@ -239,9 +239,9 @@
             this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
-            this.groupBox1.Location = new System.Drawing.Point(28, 268);
+            this.groupBox1.Location = new System.Drawing.Point(15, 268);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(873, 468);
+            this.groupBox1.Size = new System.Drawing.Size(915, 519);
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Detalle del Producto";
@@ -251,7 +251,7 @@
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
             this.button2.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(651, 408);
+            this.button2.Location = new System.Drawing.Point(674, 440);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(204, 43);
             this.button2.TabIndex = 29;
@@ -263,7 +263,7 @@
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
             this.button1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(651, 355);
+            this.button1.Location = new System.Drawing.Point(674, 387);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(204, 43);
             this.button1.TabIndex = 28;
@@ -273,7 +273,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(204, 364);
+            this.label7.Location = new System.Drawing.Point(203, 393);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(133, 28);
             this.label7.TabIndex = 27;
@@ -281,14 +281,14 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(209, 395);
+            this.textBox5.Location = new System.Drawing.Point(208, 424);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(153, 34);
             this.textBox5.TabIndex = 26;
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(30, 395);
+            this.textBox7.Location = new System.Drawing.Point(33, 424);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(153, 34);
             this.textBox7.TabIndex = 25;
@@ -296,7 +296,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(25, 364);
+            this.label14.Location = new System.Drawing.Point(28, 393);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(88, 28);
             this.label14.TabIndex = 24;
@@ -304,7 +304,7 @@
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(383, 395);
+            this.textBox9.Location = new System.Drawing.Point(388, 424);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(153, 34);
             this.textBox9.TabIndex = 23;
@@ -312,7 +312,7 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(378, 364);
+            this.label15.Location = new System.Drawing.Point(383, 393);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(54, 28);
             this.label15.TabIndex = 22;
@@ -322,22 +322,22 @@
             // 
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(225, 113);
+            this.button4.Location = new System.Drawing.Point(221, 124);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(421, 43);
+            this.button4.Size = new System.Drawing.Size(432, 43);
             this.button4.TabIndex = 21;
             this.button4.Text = "AGREGAR PRODUCTO";
             this.button4.UseVisualStyleBackColor = false;
             // 
             // dataGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Menu;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Window;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(30, 169);
+            this.dataGridView1.Location = new System.Drawing.Point(30, 186);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(811, 165);
+            this.dataGridView1.Size = new System.Drawing.Size(848, 165);
             this.dataGridView1.TabIndex = 20;
             // 
             // comboBox3
@@ -417,23 +417,13 @@
             this.label6.TabIndex = 17;
             this.label6.Text = "GENERAR PRESUPUESTO";
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::AplicacionVinos.Properties.Resources.UVASS;
-            this.pictureBox2.Location = new System.Drawing.Point(614, -73);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(463, 609);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox2.TabIndex = 30;
-            this.pictureBox2.TabStop = false;
-            // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::AplicacionVinos.Properties.Resources.UVASS;
             this.pictureBox3.Location = new System.Drawing.Point(614, -281);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(463, 609);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 31;
             this.pictureBox3.TabStop = false;
             // 
@@ -442,17 +432,27 @@
             this.pictureBox1.Image = global::AplicacionVinos.Properties.Resources.UVASS;
             this.pictureBox1.Location = new System.Drawing.Point(-153, -196);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(463, 609);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.Size = new System.Drawing.Size(461, 586);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 32;
             this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::AplicacionVinos.Properties.Resources.UVASS;
+            this.pictureBox2.Location = new System.Drawing.Point(614, -73);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(463, 609);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 30;
+            this.pictureBox2.TabStop = false;
             // 
             // Presupuesto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(10)))), ((int)(((byte)(30)))));
-            this.ClientSize = new System.Drawing.Size(934, 761);
+            this.ClientSize = new System.Drawing.Size(952, 808);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
@@ -464,9 +464,9 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
