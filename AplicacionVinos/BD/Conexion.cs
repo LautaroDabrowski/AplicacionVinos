@@ -56,5 +56,17 @@ namespace AplicacionVinos.BD
                 }
             }
         }
+
+        public void Abrir()
+        {
+            if (ConexionBD.State == ConnectionState.Closed)
+                ConexionBD.Open();
+        }
+
+        public void Cerrar()
+        {
+            if (ConexionBD.State == ConnectionState.Open)
+                ConexionBD.Close();
+        }
     }
 }

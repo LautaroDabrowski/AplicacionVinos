@@ -50,6 +50,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BD\Conexion.cs" />
+    <Compile Include="Config\Funciones.cs" />
+    <Compile Include="Config\Variables.cs" />
     <Compile Include="Validaciones\Validaciones.cs" />
     <Compile Include="Vistas\Administracion.cs">
       <SubType>Form</SubType>
@@ -203,7 +205,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Config\" />
     <Folder Include="Vistas\Imagenes\" />
   </ItemGroup>
   <ItemGroup>

@@ -58,3 +58,4 @@ C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\Aplicacion
 C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.ConfigurarPerfilAdmin.resources
 C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.HistorialVentasCompras.resources
 C:\Users\brenc\OneDrive\Escritorio\Vinitos2\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.EditarCliente.resources
+C:\POO\AplicacionVinos\AplicacionVinos\obj\Debug\AplicacionVinos.Vistas.EditarCliente.resources

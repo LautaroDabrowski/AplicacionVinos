@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.txt_Constraseña = new System.Windows.Forms.TextBox();
+            this.txt_Constrasenia = new System.Windows.Forms.TextBox();
             this.txt_Usuario = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_InicioSesion = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -50,12 +50,22 @@
             this.panel1.Size = new System.Drawing.Size(1328, 220);
             this.panel1.TabIndex = 0;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::AplicacionVinos.Properties.Resources.Logotipo_Vino1;
+            this.pictureBox1.Location = new System.Drawing.Point(202, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(969, 217);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(23)))), ((int)(((byte)(55)))));
-            this.panel2.Controls.Add(this.txt_Constraseña);
+            this.panel2.Controls.Add(this.txt_Constrasenia);
             this.panel2.Controls.Add(this.txt_Usuario);
-            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.btn_InicioSesion);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label1);
@@ -64,14 +74,14 @@
             this.panel2.Size = new System.Drawing.Size(646, 495);
             this.panel2.TabIndex = 1;
             // 
-            // txt_Constraseña
+            // txt_Constrasenia
             // 
-            this.txt_Constraseña.BackColor = System.Drawing.SystemColors.Menu;
-            this.txt_Constraseña.Location = new System.Drawing.Point(63, 276);
-            this.txt_Constraseña.Multiline = true;
-            this.txt_Constraseña.Name = "txt_Constraseña";
-            this.txt_Constraseña.Size = new System.Drawing.Size(522, 36);
-            this.txt_Constraseña.TabIndex = 5;
+            this.txt_Constrasenia.BackColor = System.Drawing.SystemColors.Menu;
+            this.txt_Constrasenia.Location = new System.Drawing.Point(63, 276);
+            this.txt_Constrasenia.Multiline = true;
+            this.txt_Constrasenia.Name = "txt_Constrasenia";
+            this.txt_Constrasenia.Size = new System.Drawing.Size(522, 36);
+            this.txt_Constrasenia.TabIndex = 5;
             // 
             // txt_Usuario
             // 
@@ -82,17 +92,17 @@
             this.txt_Usuario.Size = new System.Drawing.Size(522, 36);
             this.txt_Usuario.TabIndex = 4;
             // 
-            // button1
+            // btn_InicioSesion
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
-            this.button1.Location = new System.Drawing.Point(63, 394);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(522, 55);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Iniciar Sesión";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn_InicioSesion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
+            this.btn_InicioSesion.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_InicioSesion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
+            this.btn_InicioSesion.Location = new System.Drawing.Point(63, 394);
+            this.btn_InicioSesion.Name = "btn_InicioSesion";
+            this.btn_InicioSesion.Size = new System.Drawing.Size(522, 55);
+            this.btn_InicioSesion.TabIndex = 3;
+            this.btn_InicioSesion.Text = "Iniciar Sesión";
+            this.btn_InicioSesion.UseVisualStyleBackColor = false;
             // 
             // label3
             // 
@@ -127,16 +137,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Iniciar Sesión";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::AplicacionVinos.Properties.Resources.Logotipo_Vino1;
-            this.pictureBox1.Location = new System.Drawing.Point(202, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(969, 217);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -147,10 +147,11 @@
             this.Controls.Add(this.panel1);
             this.Name = "Login";
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.Login_Load);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -160,11 +161,11 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TextBox txt_Usuario;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_InicioSesion;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txt_Constraseña;
+        private System.Windows.Forms.TextBox txt_Constrasenia;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

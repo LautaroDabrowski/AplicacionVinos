@@ -32,89 +32,87 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.btn_GenerarPresu = new System.Windows.Forms.Button();
+            this.btn_ModificarStock = new System.Windows.Forms.Button();
+            this.txt_Costo = new System.Windows.Forms.TextBox();
+            this.txt_Ganancia = new System.Windows.Forms.TextBox();
+            this.txt_PrecioVenta = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.txt_SubCat2 = new System.Windows.Forms.TextBox();
+            this.txt_Cat2 = new System.Windows.Forms.TextBox();
+            this.txt_Prove2 = new System.Windows.Forms.TextBox();
+            this.txt_Descrip2 = new System.Windows.Forms.TextBox();
+            this.txt_Stock = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.txt_CodProd2 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.btn_BuscarProd = new System.Windows.Forms.Button();
+            this.txt_Descrip = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_CodProd = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgv_ProdEncontrados = new System.Windows.Forms.DataGridView();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btn_Guardar = new System.Windows.Forms.Button();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.dgv_ProdEncontrado2 = new System.Windows.Forms.DataGridView();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.textBox27 = new System.Windows.Forms.TextBox();
+            this.txt_PrecioVenta2 = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
+            this.txt_Costo3 = new System.Windows.Forms.TextBox();
+            this.txt_Ganancia2 = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.txt_SubCat3 = new System.Windows.Forms.TextBox();
+            this.txt_Cat3 = new System.Windows.Forms.TextBox();
+            this.txt_Prove = new System.Windows.Forms.TextBox();
+            this.txt_Descrip3 = new System.Windows.Forms.TextBox();
+            this.txt_Stock3 = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
-            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.txt_CodProd4 = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.btn_BuscarProd2 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.txt_CodProd3 = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.cb_Cat = new System.Windows.Forms.ComboBox();
+            this.cb_SubCat = new System.Windows.Forms.ComboBox();
+            this.cb_Prove = new System.Windows.Forms.ComboBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_ProdEncontrados)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.groupBox6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            this.groupBox5.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_ProdEncontrado2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
@@ -145,25 +143,25 @@
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(239)))), ((int)(((byte)(225)))));
-            this.groupBox3.Controls.Add(this.button3);
-            this.groupBox3.Controls.Add(this.button2);
-            this.groupBox3.Controls.Add(this.textBox13);
-            this.groupBox3.Controls.Add(this.textBox14);
-            this.groupBox3.Controls.Add(this.textBox15);
+            this.groupBox3.Controls.Add(this.btn_GenerarPresu);
+            this.groupBox3.Controls.Add(this.btn_ModificarStock);
+            this.groupBox3.Controls.Add(this.txt_Costo);
+            this.groupBox3.Controls.Add(this.txt_Ganancia);
+            this.groupBox3.Controls.Add(this.txt_PrecioVenta);
             this.groupBox3.Controls.Add(this.label13);
             this.groupBox3.Controls.Add(this.label14);
             this.groupBox3.Controls.Add(this.label15);
-            this.groupBox3.Controls.Add(this.textBox3);
-            this.groupBox3.Controls.Add(this.textBox8);
-            this.groupBox3.Controls.Add(this.textBox9);
-            this.groupBox3.Controls.Add(this.textBox10);
-            this.groupBox3.Controls.Add(this.textBox11);
+            this.groupBox3.Controls.Add(this.txt_SubCat2);
+            this.groupBox3.Controls.Add(this.txt_Cat2);
+            this.groupBox3.Controls.Add(this.txt_Prove2);
+            this.groupBox3.Controls.Add(this.txt_Descrip2);
+            this.groupBox3.Controls.Add(this.txt_Stock);
             this.groupBox3.Controls.Add(this.label7);
             this.groupBox3.Controls.Add(this.label8);
             this.groupBox3.Controls.Add(this.label9);
             this.groupBox3.Controls.Add(this.label10);
             this.groupBox3.Controls.Add(this.label11);
-            this.groupBox3.Controls.Add(this.textBox12);
+            this.groupBox3.Controls.Add(this.txt_CodProd2);
             this.groupBox3.Controls.Add(this.label12);
             this.groupBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
             this.groupBox3.Location = new System.Drawing.Point(18, 446);
@@ -173,48 +171,48 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Producto Seleccionado";
             // 
-            // button3
+            // btn_GenerarPresu
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(648, 190);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(210, 52);
-            this.button3.TabIndex = 31;
-            this.button3.Text = "Generar Presupuesto";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btn_GenerarPresu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.btn_GenerarPresu.ForeColor = System.Drawing.Color.White;
+            this.btn_GenerarPresu.Location = new System.Drawing.Point(648, 190);
+            this.btn_GenerarPresu.Name = "btn_GenerarPresu";
+            this.btn_GenerarPresu.Size = new System.Drawing.Size(210, 52);
+            this.btn_GenerarPresu.TabIndex = 31;
+            this.btn_GenerarPresu.Text = "Generar Presupuesto";
+            this.btn_GenerarPresu.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btn_ModificarStock
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(418, 190);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(210, 52);
-            this.button2.TabIndex = 14;
-            this.button2.Text = "Modificar Stock";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn_ModificarStock.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.btn_ModificarStock.ForeColor = System.Drawing.Color.White;
+            this.btn_ModificarStock.Location = new System.Drawing.Point(418, 190);
+            this.btn_ModificarStock.Name = "btn_ModificarStock";
+            this.btn_ModificarStock.Size = new System.Drawing.Size(210, 52);
+            this.btn_ModificarStock.TabIndex = 14;
+            this.btn_ModificarStock.Text = "Modificar Stock";
+            this.btn_ModificarStock.UseVisualStyleBackColor = false;
             // 
-            // textBox13
+            // txt_Costo
             // 
-            this.textBox13.Location = new System.Drawing.Point(454, 133);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(192, 34);
-            this.textBox13.TabIndex = 30;
+            this.txt_Costo.Location = new System.Drawing.Point(454, 133);
+            this.txt_Costo.Name = "txt_Costo";
+            this.txt_Costo.Size = new System.Drawing.Size(192, 34);
+            this.txt_Costo.TabIndex = 30;
             // 
-            // textBox14
+            // txt_Ganancia
             // 
-            this.textBox14.Location = new System.Drawing.Point(666, 133);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(192, 34);
-            this.textBox14.TabIndex = 29;
+            this.txt_Ganancia.Location = new System.Drawing.Point(666, 133);
+            this.txt_Ganancia.Name = "txt_Ganancia";
+            this.txt_Ganancia.Size = new System.Drawing.Size(192, 34);
+            this.txt_Ganancia.TabIndex = 29;
             // 
-            // textBox15
+            // txt_PrecioVenta
             // 
-            this.textBox15.Location = new System.Drawing.Point(21, 199);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(192, 34);
-            this.textBox15.TabIndex = 28;
+            this.txt_PrecioVenta.Location = new System.Drawing.Point(21, 199);
+            this.txt_PrecioVenta.Name = "txt_PrecioVenta";
+            this.txt_PrecioVenta.Size = new System.Drawing.Size(192, 34);
+            this.txt_PrecioVenta.TabIndex = 28;
             // 
             // label13
             // 
@@ -222,9 +220,9 @@
             this.label13.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(16, 171);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(56, 25);
+            this.label13.Size = new System.Drawing.Size(109, 25);
             this.label13.TabIndex = 27;
-            this.label13.Text = "Venta";
+            this.label13.Text = "Precio Venta";
             // 
             // label14
             // 
@@ -232,9 +230,9 @@
             this.label14.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(661, 105);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(60, 25);
+            this.label14.Size = new System.Drawing.Size(103, 25);
             this.label14.TabIndex = 26;
-            this.label14.Text = "Precio";
+            this.label14.Text = "% Ganancia";
             // 
             // label15
             // 
@@ -246,40 +244,40 @@
             this.label15.TabIndex = 25;
             this.label15.Text = "Costo";
             // 
-            // textBox3
+            // txt_SubCat2
             // 
-            this.textBox3.Location = new System.Drawing.Point(454, 60);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(192, 34);
-            this.textBox3.TabIndex = 24;
+            this.txt_SubCat2.Location = new System.Drawing.Point(454, 60);
+            this.txt_SubCat2.Name = "txt_SubCat2";
+            this.txt_SubCat2.Size = new System.Drawing.Size(192, 34);
+            this.txt_SubCat2.TabIndex = 24;
             // 
-            // textBox8
+            // txt_Cat2
             // 
-            this.textBox8.Location = new System.Drawing.Point(240, 60);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(192, 34);
-            this.textBox8.TabIndex = 23;
+            this.txt_Cat2.Location = new System.Drawing.Point(240, 60);
+            this.txt_Cat2.Name = "txt_Cat2";
+            this.txt_Cat2.Size = new System.Drawing.Size(192, 34);
+            this.txt_Cat2.TabIndex = 23;
             // 
-            // textBox9
+            // txt_Prove2
             // 
-            this.textBox9.Location = new System.Drawing.Point(666, 60);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(192, 34);
-            this.textBox9.TabIndex = 22;
+            this.txt_Prove2.Location = new System.Drawing.Point(666, 60);
+            this.txt_Prove2.Name = "txt_Prove2";
+            this.txt_Prove2.Size = new System.Drawing.Size(192, 34);
+            this.txt_Prove2.TabIndex = 22;
             // 
-            // textBox10
+            // txt_Descrip2
             // 
-            this.textBox10.Location = new System.Drawing.Point(21, 133);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(192, 34);
-            this.textBox10.TabIndex = 21;
+            this.txt_Descrip2.Location = new System.Drawing.Point(21, 133);
+            this.txt_Descrip2.Name = "txt_Descrip2";
+            this.txt_Descrip2.Size = new System.Drawing.Size(192, 34);
+            this.txt_Descrip2.TabIndex = 21;
             // 
-            // textBox11
+            // txt_Stock
             // 
-            this.textBox11.Location = new System.Drawing.Point(240, 133);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(192, 34);
-            this.textBox11.TabIndex = 20;
+            this.txt_Stock.Location = new System.Drawing.Point(240, 133);
+            this.txt_Stock.Name = "txt_Stock";
+            this.txt_Stock.Size = new System.Drawing.Size(192, 34);
+            this.txt_Stock.TabIndex = 20;
             // 
             // label7
             // 
@@ -331,12 +329,12 @@
             this.label11.TabIndex = 15;
             this.label11.Text = "Categoria";
             // 
-            // textBox12
+            // txt_CodProd2
             // 
-            this.textBox12.Location = new System.Drawing.Point(21, 60);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(192, 34);
-            this.textBox12.TabIndex = 14;
+            this.txt_CodProd2.Location = new System.Drawing.Point(21, 60);
+            this.txt_CodProd2.Name = "txt_CodProd2";
+            this.txt_CodProd2.Size = new System.Drawing.Size(192, 34);
+            this.txt_CodProd2.TabIndex = 14;
             // 
             // label12
             // 
@@ -351,18 +349,16 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(239)))), ((int)(((byte)(225)))));
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.textBox7);
-            this.groupBox1.Controls.Add(this.textBox6);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.cb_Prove);
+            this.groupBox1.Controls.Add(this.cb_SubCat);
+            this.groupBox1.Controls.Add(this.cb_Cat);
+            this.groupBox1.Controls.Add(this.btn_BuscarProd);
+            this.groupBox1.Controls.Add(this.txt_Descrip);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txt_CodProd);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
@@ -373,61 +369,23 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Buscar Producto";
             // 
-            // button1
+            // btn_BuscarProd
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.button1.ForeColor = System.Drawing.Color.FloralWhite;
-            this.button1.Location = new System.Drawing.Point(648, 158);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(188, 53);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "Buscar Producto";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn_BuscarProd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.btn_BuscarProd.ForeColor = System.Drawing.Color.FloralWhite;
+            this.btn_BuscarProd.Location = new System.Drawing.Point(648, 158);
+            this.btn_BuscarProd.Name = "btn_BuscarProd";
+            this.btn_BuscarProd.Size = new System.Drawing.Size(188, 53);
+            this.btn_BuscarProd.TabIndex = 13;
+            this.btn_BuscarProd.Text = "Buscar Producto";
+            this.btn_BuscarProd.UseVisualStyleBackColor = false;
             // 
-            // textBox7
+            // txt_Descrip
             // 
-            this.textBox7.Location = new System.Drawing.Point(22, 123);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(264, 34);
-            this.textBox7.TabIndex = 12;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(309, 59);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(264, 34);
-            this.textBox6.TabIndex = 11;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(309, 123);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(264, 34);
-            this.textBox5.TabIndex = 10;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(22, 186);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(264, 34);
-            this.textBox4.TabIndex = 9;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(309, 186);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(264, 34);
-            this.textBox2.TabIndex = 7;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(304, 158);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(55, 25);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "Stock";
+            this.txt_Descrip.Location = new System.Drawing.Point(22, 186);
+            this.txt_Descrip.Name = "txt_Descrip";
+            this.txt_Descrip.Size = new System.Drawing.Size(264, 34);
+            this.txt_Descrip.TabIndex = 9;
             // 
             // label5
             // 
@@ -469,12 +427,12 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Categoria";
             // 
-            // textBox1
+            // txt_CodProd
             // 
-            this.textBox1.Location = new System.Drawing.Point(22, 59);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(264, 34);
-            this.textBox1.TabIndex = 1;
+            this.txt_CodProd.Location = new System.Drawing.Point(22, 59);
+            this.txt_CodProd.Name = "txt_CodProd";
+            this.txt_CodProd.Size = new System.Drawing.Size(264, 34);
+            this.txt_CodProd.TabIndex = 1;
             // 
             // label1
             // 
@@ -486,10 +444,20 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Código Producto";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(515, -59);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(365, 391);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 14;
+            this.pictureBox1.TabStop = false;
+            // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(239)))), ((int)(((byte)(225)))));
-            this.groupBox2.Controls.Add(this.dataGridView1);
+            this.groupBox2.Controls.Add(this.dgv_ProdEncontrados);
             this.groupBox2.Controls.Add(this.pictureBox8);
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
             this.groupBox2.Location = new System.Drawing.Point(18, 240);
@@ -499,21 +467,31 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Productos Encontrados";
             // 
-            // dataGridView1
+            // dgv_ProdEncontrados
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Window;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(21, 33);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(837, 148);
-            this.dataGridView1.TabIndex = 0;
+            this.dgv_ProdEncontrados.BackgroundColor = System.Drawing.SystemColors.Window;
+            this.dgv_ProdEncontrados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_ProdEncontrados.Location = new System.Drawing.Point(21, 33);
+            this.dgv_ProdEncontrados.Name = "dgv_ProdEncontrados";
+            this.dgv_ProdEncontrados.RowHeadersWidth = 51;
+            this.dgv_ProdEncontrados.RowTemplate.Height = 24;
+            this.dgv_ProdEncontrados.Size = new System.Drawing.Size(837, 148);
+            this.dgv_ProdEncontrados.TabIndex = 0;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(515, -294);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(365, 391);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox8.TabIndex = 15;
+            this.pictureBox8.TabStop = false;
             // 
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(10)))), ((int)(((byte)(30)))));
-            this.tabPage2.Controls.Add(this.button5);
+            this.tabPage2.Controls.Add(this.btn_Guardar);
             this.tabPage2.Controls.Add(this.groupBox6);
             this.tabPage2.Controls.Add(this.groupBox5);
             this.tabPage2.Controls.Add(this.groupBox4);
@@ -524,21 +502,21 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Modificar Producto";
             // 
-            // button5
+            // btn_Guardar
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-            this.button5.Location = new System.Drawing.Point(209, 656);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(521, 44);
-            this.button5.TabIndex = 33;
-            this.button5.Text = "Guardar";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btn_Guardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.btn_Guardar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
+            this.btn_Guardar.Location = new System.Drawing.Point(209, 656);
+            this.btn_Guardar.Name = "btn_Guardar";
+            this.btn_Guardar.Size = new System.Drawing.Size(521, 44);
+            this.btn_Guardar.TabIndex = 33;
+            this.btn_Guardar.Text = "Guardar";
+            this.btn_Guardar.UseVisualStyleBackColor = false;
             // 
             // groupBox6
             // 
             this.groupBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(239)))), ((int)(((byte)(225)))));
-            this.groupBox6.Controls.Add(this.dataGridView2);
+            this.groupBox6.Controls.Add(this.dgv_ProdEncontrado2);
             this.groupBox6.Controls.Add(this.pictureBox4);
             this.groupBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(15)))), ((int)(((byte)(30)))));
             this.groupBox6.Location = new System.Drawing.Point(13, 148);
@@ -548,37 +526,46 @@
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = " Producto Encontrado";
             // 
-            // dataGridView2
+            // dgv_ProdEncontrado2
             // 
-            this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.Window;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(25, 35);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowHeadersWidth = 51;
-            this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(844, 150);
-            this.dataGridView2.TabIndex = 0;
+            this.dgv_ProdEncontrado2.BackgroundColor = System.Drawing.SystemColors.Window;
+            this.dgv_ProdEncontrado2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_ProdEncontrado2.Location = new System.Drawing.Point(25, 35);
+            this.dgv_ProdEncontrado2.Name = "dgv_ProdEncontrado2";
+            this.dgv_ProdEncontrado2.RowHeadersWidth = 51;
+            this.dgv_ProdEncontrado2.RowTemplate.Height = 24;
+            this.dgv_ProdEncontrado2.Size = new System.Drawing.Size(844, 150);
+            this.dgv_ProdEncontrado2.TabIndex = 0;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::AplicacionVinos.Properties.Resources.UVASS;
+            this.pictureBox4.Location = new System.Drawing.Point(578, -188);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(330, 391);
+            this.pictureBox4.TabIndex = 35;
+            this.pictureBox4.TabStop = false;
             // 
             // groupBox5
             // 
             this.groupBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(239)))), ((int)(((byte)(225)))));
-            this.groupBox5.Controls.Add(this.textBox27);
+            this.groupBox5.Controls.Add(this.txt_PrecioVenta2);
             this.groupBox5.Controls.Add(this.label27);
-            this.groupBox5.Controls.Add(this.textBox25);
-            this.groupBox5.Controls.Add(this.textBox26);
+            this.groupBox5.Controls.Add(this.txt_Costo3);
+            this.groupBox5.Controls.Add(this.txt_Ganancia2);
             this.groupBox5.Controls.Add(this.label25);
             this.groupBox5.Controls.Add(this.label26);
-            this.groupBox5.Controls.Add(this.textBox19);
-            this.groupBox5.Controls.Add(this.textBox20);
-            this.groupBox5.Controls.Add(this.textBox21);
-            this.groupBox5.Controls.Add(this.textBox22);
-            this.groupBox5.Controls.Add(this.textBox23);
+            this.groupBox5.Controls.Add(this.txt_SubCat3);
+            this.groupBox5.Controls.Add(this.txt_Cat3);
+            this.groupBox5.Controls.Add(this.txt_Prove);
+            this.groupBox5.Controls.Add(this.txt_Descrip3);
+            this.groupBox5.Controls.Add(this.txt_Stock3);
             this.groupBox5.Controls.Add(this.label19);
             this.groupBox5.Controls.Add(this.label20);
             this.groupBox5.Controls.Add(this.label21);
             this.groupBox5.Controls.Add(this.label22);
             this.groupBox5.Controls.Add(this.label23);
-            this.groupBox5.Controls.Add(this.textBox24);
+            this.groupBox5.Controls.Add(this.txt_CodProd4);
             this.groupBox5.Controls.Add(this.label24);
             this.groupBox5.Controls.Add(this.pictureBox5);
             this.groupBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(15)))), ((int)(((byte)(30)))));
@@ -589,12 +576,12 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Editar Producto";
             // 
-            // textBox27
+            // txt_PrecioVenta2
             // 
-            this.textBox27.Location = new System.Drawing.Point(598, 227);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(264, 34);
-            this.textBox27.TabIndex = 36;
+            this.txt_PrecioVenta2.Location = new System.Drawing.Point(598, 227);
+            this.txt_PrecioVenta2.Name = "txt_PrecioVenta2";
+            this.txt_PrecioVenta2.Size = new System.Drawing.Size(264, 34);
+            this.txt_PrecioVenta2.TabIndex = 36;
             // 
             // label27
             // 
@@ -602,23 +589,23 @@
             this.label27.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.Location = new System.Drawing.Point(593, 199);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(56, 25);
+            this.label27.Size = new System.Drawing.Size(109, 25);
             this.label27.TabIndex = 35;
-            this.label27.Text = "Venta";
+            this.label27.Text = "Precio Venta";
             // 
-            // textBox25
+            // txt_Costo3
             // 
-            this.textBox25.Location = new System.Drawing.Point(25, 227);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(264, 34);
-            this.textBox25.TabIndex = 34;
+            this.txt_Costo3.Location = new System.Drawing.Point(25, 227);
+            this.txt_Costo3.Name = "txt_Costo3";
+            this.txt_Costo3.Size = new System.Drawing.Size(264, 34);
+            this.txt_Costo3.TabIndex = 34;
             // 
-            // textBox26
+            // txt_Ganancia2
             // 
-            this.textBox26.Location = new System.Drawing.Point(312, 227);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(264, 34);
-            this.textBox26.TabIndex = 33;
+            this.txt_Ganancia2.Location = new System.Drawing.Point(312, 227);
+            this.txt_Ganancia2.Name = "txt_Ganancia2";
+            this.txt_Ganancia2.Size = new System.Drawing.Size(264, 34);
+            this.txt_Ganancia2.TabIndex = 33;
             // 
             // label25
             // 
@@ -626,9 +613,9 @@
             this.label25.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.Location = new System.Drawing.Point(307, 199);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(60, 25);
+            this.label25.Size = new System.Drawing.Size(103, 25);
             this.label25.TabIndex = 32;
-            this.label25.Text = "Precio";
+            this.label25.Text = "% Ganancia";
             // 
             // label26
             // 
@@ -640,40 +627,40 @@
             this.label26.TabIndex = 31;
             this.label26.Text = "Costo";
             // 
-            // textBox19
+            // txt_SubCat3
             // 
-            this.textBox19.Location = new System.Drawing.Point(598, 76);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(264, 34);
-            this.textBox19.TabIndex = 24;
+            this.txt_SubCat3.Location = new System.Drawing.Point(598, 76);
+            this.txt_SubCat3.Name = "txt_SubCat3";
+            this.txt_SubCat3.Size = new System.Drawing.Size(264, 34);
+            this.txt_SubCat3.TabIndex = 24;
             // 
-            // textBox20
+            // txt_Cat3
             // 
-            this.textBox20.Location = new System.Drawing.Point(312, 76);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(264, 34);
-            this.textBox20.TabIndex = 23;
+            this.txt_Cat3.Location = new System.Drawing.Point(312, 76);
+            this.txt_Cat3.Name = "txt_Cat3";
+            this.txt_Cat3.Size = new System.Drawing.Size(264, 34);
+            this.txt_Cat3.TabIndex = 23;
             // 
-            // textBox21
+            // txt_Prove
             // 
-            this.textBox21.Location = new System.Drawing.Point(25, 152);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(264, 34);
-            this.textBox21.TabIndex = 22;
+            this.txt_Prove.Location = new System.Drawing.Point(25, 152);
+            this.txt_Prove.Name = "txt_Prove";
+            this.txt_Prove.Size = new System.Drawing.Size(264, 34);
+            this.txt_Prove.TabIndex = 22;
             // 
-            // textBox22
+            // txt_Descrip3
             // 
-            this.textBox22.Location = new System.Drawing.Point(312, 152);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(264, 34);
-            this.textBox22.TabIndex = 21;
+            this.txt_Descrip3.Location = new System.Drawing.Point(312, 152);
+            this.txt_Descrip3.Name = "txt_Descrip3";
+            this.txt_Descrip3.Size = new System.Drawing.Size(264, 34);
+            this.txt_Descrip3.TabIndex = 21;
             // 
-            // textBox23
+            // txt_Stock3
             // 
-            this.textBox23.Location = new System.Drawing.Point(598, 152);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(264, 34);
-            this.textBox23.TabIndex = 20;
+            this.txt_Stock3.Location = new System.Drawing.Point(598, 152);
+            this.txt_Stock3.Name = "txt_Stock3";
+            this.txt_Stock3.Size = new System.Drawing.Size(264, 34);
+            this.txt_Stock3.TabIndex = 20;
             // 
             // label19
             // 
@@ -725,12 +712,12 @@
             this.label23.TabIndex = 15;
             this.label23.Text = "Categoria";
             // 
-            // textBox24
+            // txt_CodProd4
             // 
-            this.textBox24.Location = new System.Drawing.Point(25, 76);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(264, 34);
-            this.textBox24.TabIndex = 14;
+            this.txt_CodProd4.Location = new System.Drawing.Point(25, 76);
+            this.txt_CodProd4.Name = "txt_CodProd4";
+            this.txt_CodProd4.Size = new System.Drawing.Size(264, 34);
+            this.txt_CodProd4.TabIndex = 14;
             // 
             // label24
             // 
@@ -742,12 +729,21 @@
             this.label24.TabIndex = 13;
             this.label24.Text = "Código Producto";
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::AplicacionVinos.Properties.Resources.UVASS;
+            this.pictureBox5.Location = new System.Drawing.Point(578, -397);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(328, 598);
+            this.pictureBox5.TabIndex = 36;
+            this.pictureBox5.TabStop = false;
+            // 
             // groupBox4
             // 
             this.groupBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(239)))), ((int)(((byte)(225)))));
-            this.groupBox4.Controls.Add(this.button4);
+            this.groupBox4.Controls.Add(this.btn_BuscarProd2);
             this.groupBox4.Controls.Add(this.pictureBox3);
-            this.groupBox4.Controls.Add(this.textBox18);
+            this.groupBox4.Controls.Add(this.txt_CodProd3);
             this.groupBox4.Controls.Add(this.label18);
             this.groupBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(15)))), ((int)(((byte)(30)))));
             this.groupBox4.Location = new System.Drawing.Point(13, 10);
@@ -758,23 +754,32 @@
             this.groupBox4.Text = "Buscar Producto ";
             this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
             // 
-            // button4
+            // btn_BuscarProd2
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(635, 52);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(210, 44);
-            this.button4.TabIndex = 32;
-            this.button4.Text = "Buscar Producto";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btn_BuscarProd2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.btn_BuscarProd2.ForeColor = System.Drawing.Color.White;
+            this.btn_BuscarProd2.Location = new System.Drawing.Point(635, 52);
+            this.btn_BuscarProd2.Name = "btn_BuscarProd2";
+            this.btn_BuscarProd2.Size = new System.Drawing.Size(210, 44);
+            this.btn_BuscarProd2.TabIndex = 32;
+            this.btn_BuscarProd2.Text = "Buscar Producto";
+            this.btn_BuscarProd2.UseVisualStyleBackColor = false;
             // 
-            // textBox18
+            // pictureBox3
             // 
-            this.textBox18.Location = new System.Drawing.Point(25, 66);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(526, 34);
-            this.textBox18.TabIndex = 14;
+            this.pictureBox3.Image = global::AplicacionVinos.Properties.Resources.UVASS;
+            this.pictureBox3.Location = new System.Drawing.Point(578, -57);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(314, 258);
+            this.pictureBox3.TabIndex = 34;
+            this.pictureBox3.TabStop = false;
+            // 
+            // txt_CodProd3
+            // 
+            this.txt_CodProd3.Location = new System.Drawing.Point(25, 66);
+            this.txt_CodProd3.Name = "txt_CodProd3";
+            this.txt_CodProd3.Size = new System.Drawing.Size(526, 34);
+            this.txt_CodProd3.TabIndex = 14;
             // 
             // label18
             // 
@@ -786,52 +791,32 @@
             this.label18.TabIndex = 13;
             this.label18.Text = "Código Producto";
             // 
-            // pictureBox1
+            // cb_Cat
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(515, -59);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(365, 391);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 14;
-            this.pictureBox1.TabStop = false;
+            this.cb_Cat.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cb_Cat.FormattingEnabled = true;
+            this.cb_Cat.Location = new System.Drawing.Point(309, 60);
+            this.cb_Cat.Name = "cb_Cat";
+            this.cb_Cat.Size = new System.Drawing.Size(264, 33);
+            this.cb_Cat.TabIndex = 15;
             // 
-            // pictureBox8
+            // cb_SubCat
             // 
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(515, -294);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(365, 391);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox8.TabIndex = 15;
-            this.pictureBox8.TabStop = false;
+            this.cb_SubCat.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cb_SubCat.FormattingEnabled = true;
+            this.cb_SubCat.Location = new System.Drawing.Point(22, 122);
+            this.cb_SubCat.Name = "cb_SubCat";
+            this.cb_SubCat.Size = new System.Drawing.Size(264, 33);
+            this.cb_SubCat.TabIndex = 16;
             // 
-            // pictureBox4
+            // cb_Prove
             // 
-            this.pictureBox4.Image = global::AplicacionVinos.Properties.Resources.UVASS;
-            this.pictureBox4.Location = new System.Drawing.Point(578, -188);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(330, 391);
-            this.pictureBox4.TabIndex = 35;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::AplicacionVinos.Properties.Resources.UVASS;
-            this.pictureBox5.Location = new System.Drawing.Point(578, -397);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(328, 598);
-            this.pictureBox5.TabIndex = 36;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::AplicacionVinos.Properties.Resources.UVASS;
-            this.pictureBox3.Location = new System.Drawing.Point(578, -57);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(314, 258);
-            this.pictureBox3.TabIndex = 34;
-            this.pictureBox3.TabStop = false;
+            this.cb_Prove.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cb_Prove.FormattingEnabled = true;
+            this.cb_Prove.Location = new System.Drawing.Point(309, 123);
+            this.cb_Prove.Name = "cb_Prove";
+            this.cb_Prove.Size = new System.Drawing.Size(264, 33);
+            this.cb_Prove.TabIndex = 17;
             // 
             // Productos
             // 
@@ -849,19 +834,19 @@
             this.groupBox3.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_ProdEncontrados)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_ProdEncontrado2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
@@ -874,71 +859,69 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_CodProd;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.Button btn_BuscarProd;
+        private System.Windows.Forms.TextBox txt_Descrip;
+        private System.Windows.Forms.DataGridView dgv_ProdEncontrados;
+        private System.Windows.Forms.TextBox txt_Costo;
+        private System.Windows.Forms.TextBox txt_Ganancia;
+        private System.Windows.Forms.TextBox txt_PrecioVenta;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox txt_SubCat2;
+        private System.Windows.Forms.TextBox txt_Cat2;
+        private System.Windows.Forms.TextBox txt_Prove2;
+        private System.Windows.Forms.TextBox txt_Descrip2;
+        private System.Windows.Forms.TextBox txt_Stock;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox txt_CodProd2;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_GenerarPresu;
+        private System.Windows.Forms.Button btn_ModificarStock;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btn_Guardar;
         private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridView dgv_ProdEncontrado2;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.TextBox textBox27;
+        private System.Windows.Forms.TextBox txt_PrecioVenta2;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox26;
+        private System.Windows.Forms.TextBox txt_Costo3;
+        private System.Windows.Forms.TextBox txt_Ganancia2;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox23;
+        private System.Windows.Forms.TextBox txt_SubCat3;
+        private System.Windows.Forms.TextBox txt_Cat3;
+        private System.Windows.Forms.TextBox txt_Prove;
+        private System.Windows.Forms.TextBox txt_Descrip3;
+        private System.Windows.Forms.TextBox txt_Stock3;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.TextBox txt_CodProd4;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.Button btn_BuscarProd2;
+        private System.Windows.Forms.TextBox txt_CodProd3;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.ComboBox cb_SubCat;
+        private System.Windows.Forms.ComboBox cb_Cat;
+        private System.Windows.Forms.ComboBox cb_Prove;
     }
 }

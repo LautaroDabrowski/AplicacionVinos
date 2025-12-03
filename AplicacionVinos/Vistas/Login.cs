@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AplicacionVinos.Config;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,14 @@ namespace AplicacionVinos.Vistas
         public Login()
         {
             InitializeComponent();
+
+            Validaciones.(txt_Usuario);
+            Validaciones.(txt_Contraseña);
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

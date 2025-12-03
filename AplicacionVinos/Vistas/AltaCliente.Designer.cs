@@ -29,27 +29,27 @@
         private void InitializeComponent()
         {
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.btn_Editar = new System.Windows.Forms.Button();
+            this.txt_DNI = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.cb_Estado = new System.Windows.Forms.ComboBox();
+            this.txt_Telefono = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.txt_Correo = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txt_RS = new System.Windows.Forms.TextBox();
+            this.txt_Nombres = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_Apellido = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
+            this.txt_Direccion = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btn_Cancelar = new System.Windows.Forms.Button();
+            this.btn_Agregar = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox2.SuspendLayout();
@@ -62,23 +62,23 @@
             // 
             this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(239)))), ((int)(((byte)(225)))));
             this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.button3);
-            this.groupBox2.Controls.Add(this.textBox5);
+            this.groupBox2.Controls.Add(this.btn_Editar);
+            this.groupBox2.Controls.Add(this.txt_DNI);
             this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Controls.Add(this.comboBox1);
-            this.groupBox2.Controls.Add(this.textBox6);
+            this.groupBox2.Controls.Add(this.cb_Estado);
+            this.groupBox2.Controls.Add(this.txt_Telefono);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.textBox12);
+            this.groupBox2.Controls.Add(this.txt_Correo);
             this.groupBox2.Controls.Add(this.label12);
             this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.textBox3);
-            this.groupBox2.Controls.Add(this.textBox2);
+            this.groupBox2.Controls.Add(this.txt_RS);
+            this.groupBox2.Controls.Add(this.txt_Nombres);
             this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.textBox1);
+            this.groupBox2.Controls.Add(this.txt_Apellido);
             this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Controls.Add(this.textBox4);
+            this.groupBox2.Controls.Add(this.txt_Direccion);
             this.groupBox2.Controls.Add(this.pictureBox2);
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
@@ -88,24 +88,33 @@
             this.groupBox2.TabIndex = 15;
             this.groupBox2.TabStop = false;
             // 
-            // button3
+            // label8
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(285, 21);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(174, 37);
-            this.button3.TabIndex = 37;
-            this.button3.Text = "Editar Cliente";
-            this.button3.UseVisualStyleBackColor = false;
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(13, 8);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(160, 28);
+            this.label8.TabIndex = 40;
+            this.label8.Text = "Datos del Cliente";
             // 
-            // textBox5
+            // btn_Editar
             // 
-            this.textBox5.Location = new System.Drawing.Point(18, 233);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(441, 34);
-            this.textBox5.TabIndex = 19;
+            this.btn_Editar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.btn_Editar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Editar.ForeColor = System.Drawing.Color.White;
+            this.btn_Editar.Location = new System.Drawing.Point(285, 21);
+            this.btn_Editar.Name = "btn_Editar";
+            this.btn_Editar.Size = new System.Drawing.Size(174, 37);
+            this.btn_Editar.TabIndex = 37;
+            this.btn_Editar.Text = "Editar Cliente";
+            this.btn_Editar.UseVisualStyleBackColor = false;
+            // 
+            // txt_DNI
+            // 
+            this.txt_DNI.Location = new System.Drawing.Point(18, 233);
+            this.txt_DNI.Name = "txt_DNI";
+            this.txt_DNI.Size = new System.Drawing.Size(441, 34);
+            this.txt_DNI.TabIndex = 19;
             // 
             // label7
             // 
@@ -116,20 +125,20 @@
             this.label7.TabIndex = 18;
             this.label7.Text = "DNI";
             // 
-            // comboBox1
+            // cb_Estado
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(18, 616);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(441, 36);
-            this.comboBox1.TabIndex = 17;
+            this.cb_Estado.FormattingEnabled = true;
+            this.cb_Estado.Location = new System.Drawing.Point(18, 616);
+            this.cb_Estado.Name = "cb_Estado";
+            this.cb_Estado.Size = new System.Drawing.Size(441, 36);
+            this.cb_Estado.TabIndex = 17;
             // 
-            // textBox6
+            // txt_Telefono
             // 
-            this.textBox6.Location = new System.Drawing.Point(18, 386);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(441, 34);
-            this.textBox6.TabIndex = 16;
+            this.txt_Telefono.Location = new System.Drawing.Point(18, 386);
+            this.txt_Telefono.Name = "txt_Telefono";
+            this.txt_Telefono.Size = new System.Drawing.Size(441, 34);
+            this.txt_Telefono.TabIndex = 16;
             // 
             // label6
             // 
@@ -158,19 +167,12 @@
             this.label4.TabIndex = 12;
             this.label4.Text = "Razón Social";
             // 
-            // textBox4
+            // txt_Correo
             // 
-            this.textBox4.Location = new System.Drawing.Point(18, 465);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(441, 34);
-            this.textBox4.TabIndex = 11;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(18, 309);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(441, 34);
-            this.textBox12.TabIndex = 10;
+            this.txt_Correo.Location = new System.Drawing.Point(18, 309);
+            this.txt_Correo.Name = "txt_Correo";
+            this.txt_Correo.Size = new System.Drawing.Size(441, 34);
+            this.txt_Correo.TabIndex = 10;
             // 
             // label12
             // 
@@ -191,19 +193,19 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Dirección";
             // 
-            // textBox3
+            // txt_RS
             // 
-            this.textBox3.Location = new System.Drawing.Point(18, 543);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(441, 34);
-            this.textBox3.TabIndex = 4;
+            this.txt_RS.Location = new System.Drawing.Point(18, 543);
+            this.txt_RS.Name = "txt_RS";
+            this.txt_RS.Size = new System.Drawing.Size(441, 34);
+            this.txt_RS.TabIndex = 4;
             // 
-            // textBox2
+            // txt_Nombres
             // 
-            this.textBox2.Location = new System.Drawing.Point(17, 156);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(440, 34);
-            this.textBox2.TabIndex = 3;
+            this.txt_Nombres.Location = new System.Drawing.Point(17, 156);
+            this.txt_Nombres.Name = "txt_Nombres";
+            this.txt_Nombres.Size = new System.Drawing.Size(440, 34);
+            this.txt_Nombres.TabIndex = 3;
             // 
             // label2
             // 
@@ -214,12 +216,12 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Nombres";
             // 
-            // textBox1
+            // txt_Apellido
             // 
-            this.textBox1.Location = new System.Drawing.Point(17, 80);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(440, 34);
-            this.textBox1.TabIndex = 1;
+            this.txt_Apellido.Location = new System.Drawing.Point(17, 80);
+            this.txt_Apellido.Name = "txt_Apellido";
+            this.txt_Apellido.Size = new System.Drawing.Size(440, 34);
+            this.txt_Apellido.TabIndex = 1;
             // 
             // label1
             // 
@@ -230,38 +232,12 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Apellido ";
             // 
-            // button2
+            // txt_Direccion
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(534, 617);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(360, 46);
-            this.button2.TabIndex = 35;
-            this.button2.Text = "Cancelar";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(534, 542);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(360, 46);
-            this.button1.TabIndex = 34;
-            this.button1.Text = "Agregar Cliente";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(13, 8);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(160, 28);
-            this.label8.TabIndex = 40;
-            this.label8.Text = "Datos del Cliente";
+            this.txt_Direccion.Location = new System.Drawing.Point(18, 465);
+            this.txt_Direccion.Name = "txt_Direccion";
+            this.txt_Direccion.Size = new System.Drawing.Size(441, 34);
+            this.txt_Direccion.TabIndex = 11;
             // 
             // pictureBox2
             // 
@@ -271,6 +247,30 @@
             this.pictureBox2.Size = new System.Drawing.Size(480, 671);
             this.pictureBox2.TabIndex = 41;
             this.pictureBox2.TabStop = false;
+            // 
+            // btn_Cancelar
+            // 
+            this.btn_Cancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.btn_Cancelar.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Cancelar.ForeColor = System.Drawing.Color.White;
+            this.btn_Cancelar.Location = new System.Drawing.Point(534, 617);
+            this.btn_Cancelar.Name = "btn_Cancelar";
+            this.btn_Cancelar.Size = new System.Drawing.Size(360, 46);
+            this.btn_Cancelar.TabIndex = 35;
+            this.btn_Cancelar.Text = "Cancelar";
+            this.btn_Cancelar.UseVisualStyleBackColor = false;
+            // 
+            // btn_Agregar
+            // 
+            this.btn_Agregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.btn_Agregar.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Agregar.ForeColor = System.Drawing.Color.White;
+            this.btn_Agregar.Location = new System.Drawing.Point(534, 542);
+            this.btn_Agregar.Name = "btn_Agregar";
+            this.btn_Agregar.Size = new System.Drawing.Size(360, 46);
+            this.btn_Agregar.TabIndex = 34;
+            this.btn_Agregar.Text = "Agregar Cliente";
+            this.btn_Agregar.UseVisualStyleBackColor = false;
             // 
             // pictureBox3
             // 
@@ -298,8 +298,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
             this.ClientSize = new System.Drawing.Size(928, 695);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_Cancelar);
+            this.Controls.Add(this.btn_Agregar);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox3);
@@ -318,25 +318,25 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txt_DNI;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.ComboBox cb_Estado;
+        private System.Windows.Forms.TextBox txt_Telefono;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox txt_Direccion;
+        private System.Windows.Forms.TextBox txt_Correo;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txt_RS;
+        private System.Windows.Forms.TextBox txt_Nombres;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_Apellido;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btn_Cancelar;
+        private System.Windows.Forms.Button btn_Agregar;
+        private System.Windows.Forms.Button btn_Editar;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
