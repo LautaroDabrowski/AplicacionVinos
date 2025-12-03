@@ -32,29 +32,29 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_Email = new System.Windows.Forms.TextBox();
+            this.btn_AgregarProv = new System.Windows.Forms.Button();
+            this.txt_Direcc = new System.Windows.Forms.TextBox();
+            this.txt_Tel = new System.Windows.Forms.TextBox();
+            this.txt_Cuit_Cuil = new System.Windows.Forms.TextBox();
+            this.txt_RSocial = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button2 = new System.Windows.Forms.Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.dgv_AgrProv = new System.Windows.Forms.DataGridView();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btn_GuardarProv = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_AgrProv)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -82,12 +82,12 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(239)))), ((int)(((byte)(225)))));
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txt_Email);
+            this.groupBox1.Controls.Add(this.btn_AgregarProv);
+            this.groupBox1.Controls.Add(this.txt_Direcc);
+            this.groupBox1.Controls.Add(this.txt_Tel);
+            this.groupBox1.Controls.Add(this.txt_Cuit_Cuil);
+            this.groupBox1.Controls.Add(this.txt_RSocial);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
@@ -104,62 +104,62 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos del Proveedor";
             // 
-            // textBox5
+            // txt_Email
             // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox5.Location = new System.Drawing.Point(300, 156);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(264, 35);
-            this.textBox5.TabIndex = 10;
+            this.txt_Email.BackColor = System.Drawing.SystemColors.Window;
+            this.txt_Email.Location = new System.Drawing.Point(300, 156);
+            this.txt_Email.Multiline = true;
+            this.txt_Email.Name = "txt_Email";
+            this.txt_Email.Size = new System.Drawing.Size(264, 35);
+            this.txt_Email.TabIndex = 10;
             // 
-            // button1
+            // btn_AgregarProv
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(584, 153);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(272, 41);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Agregar Proveedor";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn_AgregarProv.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.btn_AgregarProv.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_AgregarProv.ForeColor = System.Drawing.Color.White;
+            this.btn_AgregarProv.Location = new System.Drawing.Point(584, 153);
+            this.btn_AgregarProv.Name = "btn_AgregarProv";
+            this.btn_AgregarProv.Size = new System.Drawing.Size(272, 41);
+            this.btn_AgregarProv.TabIndex = 6;
+            this.btn_AgregarProv.Text = "Agregar Proveedor";
+            this.btn_AgregarProv.UseVisualStyleBackColor = false;
             // 
-            // textBox4
+            // txt_Direcc
             // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox4.Location = new System.Drawing.Point(16, 156);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(264, 35);
-            this.textBox4.TabIndex = 9;
+            this.txt_Direcc.BackColor = System.Drawing.SystemColors.Window;
+            this.txt_Direcc.Location = new System.Drawing.Point(16, 156);
+            this.txt_Direcc.Multiline = true;
+            this.txt_Direcc.Name = "txt_Direcc";
+            this.txt_Direcc.Size = new System.Drawing.Size(264, 35);
+            this.txt_Direcc.TabIndex = 9;
             // 
-            // textBox3
+            // txt_Tel
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox3.Location = new System.Drawing.Point(583, 82);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(264, 35);
-            this.textBox3.TabIndex = 8;
+            this.txt_Tel.BackColor = System.Drawing.SystemColors.Window;
+            this.txt_Tel.Location = new System.Drawing.Point(583, 82);
+            this.txt_Tel.Multiline = true;
+            this.txt_Tel.Name = "txt_Tel";
+            this.txt_Tel.Size = new System.Drawing.Size(264, 35);
+            this.txt_Tel.TabIndex = 8;
             // 
-            // textBox2
+            // txt_Cuit_Cuil
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox2.Location = new System.Drawing.Point(300, 82);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(264, 35);
-            this.textBox2.TabIndex = 7;
+            this.txt_Cuit_Cuil.BackColor = System.Drawing.SystemColors.Window;
+            this.txt_Cuit_Cuil.Location = new System.Drawing.Point(300, 82);
+            this.txt_Cuit_Cuil.Multiline = true;
+            this.txt_Cuit_Cuil.Name = "txt_Cuit_Cuil";
+            this.txt_Cuit_Cuil.Size = new System.Drawing.Size(264, 35);
+            this.txt_Cuit_Cuil.TabIndex = 7;
             // 
-            // textBox1
+            // txt_RSocial
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox1.Location = new System.Drawing.Point(16, 82);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(264, 35);
-            this.textBox1.TabIndex = 6;
+            this.txt_RSocial.BackColor = System.Drawing.SystemColors.Window;
+            this.txt_RSocial.Location = new System.Drawing.Point(16, 82);
+            this.txt_RSocial.Multiline = true;
+            this.txt_RSocial.Name = "txt_RSocial";
+            this.txt_RSocial.Size = new System.Drawing.Size(264, 35);
+            this.txt_RSocial.TabIndex = 6;
             // 
             // label7
             // 
@@ -220,11 +220,21 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Razon Social ";
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(605, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(317, 287);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox3.TabIndex = 11;
+            this.pictureBox3.TabStop = false;
+            // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(239)))), ((int)(((byte)(225)))));
             this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.dataGridView1);
+            this.groupBox2.Controls.Add(this.dgv_AgrProv);
             this.groupBox2.Controls.Add(this.pictureBox1);
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
@@ -247,38 +257,16 @@
     "fique los campos en la parte superior, luego presione el boton \"Guardar Proveedo" +
     "r\")";
             // 
-            // dataGridView1
+            // dgv_AgrProv
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Window;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(16, 32);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(840, 130);
-            this.dataGridView1.TabIndex = 0;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(294, 500);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(330, 39);
-            this.button2.TabIndex = 13;
-            this.button2.Text = "Guardar Proveedor ";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(605, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(317, 287);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox3.TabIndex = 11;
-            this.pictureBox3.TabStop = false;
+            this.dgv_AgrProv.BackgroundColor = System.Drawing.SystemColors.Window;
+            this.dgv_AgrProv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_AgrProv.Location = new System.Drawing.Point(16, 32);
+            this.dgv_AgrProv.Name = "dgv_AgrProv";
+            this.dgv_AgrProv.RowHeadersWidth = 51;
+            this.dgv_AgrProv.RowTemplate.Height = 24;
+            this.dgv_AgrProv.Size = new System.Drawing.Size(840, 130);
+            this.dgv_AgrProv.TabIndex = 0;
             // 
             // pictureBox1
             // 
@@ -290,12 +278,24 @@
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             // 
+            // btn_GuardarProv
+            // 
+            this.btn_GuardarProv.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.btn_GuardarProv.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_GuardarProv.ForeColor = System.Drawing.Color.White;
+            this.btn_GuardarProv.Location = new System.Drawing.Point(294, 500);
+            this.btn_GuardarProv.Name = "btn_GuardarProv";
+            this.btn_GuardarProv.Size = new System.Drawing.Size(330, 39);
+            this.btn_GuardarProv.TabIndex = 13;
+            this.btn_GuardarProv.Text = "Guardar Proveedor ";
+            this.btn_GuardarProv.UseVisualStyleBackColor = false;
+            // 
             // AltaProveedor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btn_GuardarProv);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
             this.Name = "AltaProveedor";
@@ -304,10 +304,10 @@
             this.panel1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_AgrProv)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -319,12 +319,12 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_Email;
+        private System.Windows.Forms.Button btn_AgregarProv;
+        private System.Windows.Forms.TextBox txt_Direcc;
+        private System.Windows.Forms.TextBox txt_Tel;
+        private System.Windows.Forms.TextBox txt_Cuit_Cuil;
+        private System.Windows.Forms.TextBox txt_RSocial;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
@@ -332,8 +332,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.DataGridView dgv_AgrProv;
+        private System.Windows.Forms.Button btn_GuardarProv;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox1;

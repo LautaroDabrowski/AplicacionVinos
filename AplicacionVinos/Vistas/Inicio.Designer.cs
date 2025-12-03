@@ -29,52 +29,52 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btn_Presupuesto = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_Productos = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btn_Ventas = new System.Windows.Forms.Button();
+            this.btn_Movimientos = new System.Windows.Forms.Button();
+            this.btn_Compras = new System.Windows.Forms.Button();
+            this.btn_CerrarSesion = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.PanelForms = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.PanelForms.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(26)))), ((int)(((byte)(63)))));
-            this.panel1.Controls.Add(this.button7);
+            this.panel1.Controls.Add(this.btn_Presupuesto);
             this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btn_Productos);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.btn_Ventas);
+            this.panel1.Controls.Add(this.btn_Movimientos);
+            this.panel1.Controls.Add(this.btn_Compras);
             this.panel1.Location = new System.Drawing.Point(14, 15);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(338, 670);
             this.panel1.TabIndex = 9;
             // 
-            // button7
+            // btn_Presupuesto
             // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
-            this.button7.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
-            this.button7.Location = new System.Drawing.Point(8, 566);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(322, 90);
-            this.button7.TabIndex = 26;
-            this.button7.Text = "PRESUPUESTO";
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.btn_Presupuesto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
+            this.btn_Presupuesto.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Presupuesto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
+            this.btn_Presupuesto.Location = new System.Drawing.Point(8, 566);
+            this.btn_Presupuesto.Name = "btn_Presupuesto";
+            this.btn_Presupuesto.Size = new System.Drawing.Size(322, 90);
+            this.btn_Presupuesto.TabIndex = 26;
+            this.btn_Presupuesto.Text = "PRESUPUESTO";
+            this.btn_Presupuesto.UseVisualStyleBackColor = false;
+            this.btn_Presupuesto.Click += new System.EventHandler(this.button7_Click);
             // 
             // button5
             // 
@@ -89,18 +89,18 @@
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // button1
+            // btn_Productos
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
-            this.button1.Location = new System.Drawing.Point(8, 63);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(322, 90);
-            this.button1.TabIndex = 21;
-            this.button1.Text = "PRODUCTOS";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_Productos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
+            this.btn_Productos.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Productos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
+            this.btn_Productos.Location = new System.Drawing.Point(8, 63);
+            this.btn_Productos.Name = "btn_Productos";
+            this.btn_Productos.Size = new System.Drawing.Size(322, 90);
+            this.btn_Productos.TabIndex = 21;
+            this.btn_Productos.Text = "PRODUCTOS";
+            this.btn_Productos.UseVisualStyleBackColor = false;
+            this.btn_Productos.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -113,66 +113,77 @@
             this.label1.TabIndex = 16;
             this.label1.Text = "MENÚ";
             // 
-            // button3
+            // btn_Ventas
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
-            this.button3.Location = new System.Drawing.Point(8, 265);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(322, 90);
-            this.button3.TabIndex = 23;
-            this.button3.Text = "VENTAS";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btn_Ventas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
+            this.btn_Ventas.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Ventas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
+            this.btn_Ventas.Location = new System.Drawing.Point(8, 265);
+            this.btn_Ventas.Name = "btn_Ventas";
+            this.btn_Ventas.Size = new System.Drawing.Size(322, 90);
+            this.btn_Ventas.TabIndex = 23;
+            this.btn_Ventas.Text = "VENTAS";
+            this.btn_Ventas.UseVisualStyleBackColor = false;
+            this.btn_Ventas.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
+            // btn_Movimientos
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
-            this.button4.Location = new System.Drawing.Point(8, 365);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(322, 90);
-            this.button4.TabIndex = 24;
-            this.button4.Text = "MOVIMIENTOS";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btn_Movimientos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
+            this.btn_Movimientos.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Movimientos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
+            this.btn_Movimientos.Location = new System.Drawing.Point(8, 365);
+            this.btn_Movimientos.Name = "btn_Movimientos";
+            this.btn_Movimientos.Size = new System.Drawing.Size(322, 90);
+            this.btn_Movimientos.TabIndex = 24;
+            this.btn_Movimientos.Text = "MOVIMIENTOS";
+            this.btn_Movimientos.UseVisualStyleBackColor = false;
+            this.btn_Movimientos.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button2
+            // btn_Compras
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
-            this.button2.Location = new System.Drawing.Point(8, 164);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(322, 90);
-            this.button2.TabIndex = 22;
-            this.button2.Text = "COMPRAS";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btn_Compras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
+            this.btn_Compras.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Compras.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
+            this.btn_Compras.Location = new System.Drawing.Point(8, 164);
+            this.btn_Compras.Name = "btn_Compras";
+            this.btn_Compras.Size = new System.Drawing.Size(322, 90);
+            this.btn_Compras.TabIndex = 22;
+            this.btn_Compras.Text = "COMPRAS";
+            this.btn_Compras.UseVisualStyleBackColor = false;
+            this.btn_Compras.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button6
+            // btn_CerrarSesion
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
-            this.button6.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
-            this.button6.Location = new System.Drawing.Point(8, 20);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(322, 92);
-            this.button6.TabIndex = 21;
-            this.button6.Text = "Cerrar Sesión";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btn_CerrarSesion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
+            this.btn_CerrarSesion.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_CerrarSesion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
+            this.btn_CerrarSesion.Location = new System.Drawing.Point(8, 20);
+            this.btn_CerrarSesion.Name = "btn_CerrarSesion";
+            this.btn_CerrarSesion.Size = new System.Drawing.Size(322, 92);
+            this.btn_CerrarSesion.TabIndex = 21;
+            this.btn_CerrarSesion.Text = "Cerrar Sesión";
+            this.btn_CerrarSesion.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(26)))), ((int)(((byte)(63)))));
             this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Controls.Add(this.button6);
+            this.panel2.Controls.Add(this.btn_CerrarSesion);
             this.panel2.Location = new System.Drawing.Point(14, 691);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(338, 129);
             this.panel2.TabIndex = 22;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
+            this.pictureBox2.Image = global::AplicacionVinos.Properties.Resources.apagar;
+            this.pictureBox2.Location = new System.Drawing.Point(65, 49);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(36, 35);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 25;
+            this.pictureBox2.TabStop = false;
             // 
             // PanelForms
             // 
@@ -192,17 +203,6 @@
             this.pictureBox1.TabIndex = 24;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
-            this.pictureBox2.Image = global::AplicacionVinos.Properties.Resources.apagar;
-            this.pictureBox2.Location = new System.Drawing.Point(65, 49);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(36, 35);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 25;
-            this.pictureBox2.TabStop = false;
-            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -219,9 +219,9 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.PanelForms.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -229,16 +229,16 @@
         #endregion
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btn_Productos;
+        private System.Windows.Forms.Button btn_Ventas;
+        private System.Windows.Forms.Button btn_Movimientos;
+        private System.Windows.Forms.Button btn_Compras;
+        private System.Windows.Forms.Button btn_CerrarSesion;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel PanelForms;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btn_Presupuesto;
         private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
