@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btn_AUsuario = new System.Windows.Forms.Button();
+            this.btn_Acliente = new System.Windows.Forms.Button();
+            this.btn_Vent_Comp = new System.Windows.Forms.Button();
+            this.btn_EditarPerfilAd = new System.Windows.Forms.Button();
             this.PanelFormsAd = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
@@ -43,66 +43,66 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(26)))), ((int)(((byte)(63)))));
-            this.panel2.Controls.Add(this.button4);
-            this.panel2.Controls.Add(this.button3);
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.button6);
+            this.panel2.Controls.Add(this.btn_AUsuario);
+            this.panel2.Controls.Add(this.btn_Acliente);
+            this.panel2.Controls.Add(this.btn_Vent_Comp);
+            this.panel2.Controls.Add(this.btn_EditarPerfilAd);
             this.panel2.Location = new System.Drawing.Point(1, 3);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(949, 89);
             this.panel2.TabIndex = 23;
             // 
-            // button4
+            // btn_AUsuario
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
-            this.button4.Location = new System.Drawing.Point(723, 9);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(216, 70);
-            this.button4.TabIndex = 25;
-            this.button4.Text = "Alta Usuarios\r\n";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btn_AUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
+            this.btn_AUsuario.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_AUsuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
+            this.btn_AUsuario.Location = new System.Drawing.Point(723, 9);
+            this.btn_AUsuario.Name = "btn_AUsuario";
+            this.btn_AUsuario.Size = new System.Drawing.Size(216, 70);
+            this.btn_AUsuario.TabIndex = 25;
+            this.btn_AUsuario.Text = "Alta Usuarios\r\n";
+            this.btn_AUsuario.UseVisualStyleBackColor = false;
+            this.btn_AUsuario.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button3
+            // btn_Acliente
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
-            this.button3.Location = new System.Drawing.Point(251, 9);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(216, 70);
-            this.button3.TabIndex = 24;
-            this.button3.Text = "Alta Clientes";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btn_Acliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
+            this.btn_Acliente.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Acliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
+            this.btn_Acliente.Location = new System.Drawing.Point(251, 9);
+            this.btn_Acliente.Name = "btn_Acliente";
+            this.btn_Acliente.Size = new System.Drawing.Size(216, 70);
+            this.btn_Acliente.TabIndex = 24;
+            this.btn_Acliente.Text = "Alta Clientes";
+            this.btn_Acliente.UseVisualStyleBackColor = false;
+            this.btn_Acliente.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button2
+            // btn_Vent_Comp
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
-            this.button2.Location = new System.Drawing.Point(489, 9);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(216, 70);
-            this.button2.TabIndex = 23;
-            this.button2.Text = "Historial Ventas / Compras \r\n";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btn_Vent_Comp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
+            this.btn_Vent_Comp.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Vent_Comp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
+            this.btn_Vent_Comp.Location = new System.Drawing.Point(489, 9);
+            this.btn_Vent_Comp.Name = "btn_Vent_Comp";
+            this.btn_Vent_Comp.Size = new System.Drawing.Size(216, 70);
+            this.btn_Vent_Comp.TabIndex = 23;
+            this.btn_Vent_Comp.Text = "Historial Ventas / Compras \r\n";
+            this.btn_Vent_Comp.UseVisualStyleBackColor = false;
+            this.btn_Vent_Comp.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button6
+            // btn_EditarPerfilAd
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
-            this.button6.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
-            this.button6.Location = new System.Drawing.Point(11, 9);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(216, 70);
-            this.button6.TabIndex = 21;
-            this.button6.Text = "Configurar Perfil Administrador ";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.btn_EditarPerfilAd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
+            this.btn_EditarPerfilAd.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_EditarPerfilAd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
+            this.btn_EditarPerfilAd.Location = new System.Drawing.Point(11, 9);
+            this.btn_EditarPerfilAd.Name = "btn_EditarPerfilAd";
+            this.btn_EditarPerfilAd.Size = new System.Drawing.Size(216, 70);
+            this.btn_EditarPerfilAd.TabIndex = 21;
+            this.btn_EditarPerfilAd.Text = "Editar Perfil Administrador ";
+            this.btn_EditarPerfilAd.UseVisualStyleBackColor = false;
+            this.btn_EditarPerfilAd.Click += new System.EventHandler(this.button6_Click);
             // 
             // PanelFormsAd
             // 
@@ -144,11 +144,11 @@
         #endregion
 
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btn_Acliente;
+        private System.Windows.Forms.Button btn_Vent_Comp;
+        private System.Windows.Forms.Button btn_EditarPerfilAd;
         private System.Windows.Forms.Panel PanelFormsAd;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btn_AUsuario;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

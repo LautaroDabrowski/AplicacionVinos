@@ -28,33 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.Button button1;
+            System.Windows.Forms.Button btn_AgregarProd;
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.label16 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgv_Proveedor = new System.Windows.Forms.DataGridView();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.btn_BuscarProv = new System.Windows.Forms.Button();
+            this.cb_TipoProd = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txt_Cuit = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnAltaProveedor = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label18 = new System.Windows.Forms.Label();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.dgv_ProdAgregados = new System.Windows.Forms.DataGridView();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txt_precio = new System.Windows.Forms.TextBox();
+            this.txt_prov = new System.Windows.Forms.TextBox();
+            this.txt_Cant = new System.Windows.Forms.TextBox();
+            this.txt_descrip = new System.Windows.Forms.TextBox();
+            this.txt_Subcat = new System.Windows.Forms.TextBox();
+            this.txt_cat = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -62,64 +65,61 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt_cod = new System.Windows.Forms.TextBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.dgv_HistProd = new System.Windows.Forms.DataGridView();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.cb_CatProd = new System.Windows.Forms.ComboBox();
+            this.txt_CodPro = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.btn_Buscar = new System.Windows.Forms.Button();
+            this.dt_hasta = new System.Windows.Forms.DateTimePicker();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.dt_Desde = new System.Windows.Forms.DateTimePicker();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            button1 = new System.Windows.Forms.Button();
+            this.cb_Rsocial = new System.Windows.Forms.ComboBox();
+            btn_AgregarProd = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Proveedor)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_ProdAgregados)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.tabPage3.SuspendLayout();
             this.groupBox6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_HistProd)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.groupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // btn_AgregarProd
             // 
-            button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            button1.ForeColor = System.Drawing.Color.White;
-            button1.Location = new System.Drawing.Point(48, 616);
-            button1.Name = "button1";
-            button1.Size = new System.Drawing.Size(264, 45);
-            button1.TabIndex = 9;
-            button1.Text = "Agregar Producto";
-            button1.UseVisualStyleBackColor = false;
+            btn_AgregarProd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            btn_AgregarProd.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            btn_AgregarProd.ForeColor = System.Drawing.Color.White;
+            btn_AgregarProd.Location = new System.Drawing.Point(48, 616);
+            btn_AgregarProd.Name = "btn_AgregarProd";
+            btn_AgregarProd.Size = new System.Drawing.Size(264, 45);
+            btn_AgregarProd.TabIndex = 9;
+            btn_AgregarProd.Text = "Agregar Producto";
+            btn_AgregarProd.UseVisualStyleBackColor = false;
             // 
             // tabControl1
             // 
@@ -161,7 +161,7 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(239)))), ((int)(((byte)(225)))));
-            this.groupBox2.Controls.Add(this.dataGridView1);
+            this.groupBox2.Controls.Add(this.dgv_Proveedor);
             this.groupBox2.Controls.Add(this.pictureBox6);
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
@@ -172,26 +172,36 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Proveedores Encontrados";
             // 
-            // dataGridView1
+            // dgv_Proveedor
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Window;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(27, 49);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(848, 238);
-            this.dataGridView1.TabIndex = 3;
+            this.dgv_Proveedor.BackgroundColor = System.Drawing.SystemColors.Window;
+            this.dgv_Proveedor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_Proveedor.Location = new System.Drawing.Point(27, 49);
+            this.dgv_Proveedor.Name = "dgv_Proveedor";
+            this.dgv_Proveedor.RowHeadersWidth = 51;
+            this.dgv_Proveedor.RowTemplate.Height = 24;
+            this.dgv_Proveedor.Size = new System.Drawing.Size(848, 238);
+            this.dgv_Proveedor.TabIndex = 3;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::AplicacionVinos.Properties.Resources.Logotipo_Vino_Violeta;
+            this.pictureBox6.Location = new System.Drawing.Point(517, -338);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(403, 407);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 26;
+            this.pictureBox6.TabStop = false;
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(239)))), ((int)(((byte)(225)))));
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.cb_Rsocial);
+            this.groupBox1.Controls.Add(this.btn_BuscarProv);
+            this.groupBox1.Controls.Add(this.cb_TipoProd);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.txt_Cuit);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -203,27 +213,27 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Buscar Proveedor";
             // 
-            // button2
+            // btn_BuscarProv
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(654, 225);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(235, 44);
-            this.button2.TabIndex = 24;
-            this.button2.Text = "BUSCAR PROVEEDOR";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn_BuscarProv.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.btn_BuscarProv.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_BuscarProv.ForeColor = System.Drawing.Color.White;
+            this.btn_BuscarProv.Location = new System.Drawing.Point(654, 225);
+            this.btn_BuscarProv.Name = "btn_BuscarProv";
+            this.btn_BuscarProv.Size = new System.Drawing.Size(235, 44);
+            this.btn_BuscarProv.TabIndex = 24;
+            this.btn_BuscarProv.Text = "BUSCAR PROVEEDOR";
+            this.btn_BuscarProv.UseVisualStyleBackColor = false;
             // 
-            // comboBox1
+            // cb_TipoProd
             // 
-            this.comboBox1.BackColor = System.Drawing.SystemColors.Window;
-            this.comboBox1.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(175, 214);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(412, 34);
-            this.comboBox1.TabIndex = 23;
+            this.cb_TipoProd.BackColor = System.Drawing.SystemColors.Window;
+            this.cb_TipoProd.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cb_TipoProd.FormattingEnabled = true;
+            this.cb_TipoProd.Location = new System.Drawing.Point(175, 214);
+            this.cb_TipoProd.Name = "cb_TipoProd";
+            this.cb_TipoProd.Size = new System.Drawing.Size(412, 34);
+            this.cb_TipoProd.TabIndex = 23;
             // 
             // label5
             // 
@@ -236,15 +246,15 @@
             this.label5.TabIndex = 22;
             this.label5.Text = "Tipo de Producto";
             // 
-            // textBox2
+            // txt_Cuit
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox2.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(175, 147);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(412, 34);
-            this.textBox2.TabIndex = 21;
+            this.txt_Cuit.BackColor = System.Drawing.SystemColors.Window;
+            this.txt_Cuit.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Cuit.Location = new System.Drawing.Point(175, 147);
+            this.txt_Cuit.Multiline = true;
+            this.txt_Cuit.Name = "txt_Cuit";
+            this.txt_Cuit.Size = new System.Drawing.Size(412, 34);
+            this.txt_Cuit.TabIndex = 21;
             // 
             // label4
             // 
@@ -257,16 +267,6 @@
             this.label4.TabIndex = 20;
             this.label4.Text = "CUIT";
             // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox1.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(175, 76);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(412, 34);
-            this.textBox1.TabIndex = 19;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -277,6 +277,16 @@
             this.label3.Size = new System.Drawing.Size(128, 28);
             this.label3.TabIndex = 18;
             this.label3.Text = "Razón Social ";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::AplicacionVinos.Properties.Resources.Logotipo_Vino_Violeta;
+            this.pictureBox1.Location = new System.Drawing.Point(517, -28);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(403, 407);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 25;
+            this.pictureBox1.TabStop = false;
             // 
             // btnAltaProveedor
             // 
@@ -307,7 +317,7 @@
             // 
             this.groupBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(239)))), ((int)(((byte)(225)))));
             this.groupBox4.Controls.Add(this.label18);
-            this.groupBox4.Controls.Add(this.dataGridView2);
+            this.groupBox4.Controls.Add(this.dgv_ProdAgregados);
             this.groupBox4.Controls.Add(this.pictureBox4);
             this.groupBox4.Controls.Add(this.pictureBox2);
             this.groupBox4.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -328,28 +338,47 @@
             this.label18.TabIndex = 37;
             this.label18.Text = "Productos Agregados ";
             // 
-            // dataGridView2
+            // dgv_ProdAgregados
             // 
-            this.dataGridView2.BackgroundColor = System.Drawing.SystemColors.Window;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(16, 54);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowHeadersWidth = 51;
-            this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(472, 592);
-            this.dataGridView2.TabIndex = 0;
+            this.dgv_ProdAgregados.BackgroundColor = System.Drawing.SystemColors.Window;
+            this.dgv_ProdAgregados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_ProdAgregados.Location = new System.Drawing.Point(16, 54);
+            this.dgv_ProdAgregados.Name = "dgv_ProdAgregados";
+            this.dgv_ProdAgregados.RowHeadersWidth = 51;
+            this.dgv_ProdAgregados.RowTemplate.Height = 24;
+            this.dgv_ProdAgregados.Size = new System.Drawing.Size(472, 592);
+            this.dgv_ProdAgregados.TabIndex = 0;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::AplicacionVinos.Properties.Resources.UVASS;
+            this.pictureBox4.Location = new System.Drawing.Point(195, -73);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(429, 596);
+            this.pictureBox4.TabIndex = 38;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::AplicacionVinos.Properties.Resources.Logotipo_Vino_Minimalista_Negro_y_Violeta__37_;
+            this.pictureBox2.Location = new System.Drawing.Point(-307, 346);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(430, 380);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 37;
+            this.pictureBox2.TabStop = false;
             // 
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(239)))), ((int)(((byte)(225)))));
             this.groupBox3.Controls.Add(this.label17);
-            this.groupBox3.Controls.Add(this.textBox9);
-            this.groupBox3.Controls.Add(this.textBox8);
-            this.groupBox3.Controls.Add(this.textBox7);
-            this.groupBox3.Controls.Add(this.textBox6);
-            this.groupBox3.Controls.Add(this.textBox5);
-            this.groupBox3.Controls.Add(this.textBox4);
-            this.groupBox3.Controls.Add(button1);
+            this.groupBox3.Controls.Add(this.txt_precio);
+            this.groupBox3.Controls.Add(this.txt_prov);
+            this.groupBox3.Controls.Add(this.txt_Cant);
+            this.groupBox3.Controls.Add(this.txt_descrip);
+            this.groupBox3.Controls.Add(this.txt_Subcat);
+            this.groupBox3.Controls.Add(this.txt_cat);
+            this.groupBox3.Controls.Add(btn_AgregarProd);
             this.groupBox3.Controls.Add(this.label11);
             this.groupBox3.Controls.Add(this.label10);
             this.groupBox3.Controls.Add(this.label9);
@@ -357,7 +386,7 @@
             this.groupBox3.Controls.Add(this.label7);
             this.groupBox3.Controls.Add(this.label6);
             this.groupBox3.Controls.Add(this.label2);
-            this.groupBox3.Controls.Add(this.textBox3);
+            this.groupBox3.Controls.Add(this.txt_cod);
             this.groupBox3.Controls.Add(this.pictureBox3);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
@@ -378,48 +407,48 @@
             this.label17.TabIndex = 36;
             this.label17.Text = "Datos del Producto";
             // 
-            // textBox9
+            // txt_precio
             // 
-            this.textBox9.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox9.Location = new System.Drawing.Point(26, 564);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(321, 34);
-            this.textBox9.TabIndex = 31;
+            this.txt_precio.BackColor = System.Drawing.SystemColors.Window;
+            this.txt_precio.Location = new System.Drawing.Point(26, 564);
+            this.txt_precio.Name = "txt_precio";
+            this.txt_precio.Size = new System.Drawing.Size(321, 34);
+            this.txt_precio.TabIndex = 31;
             // 
-            // textBox8
+            // txt_prov
             // 
-            this.textBox8.Location = new System.Drawing.Point(26, 485);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(321, 34);
-            this.textBox8.TabIndex = 30;
+            this.txt_prov.Location = new System.Drawing.Point(26, 485);
+            this.txt_prov.Name = "txt_prov";
+            this.txt_prov.Size = new System.Drawing.Size(321, 34);
+            this.txt_prov.TabIndex = 30;
             // 
-            // textBox7
+            // txt_Cant
             // 
-            this.textBox7.Location = new System.Drawing.Point(26, 401);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(321, 34);
-            this.textBox7.TabIndex = 29;
+            this.txt_Cant.Location = new System.Drawing.Point(26, 401);
+            this.txt_Cant.Name = "txt_Cant";
+            this.txt_Cant.Size = new System.Drawing.Size(321, 34);
+            this.txt_Cant.TabIndex = 29;
             // 
-            // textBox6
+            // txt_descrip
             // 
-            this.textBox6.Location = new System.Drawing.Point(26, 318);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(321, 34);
-            this.textBox6.TabIndex = 28;
+            this.txt_descrip.Location = new System.Drawing.Point(26, 318);
+            this.txt_descrip.Name = "txt_descrip";
+            this.txt_descrip.Size = new System.Drawing.Size(321, 34);
+            this.txt_descrip.TabIndex = 28;
             // 
-            // textBox5
+            // txt_Subcat
             // 
-            this.textBox5.Location = new System.Drawing.Point(26, 236);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(321, 34);
-            this.textBox5.TabIndex = 27;
+            this.txt_Subcat.Location = new System.Drawing.Point(26, 236);
+            this.txt_Subcat.Name = "txt_Subcat";
+            this.txt_Subcat.Size = new System.Drawing.Size(321, 34);
+            this.txt_Subcat.TabIndex = 27;
             // 
-            // textBox4
+            // txt_cat
             // 
-            this.textBox4.Location = new System.Drawing.Point(26, 155);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(321, 34);
-            this.textBox4.TabIndex = 26;
+            this.txt_cat.Location = new System.Drawing.Point(26, 155);
+            this.txt_cat.Name = "txt_cat";
+            this.txt_cat.Size = new System.Drawing.Size(321, 34);
+            this.txt_cat.TabIndex = 26;
             // 
             // label11
             // 
@@ -498,12 +527,22 @@
             this.label2.TabIndex = 19;
             this.label2.Text = "Código";
             // 
-            // textBox3
+            // txt_cod
             // 
-            this.textBox3.Location = new System.Drawing.Point(26, 80);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(321, 34);
-            this.textBox3.TabIndex = 1;
+            this.txt_cod.Location = new System.Drawing.Point(26, 80);
+            this.txt_cod.Name = "txt_cod";
+            this.txt_cod.Size = new System.Drawing.Size(321, 34);
+            this.txt_cod.TabIndex = 1;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::AplicacionVinos.Properties.Resources.Logotipo_Vino_Minimalista_Negro_y_Violeta__37_;
+            this.pictureBox3.Location = new System.Drawing.Point(77, 346);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(430, 380);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 35;
+            this.pictureBox3.TabStop = false;
             // 
             // tabPage3
             // 
@@ -520,7 +559,7 @@
             // groupBox6
             // 
             this.groupBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(239)))), ((int)(((byte)(225)))));
-            this.groupBox6.Controls.Add(this.dataGridView3);
+            this.groupBox6.Controls.Add(this.dgv_HistProd);
             this.groupBox6.Controls.Add(this.pictureBox9);
             this.groupBox6.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox6.Location = new System.Drawing.Point(16, 333);
@@ -530,30 +569,40 @@
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Compras Encontradas";
             // 
-            // dataGridView3
+            // dgv_HistProd
             // 
-            this.dataGridView3.BackgroundColor = System.Drawing.SystemColors.Window;
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(20, 39);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.RowHeadersWidth = 51;
-            this.dataGridView3.RowTemplate.Height = 24;
-            this.dataGridView3.Size = new System.Drawing.Size(863, 308);
-            this.dataGridView3.TabIndex = 0;
+            this.dgv_HistProd.BackgroundColor = System.Drawing.SystemColors.Window;
+            this.dgv_HistProd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_HistProd.Location = new System.Drawing.Point(20, 39);
+            this.dgv_HistProd.Name = "dgv_HistProd";
+            this.dgv_HistProd.RowHeadersWidth = 51;
+            this.dgv_HistProd.RowTemplate.Height = 24;
+            this.dgv_HistProd.Size = new System.Drawing.Size(863, 308);
+            this.dgv_HistProd.TabIndex = 0;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::AplicacionVinos.Properties.Resources.UVASS;
+            this.pictureBox9.Location = new System.Drawing.Point(-48, -171);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(385, 328);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 40;
+            this.pictureBox9.TabStop = false;
             // 
             // groupBox5
             // 
             this.groupBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(239)))), ((int)(((byte)(225)))));
             this.groupBox5.Controls.Add(this.label15);
-            this.groupBox5.Controls.Add(this.comboBox2);
-            this.groupBox5.Controls.Add(this.textBox10);
+            this.groupBox5.Controls.Add(this.cb_CatProd);
+            this.groupBox5.Controls.Add(this.txt_CodPro);
             this.groupBox5.Controls.Add(this.label14);
-            this.groupBox5.Controls.Add(this.button4);
-            this.groupBox5.Controls.Add(this.dateTimePicker2);
+            this.groupBox5.Controls.Add(this.btn_Buscar);
+            this.groupBox5.Controls.Add(this.dt_hasta);
             this.groupBox5.Controls.Add(this.label13);
             this.groupBox5.Controls.Add(this.label12);
             this.groupBox5.Controls.Add(this.label1);
-            this.groupBox5.Controls.Add(this.dateTimePicker1);
+            this.groupBox5.Controls.Add(this.dt_Desde);
             this.groupBox5.Controls.Add(this.pictureBox5);
             this.groupBox5.Controls.Add(this.pictureBox8);
             this.groupBox5.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -573,20 +622,20 @@
             this.label15.TabIndex = 9;
             this.label15.Text = "Categoria del Producto";
             // 
-            // comboBox2
+            // cb_CatProd
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(499, 173);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(356, 33);
-            this.comboBox2.TabIndex = 8;
+            this.cb_CatProd.FormattingEnabled = true;
+            this.cb_CatProd.Location = new System.Drawing.Point(499, 173);
+            this.cb_CatProd.Name = "cb_CatProd";
+            this.cb_CatProd.Size = new System.Drawing.Size(356, 33);
+            this.cb_CatProd.TabIndex = 8;
             // 
-            // textBox10
+            // txt_CodPro
             // 
-            this.textBox10.Location = new System.Drawing.Point(499, 95);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(356, 31);
-            this.textBox10.TabIndex = 7;
+            this.txt_CodPro.Location = new System.Drawing.Point(499, 95);
+            this.txt_CodPro.Name = "txt_CodPro";
+            this.txt_CodPro.Size = new System.Drawing.Size(356, 31);
+            this.txt_CodPro.TabIndex = 7;
             // 
             // label14
             // 
@@ -597,23 +646,23 @@
             this.label14.TabIndex = 6;
             this.label14.Text = "Código del Producto";
             // 
-            // button4
+            // btn_Buscar
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(251, 236);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(421, 43);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "Buscar";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btn_Buscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.btn_Buscar.ForeColor = System.Drawing.Color.White;
+            this.btn_Buscar.Location = new System.Drawing.Point(251, 236);
+            this.btn_Buscar.Name = "btn_Buscar";
+            this.btn_Buscar.Size = new System.Drawing.Size(421, 43);
+            this.btn_Buscar.TabIndex = 5;
+            this.btn_Buscar.Text = "Buscar";
+            this.btn_Buscar.UseVisualStyleBackColor = false;
             // 
-            // dateTimePicker2
+            // dt_hasta
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(62, 167);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(370, 31);
-            this.dateTimePicker2.TabIndex = 4;
+            this.dt_hasta.Location = new System.Drawing.Point(62, 167);
+            this.dt_hasta.Name = "dt_hasta";
+            this.dt_hasta.Size = new System.Drawing.Size(370, 31);
+            this.dt_hasta.TabIndex = 4;
             // 
             // label13
             // 
@@ -642,41 +691,12 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Seleccionar Fecha:";
             // 
-            // dateTimePicker1
+            // dt_Desde
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(62, 93);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(370, 31);
-            this.dateTimePicker1.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::AplicacionVinos.Properties.Resources.Logotipo_Vino_Violeta;
-            this.pictureBox1.Location = new System.Drawing.Point(517, -28);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(403, 407);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 25;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::AplicacionVinos.Properties.Resources.UVASS;
-            this.pictureBox4.Location = new System.Drawing.Point(195, -73);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(429, 596);
-            this.pictureBox4.TabIndex = 38;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::AplicacionVinos.Properties.Resources.Logotipo_Vino_Minimalista_Negro_y_Violeta__37_;
-            this.pictureBox3.Location = new System.Drawing.Point(77, 346);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(430, 380);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 35;
-            this.pictureBox3.TabStop = false;
+            this.dt_Desde.Location = new System.Drawing.Point(62, 93);
+            this.dt_Desde.Name = "dt_Desde";
+            this.dt_Desde.Size = new System.Drawing.Size(370, 31);
+            this.dt_Desde.TabIndex = 0;
             // 
             // pictureBox5
             // 
@@ -698,35 +718,15 @@
             this.pictureBox8.TabIndex = 39;
             this.pictureBox8.TabStop = false;
             // 
-            // pictureBox2
+            // cb_Rsocial
             // 
-            this.pictureBox2.Image = global::AplicacionVinos.Properties.Resources.Logotipo_Vino_Minimalista_Negro_y_Violeta__37_;
-            this.pictureBox2.Location = new System.Drawing.Point(-307, 346);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(430, 380);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 37;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::AplicacionVinos.Properties.Resources.Logotipo_Vino_Violeta;
-            this.pictureBox6.Location = new System.Drawing.Point(517, -338);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(403, 407);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 26;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = global::AplicacionVinos.Properties.Resources.UVASS;
-            this.pictureBox9.Location = new System.Drawing.Point(-48, -171);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(385, 328);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 40;
-            this.pictureBox9.TabStop = false;
+            this.cb_Rsocial.BackColor = System.Drawing.SystemColors.Window;
+            this.cb_Rsocial.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cb_Rsocial.FormattingEnabled = true;
+            this.cb_Rsocial.Location = new System.Drawing.Point(175, 77);
+            this.cb_Rsocial.Name = "cb_Rsocial";
+            this.cb_Rsocial.Size = new System.Drawing.Size(412, 34);
+            this.cb_Rsocial.TabIndex = 26;
             // 
             // Compras
             // 
@@ -744,28 +744,28 @@
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Proveedor)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_ProdAgregados)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_HistProd)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -776,23 +776,22 @@
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Button btnAltaProveedor;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button btn_BuscarProv;
+        private System.Windows.Forms.ComboBox cb_TipoProd;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txt_Cuit;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgv_Proveedor;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txt_precio;
+        private System.Windows.Forms.TextBox txt_prov;
+        private System.Windows.Forms.TextBox txt_Cant;
+        private System.Windows.Forms.TextBox txt_descrip;
+        private System.Windows.Forms.TextBox txt_Subcat;
+        private System.Windows.Forms.TextBox txt_cat;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
@@ -800,21 +799,21 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.TextBox txt_cod;
+        private System.Windows.Forms.DataGridView dgv_ProdAgregados;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.DataGridView dataGridView3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DataGridView dgv_HistProd;
+        private System.Windows.Forms.Button btn_Buscar;
+        private System.Windows.Forms.DateTimePicker dt_hasta;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dt_Desde;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.ComboBox cb_CatProd;
+        private System.Windows.Forms.TextBox txt_CodPro;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.PictureBox pictureBox3;
@@ -827,5 +826,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.ComboBox cb_Rsocial;
     }
 }
