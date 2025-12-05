@@ -51,6 +51,8 @@
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cb_SubCat = new System.Windows.Forms.ComboBox();
+            this.cb_Cat = new System.Windows.Forms.ComboBox();
             this.txt_Descrip = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -76,6 +78,10 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.cb_Periodo = new System.Windows.Forms.ComboBox();
             this.label19 = new System.Windows.Forms.Label();
             this.cb_Modulos = new System.Windows.Forms.ComboBox();
@@ -102,8 +108,6 @@
             this.label18 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.cb_Cat = new System.Windows.Forms.ComboBox();
-            this.cb_SubCat = new System.Windows.Forms.ComboBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -398,6 +402,24 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Buscar Producto";
             // 
+            // cb_SubCat
+            // 
+            this.cb_SubCat.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cb_SubCat.FormattingEnabled = true;
+            this.cb_SubCat.Location = new System.Drawing.Point(605, 67);
+            this.cb_SubCat.Name = "cb_SubCat";
+            this.cb_SubCat.Size = new System.Drawing.Size(265, 33);
+            this.cb_SubCat.TabIndex = 17;
+            // 
+            // cb_Cat
+            // 
+            this.cb_Cat.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cb_Cat.FormattingEnabled = true;
+            this.cb_Cat.Location = new System.Drawing.Point(313, 67);
+            this.cb_Cat.Name = "cb_Cat";
+            this.cb_Cat.Size = new System.Drawing.Size(265, 33);
+            this.cb_Cat.TabIndex = 16;
+            // 
             // txt_Descrip
             // 
             this.txt_Descrip.BackColor = System.Drawing.SystemColors.Window;
@@ -598,9 +620,9 @@
             this.groupBox8.Controls.Add(this.pictureBox9);
             this.groupBox8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
-            this.groupBox8.Location = new System.Drawing.Point(6, 150);
+            this.groupBox8.Location = new System.Drawing.Point(6, 195);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(908, 459);
+            this.groupBox8.Size = new System.Drawing.Size(908, 414);
             this.groupBox8.TabIndex = 54;
             this.groupBox8.TabStop = false;
             // 
@@ -608,11 +630,11 @@
             // 
             this.dgv_MuestraBalance.BackgroundColor = System.Drawing.Color.White;
             this.dgv_MuestraBalance.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_MuestraBalance.Location = new System.Drawing.Point(25, 33);
+            this.dgv_MuestraBalance.Location = new System.Drawing.Point(26, 50);
             this.dgv_MuestraBalance.Name = "dgv_MuestraBalance";
             this.dgv_MuestraBalance.RowHeadersWidth = 51;
             this.dgv_MuestraBalance.RowTemplate.Height = 24;
-            this.dgv_MuestraBalance.Size = new System.Drawing.Size(852, 395);
+            this.dgv_MuestraBalance.Size = new System.Drawing.Size(852, 327);
             this.dgv_MuestraBalance.TabIndex = 6;
             // 
             // label30
@@ -629,7 +651,7 @@
             this.pictureBox7.Image = global::AplicacionVinos.Properties.Resources.Logotipo_Vino_Minimalista_Negro_y_Violeta__36_;
             this.pictureBox7.Location = new System.Drawing.Point(540, -288);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(514, 381);
+            this.pictureBox7.Size = new System.Drawing.Size(514, 332);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox7.TabIndex = 49;
             this.pictureBox7.TabStop = false;
@@ -637,7 +659,7 @@
             // pictureBox9
             // 
             this.pictureBox9.Image = global::AplicacionVinos.Properties.Resources.Logotipo_Vino_Violeta;
-            this.pictureBox9.Location = new System.Drawing.Point(-29, 333);
+            this.pictureBox9.Location = new System.Drawing.Point(-29, 288);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(514, 381);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -647,6 +669,10 @@
             // groupBox6
             // 
             this.groupBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(239)))), ((int)(((byte)(225)))));
+            this.groupBox6.Controls.Add(this.label28);
+            this.groupBox6.Controls.Add(this.label27);
+            this.groupBox6.Controls.Add(this.dateTimePicker2);
+            this.groupBox6.Controls.Add(this.dateTimePicker1);
             this.groupBox6.Controls.Add(this.cb_Periodo);
             this.groupBox6.Controls.Add(this.label19);
             this.groupBox6.Controls.Add(this.cb_Modulos);
@@ -658,10 +684,44 @@
             this.groupBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
             this.groupBox6.Location = new System.Drawing.Point(6, 6);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(908, 140);
+            this.groupBox6.Size = new System.Drawing.Size(908, 183);
             this.groupBox6.TabIndex = 13;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Filtros";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(310, 99);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(57, 25);
+            this.label28.TabIndex = 54;
+            this.label28.Text = "Hasta";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(21, 98);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(62, 25);
+            this.label27.TabIndex = 53;
+            this.label27.Text = "Desde";
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(316, 127);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(264, 34);
+            this.dateTimePicker2.TabIndex = 52;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(25, 127);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(264, 34);
+            this.dateTimePicker1.TabIndex = 51;
             // 
             // cb_Periodo
             // 
@@ -704,7 +764,7 @@
             this.btn_buscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
             this.btn_buscar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_buscar.ForeColor = System.Drawing.Color.White;
-            this.btn_buscar.Location = new System.Drawing.Point(605, 59);
+            this.btn_buscar.Location = new System.Drawing.Point(613, 90);
             this.btn_buscar.Name = "btn_buscar";
             this.btn_buscar.Size = new System.Drawing.Size(265, 41);
             this.btn_buscar.TabIndex = 6;
@@ -933,24 +993,6 @@
             this.pictureBox2.TabIndex = 49;
             this.pictureBox2.TabStop = false;
             // 
-            // cb_Cat
-            // 
-            this.cb_Cat.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cb_Cat.FormattingEnabled = true;
-            this.cb_Cat.Location = new System.Drawing.Point(313, 67);
-            this.cb_Cat.Name = "cb_Cat";
-            this.cb_Cat.Size = new System.Drawing.Size(265, 33);
-            this.cb_Cat.TabIndex = 16;
-            // 
-            // cb_SubCat
-            // 
-            this.cb_SubCat.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cb_SubCat.FormattingEnabled = true;
-            this.cb_SubCat.Location = new System.Drawing.Point(605, 67);
-            this.cb_SubCat.Name = "cb_SubCat";
-            this.cb_SubCat.Size = new System.Drawing.Size(265, 33);
-            this.cb_SubCat.TabIndex = 17;
-            // 
             // Movimientos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1078,5 +1120,9 @@
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.ComboBox cb_Cat;
         private System.Windows.Forms.ComboBox cb_SubCat;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
     }
 }

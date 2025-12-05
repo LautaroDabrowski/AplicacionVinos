@@ -36,6 +36,7 @@
             this.dgv_Proveedor = new System.Windows.Forms.DataGridView();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cb_Rsocial = new System.Windows.Forms.ComboBox();
             this.btn_BuscarProv = new System.Windows.Forms.Button();
             this.cb_TipoProd = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -84,7 +85,6 @@
             this.dt_Desde = new System.Windows.Forms.DateTimePicker();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.cb_Rsocial = new System.Windows.Forms.ComboBox();
             btn_AgregarProd = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -212,6 +212,16 @@
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Buscar Proveedor";
+            // 
+            // cb_Rsocial
+            // 
+            this.cb_Rsocial.BackColor = System.Drawing.SystemColors.Window;
+            this.cb_Rsocial.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cb_Rsocial.FormattingEnabled = true;
+            this.cb_Rsocial.Location = new System.Drawing.Point(175, 77);
+            this.cb_Rsocial.Name = "cb_Rsocial";
+            this.cb_Rsocial.Size = new System.Drawing.Size(412, 34);
+            this.cb_Rsocial.TabIndex = 26;
             // 
             // btn_BuscarProv
             // 
@@ -717,16 +727,6 @@
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 39;
             this.pictureBox8.TabStop = false;
-            // 
-            // cb_Rsocial
-            // 
-            this.cb_Rsocial.BackColor = System.Drawing.SystemColors.Window;
-            this.cb_Rsocial.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cb_Rsocial.FormattingEnabled = true;
-            this.cb_Rsocial.Location = new System.Drawing.Point(175, 77);
-            this.cb_Rsocial.Name = "cb_Rsocial";
-            this.cb_Rsocial.Size = new System.Drawing.Size(412, 34);
-            this.cb_Rsocial.TabIndex = 26;
             // 
             // Compras
             // 

@@ -16,5 +16,6 @@ namespace AplicacionVinos.Vistas
         {
             InitializeComponent();
         }
+
     }
 }
