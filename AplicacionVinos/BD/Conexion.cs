@@ -57,7 +57,7 @@ namespace AplicacionVinos.BD
             }
         }
 
-        public void Abrir()
+        /*public void Abrir()
         {
             if (ConexionBD.State == ConnectionState.Closed)
                 ConexionBD.Open();
@@ -67,6 +67,6 @@ namespace AplicacionVinos.BD
         {
             if (ConexionBD.State == ConnectionState.Open)
                 ConexionBD.Close();
-        }
+        }*/
     }
 }

@@ -17,8 +17,8 @@ namespace AplicacionVinos.Vistas
         {
             InitializeComponent();
 
-            Validaciones.(txt_Usuario);
-            Validaciones.(txt_Contraseña);
+            //Validaciones.(txt_Usuario);
+            //Validaciones.(txt_Contraseña);
         }
 
         private void Login_Load(object sender, EventArgs e)
