@@ -36,7 +36,7 @@
             this.btn_AgregarProv = new System.Windows.Forms.Button();
             this.txt_Direcc = new System.Windows.Forms.TextBox();
             this.txt_Tel = new System.Windows.Forms.TextBox();
-            this.txt_Cuit_Cuil = new System.Windows.Forms.TextBox();
+            this.txt_Cuit = new System.Windows.Forms.TextBox();
             this.txt_RSocial = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -86,7 +86,7 @@
             this.groupBox1.Controls.Add(this.btn_AgregarProv);
             this.groupBox1.Controls.Add(this.txt_Direcc);
             this.groupBox1.Controls.Add(this.txt_Tel);
-            this.groupBox1.Controls.Add(this.txt_Cuit_Cuil);
+            this.groupBox1.Controls.Add(this.txt_Cuit);
             this.groupBox1.Controls.Add(this.txt_RSocial);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label6);
@@ -143,14 +143,14 @@
             this.txt_Tel.Size = new System.Drawing.Size(264, 35);
             this.txt_Tel.TabIndex = 8;
             // 
-            // txt_Cuit_Cuil
+            // txt_Cuit
             // 
-            this.txt_Cuit_Cuil.BackColor = System.Drawing.SystemColors.Window;
-            this.txt_Cuit_Cuil.Location = new System.Drawing.Point(300, 82);
-            this.txt_Cuit_Cuil.Multiline = true;
-            this.txt_Cuit_Cuil.Name = "txt_Cuit_Cuil";
-            this.txt_Cuit_Cuil.Size = new System.Drawing.Size(264, 35);
-            this.txt_Cuit_Cuil.TabIndex = 7;
+            this.txt_Cuit.BackColor = System.Drawing.SystemColors.Window;
+            this.txt_Cuit.Location = new System.Drawing.Point(300, 82);
+            this.txt_Cuit.Multiline = true;
+            this.txt_Cuit.Name = "txt_Cuit";
+            this.txt_Cuit.Size = new System.Drawing.Size(264, 35);
+            this.txt_Cuit.TabIndex = 7;
             // 
             // txt_RSocial
             // 
@@ -206,9 +206,9 @@
             this.label3.Font = new System.Drawing.Font("Yu Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(295, 52);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(101, 23);
+            this.label3.Size = new System.Drawing.Size(64, 29);
             this.label3.TabIndex = 1;
-            this.label3.Text = "CUIT/CUIL";
+            this.label3.Text = "CUIT";
             // 
             // label2
             // 
@@ -238,9 +238,9 @@
             this.groupBox2.Controls.Add(this.pictureBox1);
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
-            this.groupBox2.Location = new System.Drawing.Point(17, 244);
+            this.groupBox2.Location = new System.Drawing.Point(17, 234);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(871, 184);
+            this.groupBox2.Size = new System.Drawing.Size(871, 194);
             this.groupBox2.TabIndex = 11;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Proveedor Agregado ";
@@ -323,7 +323,7 @@
         private System.Windows.Forms.Button btn_AgregarProv;
         private System.Windows.Forms.TextBox txt_Direcc;
         private System.Windows.Forms.TextBox txt_Tel;
-        private System.Windows.Forms.TextBox txt_Cuit_Cuil;
+        private System.Windows.Forms.TextBox txt_Cuit;
         private System.Windows.Forms.TextBox txt_RSocial;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;

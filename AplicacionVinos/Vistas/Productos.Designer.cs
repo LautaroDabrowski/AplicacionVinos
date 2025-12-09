@@ -53,6 +53,9 @@
             this.txt_CodProd2 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cb_Prove = new System.Windows.Forms.ComboBox();
+            this.cb_SubCat = new System.Windows.Forms.ComboBox();
+            this.cb_Cat = new System.Windows.Forms.ComboBox();
             this.btn_BuscarProd = new System.Windows.Forms.Button();
             this.txt_Descrip = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -95,9 +98,6 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.txt_CodProd3 = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
-            this.cb_Cat = new System.Windows.Forms.ComboBox();
-            this.cb_SubCat = new System.Windows.Forms.ComboBox();
-            this.cb_Prove = new System.Windows.Forms.ComboBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -121,10 +121,10 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControl1.Location = new System.Drawing.Point(4, 6);
+            this.tabControl1.Location = new System.Drawing.Point(9, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(925, 749);
+            this.tabControl1.Size = new System.Drawing.Size(936, 784);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -136,7 +136,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 37);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(917, 708);
+            this.tabPage1.Size = new System.Drawing.Size(928, 743);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Buscar Producto";
             // 
@@ -164,9 +164,9 @@
             this.groupBox3.Controls.Add(this.txt_CodProd2);
             this.groupBox3.Controls.Add(this.label12);
             this.groupBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
-            this.groupBox3.Location = new System.Drawing.Point(18, 446);
+            this.groupBox3.Location = new System.Drawing.Point(12, 479);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(880, 248);
+            this.groupBox3.Size = new System.Drawing.Size(904, 253);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Producto Seleccionado";
@@ -362,12 +362,39 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
-            this.groupBox1.Location = new System.Drawing.Point(18, 6);
+            this.groupBox1.Location = new System.Drawing.Point(12, 10);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(880, 226);
+            this.groupBox1.Size = new System.Drawing.Size(904, 226);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Buscar Producto";
+            // 
+            // cb_Prove
+            // 
+            this.cb_Prove.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cb_Prove.FormattingEnabled = true;
+            this.cb_Prove.Location = new System.Drawing.Point(309, 123);
+            this.cb_Prove.Name = "cb_Prove";
+            this.cb_Prove.Size = new System.Drawing.Size(264, 33);
+            this.cb_Prove.TabIndex = 17;
+            // 
+            // cb_SubCat
+            // 
+            this.cb_SubCat.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cb_SubCat.FormattingEnabled = true;
+            this.cb_SubCat.Location = new System.Drawing.Point(22, 122);
+            this.cb_SubCat.Name = "cb_SubCat";
+            this.cb_SubCat.Size = new System.Drawing.Size(264, 33);
+            this.cb_SubCat.TabIndex = 16;
+            // 
+            // cb_Cat
+            // 
+            this.cb_Cat.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cb_Cat.FormattingEnabled = true;
+            this.cb_Cat.Location = new System.Drawing.Point(309, 60);
+            this.cb_Cat.Name = "cb_Cat";
+            this.cb_Cat.Size = new System.Drawing.Size(264, 33);
+            this.cb_Cat.TabIndex = 15;
             // 
             // btn_BuscarProd
             // 
@@ -460,9 +487,9 @@
             this.groupBox2.Controls.Add(this.dgv_ProdEncontrados);
             this.groupBox2.Controls.Add(this.pictureBox8);
             this.groupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
-            this.groupBox2.Location = new System.Drawing.Point(18, 240);
+            this.groupBox2.Location = new System.Drawing.Point(12, 242);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(880, 197);
+            this.groupBox2.Size = new System.Drawing.Size(904, 230);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Productos Encontrados";
@@ -498,7 +525,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 37);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(917, 708);
+            this.tabPage2.Size = new System.Drawing.Size(928, 743);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Modificar Producto";
             // 
@@ -506,7 +533,7 @@
             // 
             this.btn_Guardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
             this.btn_Guardar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
-            this.btn_Guardar.Location = new System.Drawing.Point(209, 656);
+            this.btn_Guardar.Location = new System.Drawing.Point(209, 682);
             this.btn_Guardar.Name = "btn_Guardar";
             this.btn_Guardar.Size = new System.Drawing.Size(521, 44);
             this.btn_Guardar.TabIndex = 33;
@@ -519,9 +546,9 @@
             this.groupBox6.Controls.Add(this.dgv_ProdEncontrado2);
             this.groupBox6.Controls.Add(this.pictureBox4);
             this.groupBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(15)))), ((int)(((byte)(30)))));
-            this.groupBox6.Location = new System.Drawing.Point(13, 148);
+            this.groupBox6.Location = new System.Drawing.Point(10, 142);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(892, 203);
+            this.groupBox6.Size = new System.Drawing.Size(908, 226);
             this.groupBox6.TabIndex = 37;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = " Producto Encontrado";
@@ -534,15 +561,15 @@
             this.dgv_ProdEncontrado2.Name = "dgv_ProdEncontrado2";
             this.dgv_ProdEncontrado2.RowHeadersWidth = 51;
             this.dgv_ProdEncontrado2.RowTemplate.Height = 24;
-            this.dgv_ProdEncontrado2.Size = new System.Drawing.Size(844, 150);
+            this.dgv_ProdEncontrado2.Size = new System.Drawing.Size(844, 174);
             this.dgv_ProdEncontrado2.TabIndex = 0;
             // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::AplicacionVinos.Properties.Resources.UVASS;
-            this.pictureBox4.Location = new System.Drawing.Point(578, -188);
+            this.pictureBox4.Location = new System.Drawing.Point(578, -186);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(330, 391);
+            this.pictureBox4.Size = new System.Drawing.Size(330, 413);
             this.pictureBox4.TabIndex = 35;
             this.pictureBox4.TabStop = false;
             // 
@@ -569,9 +596,9 @@
             this.groupBox5.Controls.Add(this.label24);
             this.groupBox5.Controls.Add(this.pictureBox5);
             this.groupBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(15)))), ((int)(((byte)(30)))));
-            this.groupBox5.Location = new System.Drawing.Point(13, 364);
+            this.groupBox5.Location = new System.Drawing.Point(10, 374);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(892, 282);
+            this.groupBox5.Size = new System.Drawing.Size(908, 289);
             this.groupBox5.TabIndex = 1;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Editar Producto";
@@ -732,7 +759,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::AplicacionVinos.Properties.Resources.UVASS;
-            this.pictureBox5.Location = new System.Drawing.Point(578, -397);
+            this.pictureBox5.Location = new System.Drawing.Point(578, -412);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(328, 598);
             this.pictureBox5.TabIndex = 36;
@@ -746,9 +773,9 @@
             this.groupBox4.Controls.Add(this.txt_CodProd3);
             this.groupBox4.Controls.Add(this.label18);
             this.groupBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(15)))), ((int)(((byte)(30)))));
-            this.groupBox4.Location = new System.Drawing.Point(13, 10);
+            this.groupBox4.Location = new System.Drawing.Point(10, 10);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(892, 126);
+            this.groupBox4.Size = new System.Drawing.Size(909, 126);
             this.groupBox4.TabIndex = 0;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Buscar Producto ";
@@ -770,7 +797,7 @@
             this.pictureBox3.Image = global::AplicacionVinos.Properties.Resources.UVASS;
             this.pictureBox3.Location = new System.Drawing.Point(578, -57);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(314, 258);
+            this.pictureBox3.Size = new System.Drawing.Size(340, 258);
             this.pictureBox3.TabIndex = 34;
             this.pictureBox3.TabStop = false;
             // 
@@ -791,39 +818,12 @@
             this.label18.TabIndex = 13;
             this.label18.Text = "Código Producto";
             // 
-            // cb_Cat
-            // 
-            this.cb_Cat.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cb_Cat.FormattingEnabled = true;
-            this.cb_Cat.Location = new System.Drawing.Point(309, 60);
-            this.cb_Cat.Name = "cb_Cat";
-            this.cb_Cat.Size = new System.Drawing.Size(264, 33);
-            this.cb_Cat.TabIndex = 15;
-            // 
-            // cb_SubCat
-            // 
-            this.cb_SubCat.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cb_SubCat.FormattingEnabled = true;
-            this.cb_SubCat.Location = new System.Drawing.Point(22, 122);
-            this.cb_SubCat.Name = "cb_SubCat";
-            this.cb_SubCat.Size = new System.Drawing.Size(264, 33);
-            this.cb_SubCat.TabIndex = 16;
-            // 
-            // cb_Prove
-            // 
-            this.cb_Prove.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cb_Prove.FormattingEnabled = true;
-            this.cb_Prove.Location = new System.Drawing.Point(309, 123);
-            this.cb_Prove.Name = "cb_Prove";
-            this.cb_Prove.Size = new System.Drawing.Size(264, 33);
-            this.cb_Prove.TabIndex = 17;
-            // 
             // Productos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
-            this.ClientSize = new System.Drawing.Size(934, 761);
+            this.ClientSize = new System.Drawing.Size(952, 808);
             this.Controls.Add(this.tabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Productos";
