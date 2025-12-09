@@ -2,21 +2,17 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace AplicacionVinos.BD
 {
     internal class Conexion
     {
-        private static readonly string cadena =
-            "Data Source=LAPTOP-RISP0CDN;Initial Catalog=AppVinos;Integrated Security=True;Encrypt=False;";
+        public static readonly string cadena =
+            "Data Source=BRENDA\\SQLEXPRESS;Initial Catalog=AppVinos;Integrated Security=True;Encrypt=False;";
 
-        // ---------------------------
+        
         //     Obtener DataTable
-        // ---------------------------
         public static DataTable EjecutarConsulta(string consulta, params SqlParameter[] parametros)
         {
             var tabla = new DataTable();
@@ -41,9 +37,7 @@ namespace AplicacionVinos.BD
             return tabla;
         }
 
-        // ----------------------------------
         //    INSERT / UPDATE / DELETE
-        // ----------------------------------
         public static bool EjecutarABM(string consulta, params SqlParameter[] parametros)
         {
             try
@@ -66,9 +60,7 @@ namespace AplicacionVinos.BD
             }
         }
 
-        // ----------------------------------
         //  Obtener valor único (Ej: último ID)
-        // ----------------------------------
         public static object EjecutarUnico(string consulta, params SqlParameter[] parametros)
         {
             try
@@ -90,9 +82,7 @@ namespace AplicacionVinos.BD
             }
         }
 
-        // ----------------------------------
         //  Transacción (para ventas y compras)
-        // ----------------------------------
         public static bool EjecutarTransaccion(List<SqlCommand> comandos)
         {
             using (var cn = new SqlConnection(cadena))
@@ -141,6 +131,31 @@ namespace AplicacionVinos.BD
                     throw; // <- IMPORTANTE: relanzamos para detener la app si corresponde
                 }
             }
+        }
+
+        // *** Obtener DataTable (para llenar ComboBox, DataGrid, etc.) ***
+        public static DataTable EjecutarTabla(string consulta, params SqlParameter[] parametros)
+        {
+            DataTable tabla = new DataTable();
+
+            try
+            {
+                using (SqlConnection cn = new SqlConnection(cadena))
+                using (SqlCommand cmd = new SqlCommand(consulta, cn))
+                using (SqlDataAdapter da = new SqlDataAdapter(cmd))
+                {
+                    if (parametros != null)
+                        cmd.Parameters.AddRange(parametros);
+
+                    da.Fill(tabla);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al ejecutar consulta de tabla:\n" + ex.Message);
+            }
+
+            return tabla;
         }
 
     }

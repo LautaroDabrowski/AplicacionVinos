@@ -50,6 +50,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BD\Conexion.cs" />
+    <Compile Include="Config\CompraAT.cs" />
+    <Compile Include="Config\ProductoAT.cs" />
+    <Compile Include="Config\ProveedorAT.cs" />
     <Compile Include="Config\Sesiones.cs" />
     <Compile Include="Config\UsuarioAT.cs" />
     <Compile Include="Config\Funciones.cs" />

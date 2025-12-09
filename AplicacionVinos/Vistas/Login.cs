@@ -3,7 +3,6 @@ using AplicacionVinos.Config;
 using System;
 using AplicacionVinos.Validaciones;
 using System.Windows.Forms;
-using static System.Collections.Specialized.BitVector32;
 
 namespace AplicacionVinos.Vistas
 {
@@ -15,7 +14,12 @@ namespace AplicacionVinos.Vistas
 
             Validar.DeshabilitarShortcuts(this);
             Validar.DeshabilitarShortcutsEnControles(this);
-        
+
+            
+
+            // Enter → botón iniciar
+            this.AcceptButton = btn_InicioSesion;
+
         }
 
         private void Login_Load(object sender, EventArgs e)

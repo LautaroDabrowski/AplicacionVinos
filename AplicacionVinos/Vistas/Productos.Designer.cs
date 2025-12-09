@@ -537,7 +537,7 @@
             this.btn_Guardar.Name = "btn_Guardar";
             this.btn_Guardar.Size = new System.Drawing.Size(521, 44);
             this.btn_Guardar.TabIndex = 33;
-            this.btn_Guardar.Text = "Guardar";
+            this.btn_Guardar.Text = "Guardar y Generar Compra";
             this.btn_Guardar.UseVisualStyleBackColor = false;
             // 
             // groupBox6

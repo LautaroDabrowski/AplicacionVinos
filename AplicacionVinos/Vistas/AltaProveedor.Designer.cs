@@ -124,6 +124,7 @@
             this.btn_AgregarProv.TabIndex = 6;
             this.btn_AgregarProv.Text = "Agregar Proveedor";
             this.btn_AgregarProv.UseVisualStyleBackColor = false;
+            this.btn_AgregarProv.Click += new System.EventHandler(this.btn_AgregarProv_Click);
             // 
             // txt_Direcc
             // 
@@ -206,7 +207,7 @@
             this.label3.Font = new System.Drawing.Font("Yu Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(295, 52);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 29);
+            this.label3.Size = new System.Drawing.Size(51, 23);
             this.label3.TabIndex = 1;
             this.label3.Text = "CUIT";
             // 
@@ -259,10 +260,14 @@
             // 
             // dgv_AgrProv
             // 
+            this.dgv_AgrProv.AllowUserToAddRows = false;
+            this.dgv_AgrProv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_AgrProv.BackgroundColor = System.Drawing.SystemColors.Window;
             this.dgv_AgrProv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_AgrProv.Location = new System.Drawing.Point(16, 32);
             this.dgv_AgrProv.Name = "dgv_AgrProv";
+            this.dgv_AgrProv.ReadOnly = true;
+            this.dgv_AgrProv.RowHeadersVisible = false;
             this.dgv_AgrProv.RowHeadersWidth = 51;
             this.dgv_AgrProv.RowTemplate.Height = 24;
             this.dgv_AgrProv.Size = new System.Drawing.Size(840, 130);
@@ -289,6 +294,7 @@
             this.btn_GuardarProv.TabIndex = 13;
             this.btn_GuardarProv.Text = "Guardar Proveedor ";
             this.btn_GuardarProv.UseVisualStyleBackColor = false;
+            this.btn_GuardarProv.Click += new System.EventHandler(this.btn_GuardarProv_Click);
             // 
             // AltaProveedor
             // 
@@ -300,7 +306,6 @@
             this.Controls.Add(this.label1);
             this.Name = "AltaProveedor";
             this.Size = new System.Drawing.Size(943, 555);
-            this.Load += new System.EventHandler(this.AltaProveedor_Load);
             this.panel1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

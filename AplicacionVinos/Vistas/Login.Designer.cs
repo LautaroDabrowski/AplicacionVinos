@@ -81,11 +81,9 @@
             this.txt_Contrasenia.BackColor = System.Drawing.SystemColors.Menu;
             this.txt_Contrasenia.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_Contrasenia.Location = new System.Drawing.Point(63, 276);
-            this.txt_Contrasenia.Multiline = true;
             this.txt_Contrasenia.Name = "txt_Contrasenia";
-            this.txt_Contrasenia.Size = new System.Drawing.Size(522, 36);
+            this.txt_Contrasenia.Size = new System.Drawing.Size(522, 34);
             this.txt_Contrasenia.TabIndex = 5;
-            this.txt_Contrasenia.UseSystemPasswordChar = true;
             // 
             // txt_Usuario
             // 
