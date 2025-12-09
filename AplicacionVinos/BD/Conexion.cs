@@ -11,62 +11,137 @@ namespace AplicacionVinos.BD
 {
     internal class Conexion
     {
-        private static string cadena =
-           "Data Source=BRENDA\\SQLEXPRESS;Initial Catalog=BDAtalayaPoo;Integrated Security=True;Encrypt=False;";
+        private static readonly string cadena =
+            "Data Source=LAPTOP-RISP0CDN;Initial Catalog=AppVinos;Integrated Security=True;Encrypt=False;";
 
-        public static SqlDataReader Leer(string consulta, params SqlParameter[] parametros)
+        // ---------------------------
+        //     Obtener DataTable
+        // ---------------------------
+        public static DataTable EjecutarConsulta(string consulta, params SqlParameter[] parametros)
         {
+            var tabla = new DataTable();
+
             try
             {
-                var cn = new SqlConnection(cadena);
-                var cmd = new SqlCommand(consulta, cn);
-                if (parametros != null && parametros.Length > 0)
-                    cmd.Parameters.AddRange(parametros);
+                using (var cn = new SqlConnection(cadena))
+                using (var cmd = new SqlCommand(consulta, cn))
+                using (var da = new SqlDataAdapter(cmd))
+                {
+                    if (parametros != null)
+                        cmd.Parameters.AddRange(parametros);
 
-                cn.Open();
-                return cmd.ExecuteReader(CommandBehavior.CloseConnection);
+                    da.Fill(tabla);
+                }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error al leer de la base:\n" + ex.Message, "ERROR",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return null;
+                MessageBox.Show("Error al ejecutar consulta:\n" + ex.Message);
             }
+
+            return tabla;
         }
 
-        public static bool ABM(string consulta, params SqlParameter[] parametros)
+        // ----------------------------------
+        //    INSERT / UPDATE / DELETE
+        // ----------------------------------
+        public static bool EjecutarABM(string consulta, params SqlParameter[] parametros)
         {
-            using (var cn = new SqlConnection(cadena))
-            using (var cmd = new SqlCommand(consulta, cn))
+            try
             {
-                if (parametros != null && parametros.Length > 0)
-                    cmd.Parameters.AddRange(parametros);
-
-                try
+                using (var cn = new SqlConnection(cadena))
+                using (var cmd = new SqlCommand(consulta, cn))
                 {
+                    if (parametros != null)
+                        cmd.Parameters.AddRange(parametros);
+
                     cn.Open();
                     cmd.ExecuteNonQuery();
                     return true;
                 }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al ejecutar operación:\n" + ex.Message);
+                return false;
+            }
+        }
+
+        // ----------------------------------
+        //  Obtener valor único (Ej: último ID)
+        // ----------------------------------
+        public static object EjecutarUnico(string consulta, params SqlParameter[] parametros)
+        {
+            try
+            {
+                using (var cn = new SqlConnection(cadena))
+                using (var cmd = new SqlCommand(consulta, cn))
+                {
+                    if (parametros != null)
+                        cmd.Parameters.AddRange(parametros);
+
+                    cn.Open();
+                    return cmd.ExecuteScalar();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al ejecutar escalar:\n" + ex.Message);
+                return null;
+            }
+        }
+
+        // ----------------------------------
+        //  Transacción (para ventas y compras)
+        // ----------------------------------
+        public static bool EjecutarTransaccion(List<SqlCommand> comandos)
+        {
+            using (var cn = new SqlConnection(cadena))
+            {
+                cn.Open();
+                var trans = cn.BeginTransaction();
+
+                try
+                {
+                    foreach (var cmd in comandos)
+                    {
+                        cmd.Connection = cn;
+                        cmd.Transaction = trans;
+                        cmd.ExecuteNonQuery();
+                    }
+
+                    trans.Commit();
+                    return true;
+                }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Error en la operación:\n" + ex.Message, "ERROR",
-                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    trans.Rollback();
+                    MessageBox.Show("Error en transacción:\n" + ex.Message);
                     return false;
                 }
             }
         }
-
-        /*public void Abrir()
+        public static void CheckConnection()
         {
-            if (ConexionBD.State == ConnectionState.Closed)
-                ConexionBD.Open();
+            using (SqlConnection cn = new SqlConnection(cadena))
+            {
+                try
+                {
+                    cn.Open();
+                }
+                catch (SqlException ex)
+                {
+                    MessageBox.Show(
+                        "No se pudo conectar a la base de datos.\n" +
+                        "Por favor verifica que SQL Server esté iniciado y la configuración sea correcta.\n\n" +
+                        $"Detalles: {ex.Message}",
+                        "Error de conexión",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error);
+
+                    throw; // <- IMPORTANTE: relanzamos para detener la app si corresponde
+                }
+            }
         }
 
-        public void Cerrar()
-        {
-            if (ConexionBD.State == ConnectionState.Open)
-                ConexionBD.Close();
-        }*/
     }
 }

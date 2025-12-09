@@ -1,4 +1,5 @@
-﻿using AplicacionVinos.Vistas;
+﻿using AplicacionVinos.BD;
+using AplicacionVinos.Vistas;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,17 @@ namespace AplicacionVinos
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Inicio());
+
+            /*try
+            {
+                Conexion.CheckConnection(); // Verifica conexión al iniciar
+                Application.Run(new Login());
+            }
+            catch
+            {
+                // Si falla, cerramos la aplicación
+                Application.Exit();
+            }*/
         }
     }
 }

@@ -276,7 +276,7 @@
         }
 
 
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox groupBox2; 
         private System.Windows.Forms.TextBox txt_DNI;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox cb_Estado;

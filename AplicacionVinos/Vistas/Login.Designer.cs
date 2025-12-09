@@ -31,7 +31,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.txt_Constrasenia = new System.Windows.Forms.TextBox();
+            this.txt_Contrasenia = new System.Windows.Forms.TextBox();
             this.txt_Usuario = new System.Windows.Forms.TextBox();
             this.btn_InicioSesion = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
@@ -63,7 +63,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(23)))), ((int)(((byte)(55)))));
-            this.panel2.Controls.Add(this.txt_Constrasenia);
+            this.panel2.Controls.Add(this.txt_Contrasenia);
             this.panel2.Controls.Add(this.txt_Usuario);
             this.panel2.Controls.Add(this.btn_InicioSesion);
             this.panel2.Controls.Add(this.label3);
@@ -74,14 +74,14 @@
             this.panel2.Size = new System.Drawing.Size(646, 495);
             this.panel2.TabIndex = 1;
             // 
-            // txt_Constrasenia
+            // txt_Contrasenia
             // 
-            this.txt_Constrasenia.BackColor = System.Drawing.SystemColors.Menu;
-            this.txt_Constrasenia.Location = new System.Drawing.Point(63, 276);
-            this.txt_Constrasenia.Multiline = true;
-            this.txt_Constrasenia.Name = "txt_Constrasenia";
-            this.txt_Constrasenia.Size = new System.Drawing.Size(522, 36);
-            this.txt_Constrasenia.TabIndex = 5;
+            this.txt_Contrasenia.BackColor = System.Drawing.SystemColors.Menu;
+            this.txt_Contrasenia.Location = new System.Drawing.Point(63, 276);
+            this.txt_Contrasenia.Multiline = true;
+            this.txt_Contrasenia.Name = "txt_Contrasenia";
+            this.txt_Contrasenia.Size = new System.Drawing.Size(522, 36);
+            this.txt_Contrasenia.TabIndex = 5;
             // 
             // txt_Usuario
             // 
@@ -103,6 +103,7 @@
             this.btn_InicioSesion.TabIndex = 3;
             this.btn_InicioSesion.Text = "Iniciar Sesión";
             this.btn_InicioSesion.UseVisualStyleBackColor = false;
+            this.btn_InicioSesion.Click += new System.EventHandler(this.btn_InicioSesion_Click);
             // 
             // label3
             // 
@@ -165,7 +166,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txt_Constrasenia;
+        private System.Windows.Forms.TextBox txt_Contrasenia;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
