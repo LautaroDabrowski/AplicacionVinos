@@ -29,6 +29,11 @@
         private void InitializeComponent()
         {
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.txt_CElectronico = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -49,11 +54,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.btn_CrearUusario = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -83,6 +83,45 @@
             this.groupBox2.TabIndex = 15;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Datos Personales";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(568, 66);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(260, 34);
+            this.textBox2.TabIndex = 17;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(18, 145);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(260, 34);
+            this.textBox3.TabIndex = 16;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(13, 114);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(86, 28);
+            this.label9.TabIndex = 15;
+            this.label9.Text = "Teléfono";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(294, 66);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(260, 34);
+            this.textBox1.TabIndex = 13;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(563, 35);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(46, 28);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "DNI";
             // 
             // txt_CElectronico
             // 
@@ -147,9 +186,9 @@
             this.groupBox1.Controls.Add(this.pictureBox2);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
-            this.groupBox1.Location = new System.Drawing.Point(12, 243);
+            this.groupBox1.Location = new System.Drawing.Point(12, 233);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(904, 209);
+            this.groupBox1.Size = new System.Drawing.Size(904, 219);
             this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Elegir Usuario y Contraseña ";
@@ -221,9 +260,9 @@
             this.groupBox3.Controls.Add(this.label8);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
-            this.groupBox3.Location = new System.Drawing.Point(12, 469);
+            this.groupBox3.Location = new System.Drawing.Point(12, 458);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(904, 132);
+            this.groupBox3.Size = new System.Drawing.Size(904, 143);
             this.groupBox3.TabIndex = 17;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Rol y Estado del Usuario ";
@@ -273,45 +312,6 @@
             this.btn_CrearUusario.TabIndex = 35;
             this.btn_CrearUusario.Text = "Crear Usuario";
             this.btn_CrearUusario.UseVisualStyleBackColor = false;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(563, 35);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(46, 28);
-            this.label6.TabIndex = 12;
-            this.label6.Text = "DNI";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(294, 66);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(260, 34);
-            this.textBox1.TabIndex = 13;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(18, 145);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(260, 34);
-            this.textBox3.TabIndex = 16;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(13, 114);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(108, 35);
-            this.label9.TabIndex = 15;
-            this.label9.Text = "Teléfono";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(568, 66);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(260, 34);
-            this.textBox2.TabIndex = 17;
             // 
             // AltaUsuario
             // 

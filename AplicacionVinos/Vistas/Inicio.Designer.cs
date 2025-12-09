@@ -81,7 +81,7 @@
             this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
             this.button5.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
-            this.button5.Location = new System.Drawing.Point(8, 466);
+            this.button5.Location = new System.Drawing.Point(8, 464);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(322, 90);
             this.button5.TabIndex = 25;
@@ -94,7 +94,7 @@
             this.btn_Productos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
             this.btn_Productos.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Productos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
-            this.btn_Productos.Location = new System.Drawing.Point(8, 63);
+            this.btn_Productos.Location = new System.Drawing.Point(8, 159);
             this.btn_Productos.Name = "btn_Productos";
             this.btn_Productos.Size = new System.Drawing.Size(322, 90);
             this.btn_Productos.TabIndex = 21;
@@ -118,7 +118,7 @@
             this.btn_Ventas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
             this.btn_Ventas.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Ventas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
-            this.btn_Ventas.Location = new System.Drawing.Point(8, 265);
+            this.btn_Ventas.Location = new System.Drawing.Point(8, 261);
             this.btn_Ventas.Name = "btn_Ventas";
             this.btn_Ventas.Size = new System.Drawing.Size(322, 90);
             this.btn_Ventas.TabIndex = 23;
@@ -131,7 +131,7 @@
             this.btn_Movimientos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
             this.btn_Movimientos.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Movimientos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
-            this.btn_Movimientos.Location = new System.Drawing.Point(8, 365);
+            this.btn_Movimientos.Location = new System.Drawing.Point(8, 362);
             this.btn_Movimientos.Name = "btn_Movimientos";
             this.btn_Movimientos.Size = new System.Drawing.Size(322, 90);
             this.btn_Movimientos.TabIndex = 24;
@@ -144,7 +144,7 @@
             this.btn_Compras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
             this.btn_Compras.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Compras.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(212)))), ((int)(((byte)(200)))));
-            this.btn_Compras.Location = new System.Drawing.Point(8, 164);
+            this.btn_Compras.Location = new System.Drawing.Point(8, 56);
             this.btn_Compras.Name = "btn_Compras";
             this.btn_Compras.Size = new System.Drawing.Size(322, 90);
             this.btn_Compras.TabIndex = 22;
@@ -178,9 +178,9 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(14)))), ((int)(((byte)(46)))));
             this.pictureBox2.Image = global::AplicacionVinos.Properties.Resources.apagar;
-            this.pictureBox2.Location = new System.Drawing.Point(65, 49);
+            this.pictureBox2.Location = new System.Drawing.Point(63, 51);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(36, 35);
+            this.pictureBox2.Size = new System.Drawing.Size(30, 31);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 25;
             this.pictureBox2.TabStop = false;
