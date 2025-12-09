@@ -18,9 +18,9 @@ namespace AplicacionVinos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Inicio());
+           //Application.Run(new Inicio());
 
-            /*try
+            try
             {
                 Conexion.CheckConnection(); // Verifica conexión al iniciar
                 Application.Run(new Login());
@@ -29,7 +29,7 @@ namespace AplicacionVinos
             {
                 // Si falla, cerramos la aplicación
                 Application.Exit();
-            }*/
+            }
         }
     }
 }

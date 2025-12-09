@@ -62,6 +62,8 @@
             // 
             // panel2
             // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(23)))), ((int)(((byte)(55)))));
             this.panel2.Controls.Add(this.txt_Contrasenia);
             this.panel2.Controls.Add(this.txt_Usuario);
@@ -69,7 +71,7 @@
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(334, 288);
+            this.panel2.Location = new System.Drawing.Point(347, 260);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(646, 495);
             this.panel2.TabIndex = 1;
@@ -77,15 +79,18 @@
             // txt_Contrasenia
             // 
             this.txt_Contrasenia.BackColor = System.Drawing.SystemColors.Menu;
+            this.txt_Contrasenia.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_Contrasenia.Location = new System.Drawing.Point(63, 276);
             this.txt_Contrasenia.Multiline = true;
             this.txt_Contrasenia.Name = "txt_Contrasenia";
             this.txt_Contrasenia.Size = new System.Drawing.Size(522, 36);
             this.txt_Contrasenia.TabIndex = 5;
+            this.txt_Contrasenia.UseSystemPasswordChar = true;
             // 
             // txt_Usuario
             // 
             this.txt_Usuario.BackColor = System.Drawing.SystemColors.Menu;
+            this.txt_Usuario.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_Usuario.Location = new System.Drawing.Point(63, 170);
             this.txt_Usuario.Multiline = true;
             this.txt_Usuario.Name = "txt_Usuario";
@@ -147,6 +152,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);
             this.panel1.ResumeLayout(false);

@@ -1,13 +1,7 @@
 ﻿using AplicacionVinos.BD;
 using AplicacionVinos.Config;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using AplicacionVinos.Validaciones;
 using System.Windows.Forms;
 using static System.Collections.Specialized.BitVector32;
 
@@ -19,12 +13,15 @@ namespace AplicacionVinos.Vistas
         {
             InitializeComponent();
 
-            //Validaciones.(txt_Usuario);
-            //Validaciones.(txt_Contraseña);
+            Validar.DeshabilitarShortcuts(this);
+            Validar.DeshabilitarShortcutsEnControles(this);
+        
         }
 
         private void Login_Load(object sender, EventArgs e)
         {
+            txt_Contrasenia.UseSystemPasswordChar = true;
+
             try
             {
                 Conexion.CheckConnection();
@@ -89,10 +86,14 @@ namespace AplicacionVinos.Vistas
             Sesiones.TipoUsuario = tipo;
             Sesiones.UsuarioActual = user;
 
-            // Abrimos el inicio
+            // Abrimos el inicio como formulario principal
             Inicio frm = new Inicio();
+
+            this.Hide(); // oculto login
+
+            frm.FormClosed += (s, args) => this.Close(); // CUANDO cierre Inicio, cerrar Login también
+
             frm.Show();
-            this.Hide();
         }
     }
 }

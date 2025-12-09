@@ -54,7 +54,7 @@
     <Compile Include="Config\UsuarioAT.cs" />
     <Compile Include="Config\Funciones.cs" />
     <Compile Include="Config\Variables.cs" />
-    <Compile Include="Validaciones\Validaciones.cs" />
+    <Compile Include="Validaciones\Validar.cs" />
     <Compile Include="Vistas\Administracion.cs">
       <SubType>Form</SubType>
     </Compile>
