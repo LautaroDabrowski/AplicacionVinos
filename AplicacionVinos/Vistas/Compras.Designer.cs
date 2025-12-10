@@ -36,6 +36,7 @@
             this.dgv_Proveedor = new System.Windows.Forms.DataGridView();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label20 = new System.Windows.Forms.Label();
             this.cb_Rsocial = new System.Windows.Forms.ComboBox();
             this.btn_BuscarProv = new System.Windows.Forms.Button();
             this.cb_TipoProd = new System.Windows.Forms.ComboBox();
@@ -47,12 +48,16 @@
             this.btnAltaProveedor = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.txt_TCompra = new System.Windows.Forms.TextBox();
             this.btn_GenerarCompra = new System.Windows.Forms.Button();
             this.label18 = new System.Windows.Forms.Label();
             this.dgv_ProdAgregados = new System.Windows.Forms.DataGridView();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.cb_SubCat = new System.Windows.Forms.ComboBox();
+            this.cb_Cat = new System.Windows.Forms.ComboBox();
             this.cb_Proveedor = new System.Windows.Forms.ComboBox();
             this.txt_PDescuento = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
@@ -60,8 +65,6 @@
             this.txt_costo = new System.Windows.Forms.TextBox();
             this.txt_Cant = new System.Windows.Forms.TextBox();
             this.txt_descrip = new System.Windows.Forms.TextBox();
-            this.txt_Subcat = new System.Windows.Forms.TextBox();
-            this.txt_cat = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -88,9 +91,6 @@
             this.dt_Desde = new System.Windows.Forms.DateTimePicker();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.txt_TCompra = new System.Windows.Forms.TextBox();
-            this.label21 = new System.Windows.Forms.Label();
             btn_AgregarProd = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -134,10 +134,10 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControl1.Location = new System.Drawing.Point(1, 1);
+            this.tabControl1.Location = new System.Drawing.Point(1, 2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(951, 806);
+            this.tabControl1.Size = new System.Drawing.Size(947, 805);
             this.tabControl1.TabIndex = 1;
             // 
             // tabPage1
@@ -150,7 +150,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 37);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(943, 765);
+            this.tabPage1.Size = new System.Drawing.Size(939, 764);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Proveedores";
             // 
@@ -220,6 +220,16 @@
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Buscar Proveedor";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Segoe UI", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(11, 258);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(294, 15);
+            this.label20.TabIndex = 27;
+            this.label20.Text = "(* Buscar por \"Razón Social\" o por \"Tipo de Producto\")";
             // 
             // cb_Rsocial
             // 
@@ -327,7 +337,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 37);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(943, 765);
+            this.tabPage2.Size = new System.Drawing.Size(939, 764);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Alta Productos";
             // 
@@ -348,6 +358,25 @@
             this.groupBox4.Size = new System.Drawing.Size(534, 751);
             this.groupBox4.TabIndex = 1;
             this.groupBox4.TabStop = false;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
+            this.label21.Location = new System.Drawing.Point(17, 680);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(122, 25);
+            this.label21.TabIndex = 41;
+            this.label21.Text = "Total Compra:";
+            // 
+            // txt_TCompra
+            // 
+            this.txt_TCompra.BackColor = System.Drawing.SystemColors.Window;
+            this.txt_TCompra.Location = new System.Drawing.Point(23, 709);
+            this.txt_TCompra.Name = "txt_TCompra";
+            this.txt_TCompra.Size = new System.Drawing.Size(171, 38);
+            this.txt_TCompra.TabIndex = 40;
             // 
             // btn_GenerarCompra
             // 
@@ -407,6 +436,8 @@
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(239)))), ((int)(((byte)(225)))));
+            this.groupBox3.Controls.Add(this.cb_SubCat);
+            this.groupBox3.Controls.Add(this.cb_Cat);
             this.groupBox3.Controls.Add(this.cb_Proveedor);
             this.groupBox3.Controls.Add(this.txt_PDescuento);
             this.groupBox3.Controls.Add(this.label19);
@@ -414,8 +445,6 @@
             this.groupBox3.Controls.Add(this.txt_costo);
             this.groupBox3.Controls.Add(this.txt_Cant);
             this.groupBox3.Controls.Add(this.txt_descrip);
-            this.groupBox3.Controls.Add(this.txt_Subcat);
-            this.groupBox3.Controls.Add(this.txt_cat);
             this.groupBox3.Controls.Add(btn_AgregarProd);
             this.groupBox3.Controls.Add(this.label11);
             this.groupBox3.Controls.Add(this.label10);
@@ -434,6 +463,27 @@
             this.groupBox3.TabIndex = 0;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Datos del Producto";
+            // 
+            // cb_SubCat
+            // 
+            this.cb_SubCat.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cb_SubCat.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cb_SubCat.FormattingEnabled = true;
+            this.cb_SubCat.Location = new System.Drawing.Point(26, 220);
+            this.cb_SubCat.Name = "cb_SubCat";
+            this.cb_SubCat.Size = new System.Drawing.Size(337, 36);
+            this.cb_SubCat.TabIndex = 41;
+            // 
+            // cb_Cat
+            // 
+            this.cb_Cat.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cb_Cat.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cb_Cat.FormattingEnabled = true;
+            this.cb_Cat.Location = new System.Drawing.Point(26, 150);
+            this.cb_Cat.Name = "cb_Cat";
+            this.cb_Cat.Size = new System.Drawing.Size(337, 36);
+            this.cb_Cat.TabIndex = 40;
+            this.cb_Cat.SelectedIndexChanged += new System.EventHandler(this.cb_Cat_SelectedIndexChanged);
             // 
             // cb_Proveedor
             // 
@@ -493,20 +543,6 @@
             this.txt_descrip.Name = "txt_descrip";
             this.txt_descrip.Size = new System.Drawing.Size(337, 34);
             this.txt_descrip.TabIndex = 28;
-            // 
-            // txt_Subcat
-            // 
-            this.txt_Subcat.Location = new System.Drawing.Point(26, 220);
-            this.txt_Subcat.Name = "txt_Subcat";
-            this.txt_Subcat.Size = new System.Drawing.Size(337, 34);
-            this.txt_Subcat.TabIndex = 27;
-            // 
-            // txt_cat
-            // 
-            this.txt_cat.Location = new System.Drawing.Point(26, 151);
-            this.txt_cat.Name = "txt_cat";
-            this.txt_cat.Size = new System.Drawing.Size(337, 34);
-            this.txt_cat.TabIndex = 26;
             // 
             // label11
             // 
@@ -610,7 +646,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 37);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(943, 765);
+            this.tabPage3.Size = new System.Drawing.Size(939, 764);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Historial";
             // 
@@ -776,35 +812,6 @@
             this.pictureBox8.TabIndex = 39;
             this.pictureBox8.TabStop = false;
             // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Segoe UI", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(11, 258);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(329, 17);
-            this.label20.TabIndex = 27;
-            this.label20.Text = "(* Buscar por \"Razón Social\" o por \"Tipo de Producto\")";
-            // 
-            // txt_TCompra
-            // 
-            this.txt_TCompra.BackColor = System.Drawing.SystemColors.Window;
-            this.txt_TCompra.Location = new System.Drawing.Point(23, 709);
-            this.txt_TCompra.Name = "txt_TCompra";
-            this.txt_TCompra.Size = new System.Drawing.Size(171, 38);
-            this.txt_TCompra.TabIndex = 40;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
-            this.label21.Location = new System.Drawing.Point(17, 680);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(122, 25);
-            this.label21.TabIndex = 41;
-            this.label21.Text = "Total Compra:";
-            // 
             // Compras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -816,6 +823,7 @@
             this.Name = "Compras";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Compas";
+            this.Load += new System.EventHandler(this.Compras_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
@@ -865,8 +873,6 @@
         private System.Windows.Forms.TextBox txt_costo;
         private System.Windows.Forms.TextBox txt_Cant;
         private System.Windows.Forms.TextBox txt_descrip;
-        private System.Windows.Forms.TextBox txt_Subcat;
-        private System.Windows.Forms.TextBox txt_cat;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
@@ -909,5 +915,7 @@
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.TextBox txt_TCompra;
+        private System.Windows.Forms.ComboBox cb_Cat;
+        private System.Windows.Forms.ComboBox cb_SubCat;
     }
 }

@@ -1,9 +1,15 @@
+<<<<<<< Updated upstream
 ﻿using AplicacionVinos.Config;
+=======
+﻿using AplicacionVinos.BD;
+using AplicacionVinos.Config;
+>>>>>>> Stashed changes
 using AplicacionVinos.Validaciones;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -89,8 +95,6 @@ namespace AplicacionVinos.Vistas
         {
             txt_cod.Clear();
             txt_descrip.Clear();
-            txt_cat.Clear();
-            txt_Subcat.Clear();
             txt_Cant.Clear();
             txt_costo.Clear();
             txt_PDescuento.Clear();
@@ -148,6 +152,17 @@ namespace AplicacionVinos.Vistas
 
             try
             {
+<<<<<<< Updated upstream
+=======
+                // VALIDACIONES
+                if (!Validar.CampoObligatorio(txt_cod)) return;
+                if (!Validar.CampoObligatorio(txt_descrip)) return;
+                if (!Validar.CampoObligatorio(cb_Cat)) return;
+                if (!Validar.CampoObligatorio(cb_SubCat)) return;
+                if (!Validar.CampoObligatorio(txt_Cant)) return;
+                if (!Validar.CampoObligatorio(txt_costo)) return;
+
+>>>>>>> Stashed changes
                 if (cb_Proveedor.SelectedIndex == -1)
                 {
                     MessageBox.Show("Seleccione un proveedor.");
@@ -156,57 +171,88 @@ namespace AplicacionVinos.Vistas
 
                 string cod = txt_cod.Text.Trim();
                 string desc = txt_descrip.Text.Trim();
-                string cat = txt_cat.Text.Trim();
-                string subcat = txt_Subcat.Text.Trim();
+                string categoria = cb_Cat.Text.Trim();
+                string subcategoria = cb_SubCat.Text.Trim();
 
+                // VALIDAR NÚMEROS
                 if (!int.TryParse(txt_Cant.Text.Trim(), out int cant) || cant <= 0)
                 {
-                    MessageBox.Show("Ingrese una cantidad válida.");
-                    txt_Cant.Focus();
+                    MessageBox.Show("La cantidad debe ser mayor a cero.");
                     return;
                 }
 
-                if (!decimal.TryParse(txt_costo.Text.Trim(), out decimal costo))
+                if (!decimal.TryParse(txt_costo.Text.Trim(), out decimal costo) || costo <= 0)
                 {
-                    MessageBox.Show("Ingrese un costo válido.");
-                    txt_costo.Focus();
+                    MessageBox.Show("El costo debe ser válido.");
                     return;
                 }
 
                 if (!decimal.TryParse(txt_PDescuento.Text.Trim(), out decimal descuento))
-                    descuento = 0m;
+                    descuento = 0;
 
                 if (descuento < 0 || descuento > 100)
                 {
-                    MessageBox.Show("El descuento debe estar entre 0 y 100.");
-                    txt_PDescuento.Focus();
+                    MessageBox.Show("El porcentaje debe estar entre 0 y 100.");
                     return;
                 }
 
-                int prov = Convert.ToInt32(cb_Proveedor.SelectedValue);
+                int idProveedor = Convert.ToInt32(cb_Proveedor.SelectedValue);
 
+<<<<<<< Updated upstream
+=======
+                // ❌ NO PERMITIR CÓDIGO YA EN BD
+>>>>>>> Stashed changes
                 if (ProductoAT.ExisteCodigo(cod))
                 {
                     MessageBox.Show("El código ya existe en la base de datos.");
                     return;
                 }
 
+<<<<<<< Updated upstream
                 foreach (DataGridViewRow fila in dgv_ProdAgregados.Rows)
                 {
                     if (fila.Cells["cod"].Value != null &&
                         fila.Cells["cod"].Value.ToString() == cod)
+=======
+                // ❌ NO PERMITIR CÓDIGO YA CARGADO EN GRILLA
+                foreach (DataGridViewRow row in dgv_ProdAgregados.Rows)
+                {
+                    if (row.Cells["cod"].Value?.ToString() == cod)
+>>>>>>> Stashed changes
                     {
-                        MessageBox.Show("El código ya fue cargado en esta compra.");
+                        MessageBox.Show("Este producto ya fue agregado en esta compra.");
                         return;
                     }
                 }
 
+<<<<<<< Updated upstream
                 decimal pUnit = costo * (1 - descuento / 100m);
                 decimal ganancia = pUnit - costo;
                 decimal totalProducto = pUnit * cant;
+=======
+                // ✔ OBTENER O CREAR CATEGORÍA
+                int idCat = CategoriaAT.ObtenerOCrear(categoria);
+>>>>>>> Stashed changes
 
+                // ✔ OBTENER O CREAR SUBCATEGORÍA
+                int idSubCat = SubCategoriaAT.ObtenerOCrear(subcategoria, idCat);
+
+                // CALCULOS
+                decimal precioVenta = costo * (1 - descuento / 100m);
+                decimal total = precioVenta * cant;
+
+                // AGREGAR A LA TABLA
                 dgv_ProdAgregados.Rows.Add(
-                    cod, desc, cat, subcat, prov, cant, costo, ganancia, pUnit, totalProducto
+                    cod,
+                    desc,
+                    categoria,
+                    subcategoria,
+                    idProveedor,
+                    cant,
+                    costo,
+                    descuento,
+                    precioVenta,
+                    total
                 );
 
                 ActualizarTotalCompra();
@@ -258,11 +304,109 @@ namespace AplicacionVinos.Vistas
                 }
 
                 int idProveedor = Convert.ToInt32(cb_Proveedor.SelectedValue);
-                int idUsuario = 1; // Usuario logueado
 
-                int idRemito = CompraAT.GenerarCompra(dgv_ProdAgregados, idProveedor, idUsuario);
+                // CREAR REMITO / COMPRA
+                string qCompra = @"
+            INSERT INTO compras (fecha, id_proveedor, total)
+            OUTPUT INSERTED.id_compra
+            VALUES (GETDATE(), @prov, @total)";
 
-                MessageBox.Show("Compra generada correctamente. Remito N° " + idRemito);
+                decimal totalCompra = 0;
+                foreach (DataGridViewRow fila in dgv_ProdAgregados.Rows)
+                    totalCompra += Convert.ToDecimal(fila.Cells["total"].Value);
+
+                int idCompra = Convert.ToInt32(Conexion.EjecutarUnico(
+                    qCompra,
+                    new SqlParameter("@prov", idProveedor),
+                    new SqlParameter("@total", totalCompra)
+                ));
+
+
+                // PROCESAR CADA PRODUCTO
+
+                foreach (DataGridViewRow fila in dgv_ProdAgregados.Rows)
+                {
+                    string cod = fila.Cells["cod"].Value.ToString();
+                    string desc = fila.Cells["desc"].Value.ToString();
+                    string cat = fila.Cells["cat"].Value.ToString();
+                    string subcat = fila.Cells["subcat"].Value.ToString();
+
+                    int cant = Convert.ToInt32(fila.Cells["cant"].Value);
+                    decimal costo = Convert.ToDecimal(fila.Cells["costo"].Value);
+                    decimal precioVenta = Convert.ToDecimal(fila.Cells["pventa"].Value);
+                    decimal ganancia = precioVenta - costo;
+
+
+                    // OBTENER O CREAR CATEGORÍA
+
+                    int idCategoria = CategoriaAT.ObtenerOCrear(cat);
+
+                    // OBTENER O CREAR SUBCATEGORÍA
+
+                    int idSubcategoria = SubCategoriaAT.ObtenerOCrear(subcat, idCategoria);
+
+
+                    // OBTENER O CREAR PRODUCTO
+
+                    int idProducto;
+
+                    if (ProductoAT.ExisteCodigo(cod))
+                    {
+                        idProducto = ProductoAT.ObtenerIdPorCodigo(cod);
+                    }
+                    else
+                    {
+                        idProducto = ProductoAT.InsertarProducto(
+                            cod, desc, costo, precioVenta, ganancia,
+                            idCategoria, idSubcategoria, idProveedor
+                        );
+
+                        // crear stock en 0
+                        ProductoAT.CrearStock(idProducto, 0);
+                    }
+
+
+                    // INSERTAR DETALLE DE COMPRA
+
+                    string qDet = @"
+                INSERT INTO compras_detalle (id_compra, id_producto, cantidad, precio)
+                VALUES (@compra, @prod, @cant, @costo)";
+
+                    Conexion.EjecutarABM(
+                        qDet,
+                        new SqlParameter("@compra", idCompra),
+                        new SqlParameter("@prod", idProducto),
+                        new SqlParameter("@cant", cant),
+                        new SqlParameter("@costo", costo)
+                    );
+
+                    
+                    // ACTUALIZAR STOCK
+                    
+                    string qStock =
+                        "UPDATE stock SET cantidad = cantidad + @cant WHERE id_producto = @prod";
+
+                    Conexion.EjecutarABM(
+                        qStock,
+                        new SqlParameter("@cant", cant),
+                        new SqlParameter("@prod", idProducto)
+                    );
+
+                  
+                    // INSERTAR MOVIMIENTO
+              
+                    string qMov = @"
+                INSERT INTO movimientos (id_producto, tipo, cantidad, fecha)
+                VALUES (@prod, 'COMPRA', @cant, GETDATE())";
+
+                    Conexion.EjecutarABM(
+                        qMov,
+                        new SqlParameter("@prod", idProducto),
+                        new SqlParameter("@cant", cant)
+                    );
+                }
+
+                MessageBox.Show("Compra generada correctamente. Remito N° " + idCompra);
 
                 dgv_ProdAgregados.Rows.Clear();
                 txt_TCompra.Clear();
@@ -273,5 +417,35 @@ namespace AplicacionVinos.Vistas
             }
         }
 
+        private void Compras_Load(object sender, EventArgs e)
+        {
+            cb_Cat.DataSource = CategoriaAT.ObtenerTodas();
+            cb_Cat.DisplayMember = "categoria";
+            cb_Cat.ValueMember = "id_categoria";
+
+            cb_Cat.SelectedIndexChanged += cb_Cat_SelectedIndexChanged;
+        }
+
+        private void cb_Cat_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                if (cb_Cat.SelectedValue == null) return;
+
+                int idCat = Convert.ToInt32(cb_Cat.SelectedValue);
+
+                DataTable tablaSub = SubCategoriaAT.ObtenerPorCategoria(idCat);
+
+                cb_SubCat.DataSource = tablaSub;
+                cb_SubCat.DisplayMember = "subcategoria";
+                cb_SubCat.ValueMember = "id_subcategoria";
+
+                cb_SubCat.SelectedIndex = -1;
+            }
+            catch (Exception)
+            {
+                // Para evitar errores cuando el combo se llena por primera vez
+            }
+        }
     }
 }
