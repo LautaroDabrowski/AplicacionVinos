@@ -37,7 +37,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.Txt_Direcc = new System.Windows.Forms.TextBox();
+            this.txt_Direcc = new System.Windows.Forms.TextBox();
             this.txt_Local = new System.Windows.Forms.TextBox();
             this.txt_NClient = new System.Windows.Forms.TextBox();
             this.txt_Cliente = new System.Windows.Forms.TextBox();
@@ -56,6 +56,10 @@
             this.label11 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.txt_Pdescuento = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.cb_SubCategoria = new System.Windows.Forms.ComboBox();
+            this.cb_Categoria = new System.Windows.Forms.ComboBox();
             this.btn_AgregarProd = new System.Windows.Forms.Button();
             this.label22 = new System.Windows.Forms.Label();
             this.txt_Importe = new System.Windows.Forms.TextBox();
@@ -78,10 +82,6 @@
             this.btn_ImprRemito = new System.Windows.Forms.Button();
             this.dt_Fecha = new System.Windows.Forms.DateTimePicker();
             this.label17 = new System.Windows.Forms.Label();
-            this.cb_Categoria = new System.Windows.Forms.ComboBox();
-            this.cb_SubCategoria = new System.Windows.Forms.ComboBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.txt_Pdescuento = new System.Windows.Forms.TextBox();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -126,6 +126,7 @@
             this.btn_Buscar.TabIndex = 29;
             this.btn_Buscar.Text = "Buscar";
             this.btn_Buscar.UseVisualStyleBackColor = false;
+            this.btn_Buscar.Click += new System.EventHandler(this.btn_Buscar_Click);
             // 
             // cb_CodPresup
             // 
@@ -187,7 +188,7 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(239)))), ((int)(((byte)(225)))));
-            this.groupBox1.Controls.Add(this.Txt_Direcc);
+            this.groupBox1.Controls.Add(this.txt_Direcc);
             this.groupBox1.Controls.Add(this.txt_Local);
             this.groupBox1.Controls.Add(this.txt_NClient);
             this.groupBox1.Controls.Add(this.txt_Cliente);
@@ -205,13 +206,13 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos del Cliente ";
             // 
-            // Txt_Direcc
+            // txt_Direcc
             // 
-            this.Txt_Direcc.BackColor = System.Drawing.SystemColors.Window;
-            this.Txt_Direcc.Location = new System.Drawing.Point(696, 58);
-            this.Txt_Direcc.Name = "Txt_Direcc";
-            this.Txt_Direcc.Size = new System.Drawing.Size(176, 34);
-            this.Txt_Direcc.TabIndex = 24;
+            this.txt_Direcc.BackColor = System.Drawing.SystemColors.Window;
+            this.txt_Direcc.Location = new System.Drawing.Point(696, 58);
+            this.txt_Direcc.Name = "txt_Direcc";
+            this.txt_Direcc.Size = new System.Drawing.Size(176, 34);
+            this.txt_Direcc.TabIndex = 24;
             // 
             // txt_Local
             // 
@@ -416,6 +417,42 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Productos";
             // 
+            // txt_Pdescuento
+            // 
+            this.txt_Pdescuento.BackColor = System.Drawing.SystemColors.Window;
+            this.txt_Pdescuento.Location = new System.Drawing.Point(245, 124);
+            this.txt_Pdescuento.Name = "txt_Pdescuento";
+            this.txt_Pdescuento.Size = new System.Drawing.Size(190, 34);
+            this.txt_Pdescuento.TabIndex = 46;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(240, 102);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(116, 25);
+            this.label14.TabIndex = 45;
+            this.label14.Text = "% Descuento";
+            // 
+            // cb_SubCategoria
+            // 
+            this.cb_SubCategoria.BackColor = System.Drawing.SystemColors.Window;
+            this.cb_SubCategoria.FormattingEnabled = true;
+            this.cb_SubCategoria.Location = new System.Drawing.Point(466, 57);
+            this.cb_SubCategoria.Name = "cb_SubCategoria";
+            this.cb_SubCategoria.Size = new System.Drawing.Size(190, 36);
+            this.cb_SubCategoria.TabIndex = 44;
+            // 
+            // cb_Categoria
+            // 
+            this.cb_Categoria.BackColor = System.Drawing.SystemColors.Window;
+            this.cb_Categoria.FormattingEnabled = true;
+            this.cb_Categoria.Location = new System.Drawing.Point(245, 57);
+            this.cb_Categoria.Name = "cb_Categoria";
+            this.cb_Categoria.Size = new System.Drawing.Size(190, 36);
+            this.cb_Categoria.TabIndex = 30;
+            // 
             // btn_AgregarProd
             // 
             this.btn_AgregarProd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
@@ -427,6 +464,7 @@
             this.btn_AgregarProd.TabIndex = 30;
             this.btn_AgregarProd.Text = "Agregar Producto";
             this.btn_AgregarProd.UseVisualStyleBackColor = false;
+            this.btn_AgregarProd.Click += new System.EventHandler(this.btn_AgregarProd_Click);
             // 
             // label22
             // 
@@ -576,10 +614,12 @@
             // 
             // dgv_Gremito
             // 
+            this.dgv_Gremito.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv_Gremito.BackgroundColor = System.Drawing.SystemColors.Window;
             this.dgv_Gremito.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_Gremito.Location = new System.Drawing.Point(17, 20);
             this.dgv_Gremito.Name = "dgv_Gremito";
+            this.dgv_Gremito.RowHeadersVisible = false;
             this.dgv_Gremito.RowHeadersWidth = 51;
             this.dgv_Gremito.RowTemplate.Height = 24;
             this.dgv_Gremito.Size = new System.Drawing.Size(888, 178);
@@ -616,6 +656,7 @@
             this.btn_ImprRemito.TabIndex = 30;
             this.btn_ImprRemito.Text = "Imprimir Remito";
             this.btn_ImprRemito.UseVisualStyleBackColor = false;
+            this.btn_ImprRemito.Click += new System.EventHandler(this.btn_ImprRemito_Click);
             // 
             // dt_Fecha
             // 
@@ -636,42 +677,6 @@
             this.label17.Size = new System.Drawing.Size(59, 23);
             this.label17.TabIndex = 38;
             this.label17.Text = "Fecha";
-            // 
-            // cb_Categoria
-            // 
-            this.cb_Categoria.BackColor = System.Drawing.SystemColors.Window;
-            this.cb_Categoria.FormattingEnabled = true;
-            this.cb_Categoria.Location = new System.Drawing.Point(245, 57);
-            this.cb_Categoria.Name = "cb_Categoria";
-            this.cb_Categoria.Size = new System.Drawing.Size(190, 36);
-            this.cb_Categoria.TabIndex = 30;
-            // 
-            // cb_SubCategoria
-            // 
-            this.cb_SubCategoria.BackColor = System.Drawing.SystemColors.Window;
-            this.cb_SubCategoria.FormattingEnabled = true;
-            this.cb_SubCategoria.Location = new System.Drawing.Point(466, 57);
-            this.cb_SubCategoria.Name = "cb_SubCategoria";
-            this.cb_SubCategoria.Size = new System.Drawing.Size(190, 36);
-            this.cb_SubCategoria.TabIndex = 44;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(240, 102);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(116, 25);
-            this.label14.TabIndex = 45;
-            this.label14.Text = "% Descuento";
-            // 
-            // txt_Pdescuento
-            // 
-            this.txt_Pdescuento.BackColor = System.Drawing.SystemColors.Window;
-            this.txt_Pdescuento.Location = new System.Drawing.Point(245, 124);
-            this.txt_Pdescuento.Name = "txt_Pdescuento";
-            this.txt_Pdescuento.Size = new System.Drawing.Size(190, 34);
-            this.txt_Pdescuento.TabIndex = 46;
             // 
             // Ventas
             // 
@@ -729,7 +734,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox Txt_Direcc;
+        private System.Windows.Forms.TextBox txt_Direcc;
         private System.Windows.Forms.TextBox txt_Local;
         private System.Windows.Forms.TextBox txt_NClient;
         private System.Windows.Forms.TextBox txt_Cliente;

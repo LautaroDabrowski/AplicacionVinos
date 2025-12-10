@@ -327,6 +327,7 @@
             this.btn_GuardarCam.TabIndex = 6;
             this.btn_GuardarCam.Text = "Guardar Cambios";
             this.btn_GuardarCam.UseVisualStyleBackColor = false;
+            this.btn_GuardarCam.Click += new System.EventHandler(this.btn_GuardarCam_Click);
             // 
             // label7
             // 
@@ -461,14 +462,18 @@
             // 
             // dgv_BuscarCli
             // 
+            this.dgv_BuscarCli.AllowUserToAddRows = false;
+            this.dgv_BuscarCli.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dgv_BuscarCli.BackgroundColor = System.Drawing.Color.White;
             this.dgv_BuscarCli.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_BuscarCli.Location = new System.Drawing.Point(366, 20);
             this.dgv_BuscarCli.Name = "dgv_BuscarCli";
+            this.dgv_BuscarCli.RowHeadersVisible = false;
             this.dgv_BuscarCli.RowHeadersWidth = 51;
             this.dgv_BuscarCli.RowTemplate.Height = 24;
             this.dgv_BuscarCli.Size = new System.Drawing.Size(536, 185);
             this.dgv_BuscarCli.TabIndex = 49;
+            this.dgv_BuscarCli.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_BuscarCli_CellDoubleClick);
             // 
             // txt_Dni
             // 
@@ -498,6 +503,7 @@
             this.button2.TabIndex = 46;
             this.button2.Text = "Buscar Cliente";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // pictureBox2
             // 
@@ -518,8 +524,9 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "EditarCliente";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EditarCliente";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

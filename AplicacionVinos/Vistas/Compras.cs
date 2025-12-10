@@ -1,4 +1,5 @@
 ﻿using AplicacionVinos.Config;
+using AplicacionVinos.Validaciones;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,6 +20,51 @@ namespace AplicacionVinos.Vistas
             // Cargar proveedores apenas se abre
             CargarProveedores();
             ConfigurarGrilla();
+            AplicarRestricciones();
+        }
+
+        private void AplicarRestricciones()
+        {
+            // Código (letras + números, máx 6)
+            txt_cod.MaxLength = 6;
+            txt_cod.KeyPress += (s, e) =>
+            {
+                if (!char.IsLetterOrDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+                    e.Handled = true;
+            };
+
+            // Cantidad (solo números, máx 15)
+            txt_Cant.MaxLength = 15;
+            txt_Cant.KeyPress += (s, e) =>
+            {
+                if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+                    e.Handled = true;
+            };
+
+            // Costo (números + coma)
+            txt_costo.KeyPress += (s, e) =>
+            {
+                if (!char.IsDigit(e.KeyChar) &&
+                    e.KeyChar != ',' &&
+                    !char.IsControl(e.KeyChar))
+                {
+                    e.Handled = true;
+                }
+
+                // solo una coma permitida
+                if (e.KeyChar == ',' && ((TextBox)s).Text.Contains(","))
+                    e.Handled = true;
+            };
+
+            // Descuento (solo números)
+            txt_PDescuento.KeyPress += (s, e) =>
+            {
+                if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+                    e.Handled = true;
+            };
+
+            // Bloquear edición del total
+            txt_TCompra.ReadOnly = true;
         }
 
         private void ConfigurarGrilla()
@@ -90,23 +136,25 @@ namespace AplicacionVinos.Vistas
 
         private void btn_AgregarProd_Click(object sender, EventArgs e)
         {
+            // VALIDAR CAMPOS OBLIGATORIOS
+            if (!Validar.CampoObligatorio(txt_cod)) return;
+            if (!Validar.CampoObligatorio(txt_descrip)) return;
+            if (!Validar.CampoObligatorio(txt_cat)) return;
+            if (!Validar.CampoObligatorio(txt_Subcat)) return;
+            if (!Validar.CampoObligatorio(txt_Cant)) return;
+            if (!Validar.CampoObligatorio(txt_costo)) return;
+            if (!Validar.CampoObligatorio(txt_PDescuento)) return;
+            if (!Validar.CampoObligatorio(cb_Proveedor)) return;
+
             try
             {
-                // VALIDACIONES BÁSICAS
                 if (cb_Proveedor.SelectedIndex == -1)
                 {
-                    MessageBox.Show("Debe seleccionar un proveedor.");
+                    MessageBox.Show("Seleccione un proveedor.");
                     return;
                 }
 
                 string cod = txt_cod.Text.Trim();
-                if (string.IsNullOrWhiteSpace(cod))
-                {
-                    MessageBox.Show("Ingrese un código.");
-                    txt_cod.Focus();
-                    return;
-                }
-
                 string desc = txt_descrip.Text.Trim();
                 string cat = txt_cat.Text.Trim();
                 string subcat = txt_Subcat.Text.Trim();
@@ -137,26 +185,24 @@ namespace AplicacionVinos.Vistas
 
                 int prov = Convert.ToInt32(cb_Proveedor.SelectedValue);
 
-                // VALIDAR CODIGO EN BD (si existe en BD, no permitir)
                 if (ProductoAT.ExisteCodigo(cod))
                 {
                     MessageBox.Show("El código ya existe en la base de datos.");
                     return;
                 }
 
-                // VALIDAR CODIGO EN EL DGV (ya agregado en la compra actual)
                 foreach (DataGridViewRow fila in dgv_ProdAgregados.Rows)
                 {
-                    if (fila.Cells["cod"].Value != null && fila.Cells["cod"].Value.ToString() == cod)
+                    if (fila.Cells["cod"].Value != null &&
+                        fila.Cells["cod"].Value.ToString() == cod)
                     {
                         MessageBox.Show("El código ya fue cargado en esta compra.");
                         return;
                     }
                 }
 
-                // CÁLCULOS: descuento reduce el precio (no suma)
-                decimal pUnit = costo * (1 - descuento / 100m);   // precio unitario con descuento
-                decimal ganancia = pUnit - costo;                 // puede ser negativa si descuento > 0
+                decimal pUnit = costo * (1 - descuento / 100m);
+                decimal ganancia = pUnit - costo;
                 decimal totalProducto = pUnit * cant;
 
                 dgv_ProdAgregados.Rows.Add(
@@ -165,7 +211,6 @@ namespace AplicacionVinos.Vistas
 
                 ActualizarTotalCompra();
                 LimpiarCampos();
-
             }
             catch (Exception ex)
             {
@@ -190,6 +235,14 @@ namespace AplicacionVinos.Vistas
 
         private void btn_GenerarCompra_Click(object sender, EventArgs e)
         {
+            if (!Validar.CampoObligatorio(cb_Proveedor)) return;
+
+            if (string.IsNullOrWhiteSpace(txt_TCompra.Text))
+            {
+                MessageBox.Show("No hay total calculado.");
+                return;
+            }
+
             try
             {
                 if (cb_Proveedor.SelectedIndex == -1)

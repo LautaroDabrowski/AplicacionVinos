@@ -35,7 +35,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txt_Direccion = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.btn_Cancelar = new System.Windows.Forms.Button();
             this.btn_Agregar = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -95,6 +94,7 @@
             this.btn_Editar.TabIndex = 37;
             this.btn_Editar.Text = "Editar Cliente";
             this.btn_Editar.UseVisualStyleBackColor = false;
+            this.btn_Editar.Click += new System.EventHandler(this.btn_Editar_Click);
             // 
             // txt_Cuil_Cuit
             // 
@@ -234,29 +234,18 @@
             this.pictureBox2.TabIndex = 41;
             this.pictureBox2.TabStop = false;
             // 
-            // btn_Cancelar
-            // 
-            this.btn_Cancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.btn_Cancelar.Font = new System.Drawing.Font("Segoe UI", 10.8F);
-            this.btn_Cancelar.ForeColor = System.Drawing.Color.White;
-            this.btn_Cancelar.Location = new System.Drawing.Point(534, 617);
-            this.btn_Cancelar.Name = "btn_Cancelar";
-            this.btn_Cancelar.Size = new System.Drawing.Size(360, 46);
-            this.btn_Cancelar.TabIndex = 35;
-            this.btn_Cancelar.Text = "Cancelar";
-            this.btn_Cancelar.UseVisualStyleBackColor = false;
-            // 
             // btn_Agregar
             // 
             this.btn_Agregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
             this.btn_Agregar.Font = new System.Drawing.Font("Segoe UI", 10.8F);
             this.btn_Agregar.ForeColor = System.Drawing.Color.White;
-            this.btn_Agregar.Location = new System.Drawing.Point(534, 542);
+            this.btn_Agregar.Location = new System.Drawing.Point(532, 622);
             this.btn_Agregar.Name = "btn_Agregar";
             this.btn_Agregar.Size = new System.Drawing.Size(360, 46);
             this.btn_Agregar.TabIndex = 34;
             this.btn_Agregar.Text = "Agregar Cliente";
             this.btn_Agregar.UseVisualStyleBackColor = false;
+            this.btn_Agregar.Click += new System.EventHandler(this.btn_Agregar_Click);
             // 
             // pictureBox3
             // 
@@ -284,7 +273,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(0)))), ((int)(((byte)(31)))));
             this.ClientSize = new System.Drawing.Size(928, 695);
-            this.Controls.Add(this.btn_Cancelar);
             this.Controls.Add(this.btn_Agregar);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.pictureBox1);
@@ -319,7 +307,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txt_Apellido;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btn_Cancelar;
         private System.Windows.Forms.Button btn_Agregar;
         private System.Windows.Forms.Button btn_Editar;
         private System.Windows.Forms.Label label8;
