@@ -1,14 +1,5 @@
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-﻿using AplicacionVinos.Config;
-=======
-﻿using AplicacionVinos.BD;
+using AplicacionVinos.BD;
 using AplicacionVinos.Config;
->>>>>>> Stashed changes
-=======
-﻿using AplicacionVinos.BD;
-using AplicacionVinos.Config;
->>>>>>> Stashed changes
 using AplicacionVinos.Validaciones;
 using System;
 using System.Collections.Generic;
@@ -148,8 +139,6 @@ namespace AplicacionVinos.Vistas
             // VALIDAR CAMPOS OBLIGATORIOS
             if (!Validar.CampoObligatorio(txt_cod)) return;
             if (!Validar.CampoObligatorio(txt_descrip)) return;
-            if (!Validar.CampoObligatorio(txt_cat)) return;
-            if (!Validar.CampoObligatorio(txt_Subcat)) return;
             if (!Validar.CampoObligatorio(txt_Cant)) return;
             if (!Validar.CampoObligatorio(txt_costo)) return;
             if (!Validar.CampoObligatorio(txt_PDescuento)) return;
@@ -157,11 +146,6 @@ namespace AplicacionVinos.Vistas
 
             try
             {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
                 // VALIDACIONES
                 if (!Validar.CampoObligatorio(txt_cod)) return;
                 if (!Validar.CampoObligatorio(txt_descrip)) return;
@@ -170,10 +154,6 @@ namespace AplicacionVinos.Vistas
                 if (!Validar.CampoObligatorio(txt_Cant)) return;
                 if (!Validar.CampoObligatorio(txt_costo)) return;
 
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
                 if (cb_Proveedor.SelectedIndex == -1)
                 {
                     MessageBox.Show("Seleccione un proveedor.");
@@ -209,57 +189,25 @@ namespace AplicacionVinos.Vistas
 
                 int idProveedor = Convert.ToInt32(cb_Proveedor.SelectedValue);
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
                 // ❌ NO PERMITIR CÓDIGO YA EN BD
->>>>>>> Stashed changes
-=======
-                // ❌ NO PERMITIR CÓDIGO YA EN BD
->>>>>>> Stashed changes
                 if (ProductoAT.ExisteCodigo(cod))
                 {
                     MessageBox.Show("El código ya existe en la base de datos.");
                     return;
                 }
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-                foreach (DataGridViewRow fila in dgv_ProdAgregados.Rows)
-                {
-                    if (fila.Cells["cod"].Value != null &&
-                        fila.Cells["cod"].Value.ToString() == cod)
-=======
                 // ❌ NO PERMITIR CÓDIGO YA CARGADO EN GRILLA
                 foreach (DataGridViewRow row in dgv_ProdAgregados.Rows)
                 {
                     if (row.Cells["cod"].Value?.ToString() == cod)
->>>>>>> Stashed changes
-=======
-                // ❌ NO PERMITIR CÓDIGO YA CARGADO EN GRILLA
-                foreach (DataGridViewRow row in dgv_ProdAgregados.Rows)
-                {
-                    if (row.Cells["cod"].Value?.ToString() == cod)
->>>>>>> Stashed changes
                     {
                         MessageBox.Show("Este producto ya fue agregado en esta compra.");
                         return;
                     }
                 }
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-                decimal pUnit = costo * (1 - descuento / 100m);
-                decimal ganancia = pUnit - costo;
-                decimal totalProducto = pUnit * cant;
-=======
                 // ✔ OBTENER O CREAR CATEGORÍA
                 int idCat = CategoriaAT.ObtenerOCrear(categoria);
->>>>>>> Stashed changes
-=======
-                // ✔ OBTENER O CREAR CATEGORÍA
-                int idCat = CategoriaAT.ObtenerOCrear(categoria);
->>>>>>> Stashed changes
 
                 // ✔ OBTENER O CREAR SUBCATEGORÍA
                 int idSubCat = SubCategoriaAT.ObtenerOCrear(subcategoria, idCat);

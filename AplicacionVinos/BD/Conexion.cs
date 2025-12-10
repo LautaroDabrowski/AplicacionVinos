@@ -9,7 +9,7 @@ namespace AplicacionVinos.BD
     internal class Conexion
     {
         public static readonly string cadena =
-            "Data Source=BRENDA\\SQLEXPRESS;Initial Catalog=AppVinos;Integrated Security=True;Encrypt=False;";
+            "Data Source=LAPTOP-RISP0CDN;Initial Catalog=AppVinos;Integrated Security=True;Encrypt=False;";
 
         
         //     Obtener DataTable

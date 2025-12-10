@@ -50,12 +50,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BD\Conexion.cs" />
-<<<<<<< Updated upstream
     <Compile Include="Config\Cliente.cs" />
     <Compile Include="Config\ClienteAT.cs" />
-=======
     <Compile Include="Config\CategoriaAT.cs" />
->>>>>>> Stashed changes
     <Compile Include="Config\CompraAT.cs" />
     <Compile Include="Config\ProductoAT.cs" />
     <Compile Include="Config\ProveedorAT.cs" />
